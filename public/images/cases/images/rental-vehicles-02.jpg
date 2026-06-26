@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" role="img" aria-label="Rental Vehicle application scene">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f1f7ff"/><stop offset="1" stop-color="#e7f3ff"/></linearGradient>
+    <linearGradient id="panel" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eaf4ff"/></linearGradient>
+  </defs>
+  <rect width="960" height="720" rx="36" fill="url(#bg)"/>
+  <circle cx="812" cy="156" r="70" fill="#c9f0ff" opacity="0.72"/>
+  <circle cx="182" cy="590" r="96" fill="#dbeafe" opacity="0.74"/>
+  <path d="M88 604c178-138 344-138 514 0s258 116 322 46" fill="none" stroke="#b8d6ff" stroke-width="16" stroke-linecap="round" opacity="0.85"/>
+  <g transform="translate(116 66)" fill="none" stroke="#2563eb" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M172 492h388l-36-92c-12-30-36-48-70-48H278c-34 0-58 18-70 48l-36 92Z"/><path d="M148 492h436v92H148z"/><path d="M232 628a42 42 0 1 0 0-84 42 42 0 0 0 0 84Zm268 0a42 42 0 1 0 0-84 42 42 0 0 0 0 84Z"/>
+  </g>
+  <rect x="604" y="456" width="228" height="74" rx="22" fill="url(#panel)" stroke="#d7e7fb" stroke-width="4"/>
+  <path d="M638 494h116M638 468h66" stroke="#2563eb" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="788" cy="494" r="14" fill="#2563eb"/>
+  <text x="480" y="674" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#315275">Rental Vehicle</text>
+</svg>

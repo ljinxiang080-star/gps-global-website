@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-label="remote fuel power cut tracker product visual">
+  <rect width="1000" height="1000" rx="48" fill="#f1f7ff"/>
+  <rect x="214" y="154" width="572" height="672" rx="58" fill="#ffffff" stroke="#d7e7fb" stroke-width="8"/>
+  <path d="M340 296h320M340 400h230" stroke="#a9c8ff" stroke-width="22" stroke-linecap="round"/>
+  <path d="M330 610h340" stroke="#0b68ff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M376 686h248" stroke="#79d7ff" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="500" cy="520" r="72" fill="#eaf4ff" stroke="#0b68ff" stroke-width="14"/>
+  <path d="M468 520h64" stroke="#0b68ff" stroke-width="18" stroke-linecap="round"/></svg>

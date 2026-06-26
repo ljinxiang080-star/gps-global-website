@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-label="waterproof fuel power cut tracker product visual">
+  <rect width="1000" height="1000" rx="48" fill="#f1f7ff"/>
+  <rect x="214" y="148" width="572" height="668" rx="70" fill="#ffffff" stroke="#d7e7fb" stroke-width="8"/>
+  <path d="M345 308h310M345 408h214" stroke="#a9c8ff" stroke-width="22" stroke-linecap="round"/>
+  <path d="M360 640h280" stroke="#0b68ff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M410 708h180" stroke="#79d7ff" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="500" cy="535" r="76" fill="#eaf4ff" stroke="#0b68ff" stroke-width="14"/>
+  <path d="M468 535h64" stroke="#0b68ff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M734 198c30 50 52 90 52 130 0 56-35 94-84 94s-84-38-84-94c0-40 22-80 52-130" fill="none" stroke="#79d7ff" stroke-width="14" stroke-linecap="round"/></svg>

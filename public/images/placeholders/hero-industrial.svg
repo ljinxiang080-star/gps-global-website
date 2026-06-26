@@ -1,0 +1,11 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#071A36"/>
+  <path d="M0 730C260 600 430 670 650 560C880 445 1080 295 1600 390V900H0V730Z" fill="#0B68FF" fill-opacity="0.28"/>
+  <path d="M1010 220H1330V520H1010V220Z" fill="#EAF4FF" fill-opacity="0.12" stroke="#79D7FF" stroke-width="4"/>
+  <rect x="1080" y="290" width="180" height="90" rx="12" fill="#0B68FF" fill-opacity="0.35" stroke="#79D7FF" stroke-width="3"/>
+  <circle cx="1170" cy="425" r="34" fill="#79D7FF" fill-opacity="0.22" stroke="#79D7FF" stroke-width="3"/>
+  <path d="M270 250H620M270 320H530M270 390H680" stroke="#79D7FF" stroke-width="8" stroke-linecap="round" opacity="0.65"/>
+  <path d="M860 170L930 240L860 310L790 240L860 170Z" stroke="#79D7FF" stroke-width="4" opacity="0.55"/>
+  <text x="270" y="505" fill="#D9EEFF" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">SCENE IMAGE</text>
+  <text x="272" y="560" fill="#79D7FF" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="6">HERO VISUAL PATH</text>
+</svg>

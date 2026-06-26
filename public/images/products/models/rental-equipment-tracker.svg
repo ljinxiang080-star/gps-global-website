@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-label="rental-equipment-tracker product visual">
+  <rect width="1000" height="1000" rx="48" fill="#f1f7ff"/>
+  <circle cx="770" cy="205" r="42" fill="#c9f0ff" opacity="0.9"/>
+  <circle cx="235" cy="690" r="58" fill="#dbeafe" opacity="0.95"/>
+  <ellipse cx="500" cy="736" rx="190" ry="34" fill="#c7dcff" opacity="0.65"/>
+  <rect x="260" y="178" width="480" height="596" rx="72" fill="#ffffff" stroke="#d7e7fb" stroke-width="8"/>
+  <rect x="350" y="276" width="300" height="112" rx="24" fill="#edf8ff"/>
+  <path d="M382 468h236M382 526h168" stroke="#9dbbff" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="500" cy="620" r="74" fill="#eaf4ff" stroke="#0b68ff" stroke-width="14"/>
+  <circle cx="500" cy="620" r="30" fill="#0b68ff"/>
+  <path d="M410 738h180" stroke="#9dbbff" stroke-width="18" stroke-linecap="round"/>  <text x="500" y="920" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#5b718d">RENTAL EQUIPMENT TRACKER</text>
+</svg>

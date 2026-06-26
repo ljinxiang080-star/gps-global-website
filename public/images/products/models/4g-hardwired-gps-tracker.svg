@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-label="4G hardwired GPS tracker product visual">
+  <rect width="1000" height="1000" rx="48" fill="#f1f7ff"/>
+  <rect x="222" y="128" width="556" height="744" rx="64" fill="#ffffff" stroke="#d7e7fb" stroke-width="8"/>
+  <rect x="330" y="246" width="340" height="136" rx="24" fill="#e4f1ff"/>
+  <circle cx="500" cy="540" r="104" fill="#eaf4ff" stroke="#0b68ff" stroke-width="16"/>
+  <circle cx="500" cy="540" r="42" fill="#0b68ff"/>
+  <path d="M410 718h180" stroke="#79d7ff" stroke-width="18" stroke-linecap="round"/></svg>

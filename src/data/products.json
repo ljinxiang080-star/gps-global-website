@@ -1,0 +1,5203 @@
+{
+  "categories": [
+    {
+      "id": "wired",
+      "name": "Wired",
+      "description": "Wired GPS tracking products."
+    },
+    {
+      "id": "asset",
+      "name": "Asset",
+      "description": "Asset GPS tracking products."
+    },
+    {
+      "id": "obd",
+      "name": "OBD",
+      "description": "OBD and cigarette lighter GPS tracking products."
+    },
+    {
+      "id": "grazing",
+      "name": "Grazing",
+      "description": "Smart grazing and livestock tracking products."
+    },
+    {
+      "id": "fuel",
+      "name": "Fuel",
+      "description": "Fuel monitoring GPS tracking products."
+    },
+    {
+      "id": "two-wheeler",
+      "name": "Two-Wheeler",
+      "description": "Bicycle and two-wheeler GPS tracking products."
+    },
+    {
+      "id": "wireless",
+      "name": "Wireless",
+      "description": "Wireless GPS tracking products."
+    },
+    {
+      "id": "bluetooth",
+      "name": "Bluetooth",
+      "description": "Bluetooth beacon tracking products."
+    },
+    {
+      "id": "solar",
+      "name": "Solar",
+      "description": "Solar powered GPS tracking products."
+    },
+    {
+      "id": "pet",
+      "name": "Pet",
+      "description": "Pet GPS tracking products."
+    },
+    {
+      "id": "personal",
+      "name": "Personal",
+      "description": "Personal GPS tracking products."
+    },
+    {
+      "id": "sim",
+      "name": "SIM Card",
+      "description": "SIM card and connectivity products."
+    }
+  ],
+  "products": [
+    {
+      "id": "hardwired",
+      "slug": "hardwired",
+      "category": "wired",
+      "name": "Wired Tracker",
+      "image": "/images/products/hardwired-tracker.jpeg",
+      "icon": "wired",
+      "shortDescription": "Long-term powered tracking for vehicles, fleets, and equipment.",
+      "features": [
+        "Real-time location",
+        "Route playback",
+        "Geo-fence alerts",
+        "ACC status detection"
+      ],
+      "specifications": [
+        {
+          "label": "Network",
+          "value": "4G LTE / 2G fallback"
+        },
+        {
+          "label": "GNSS",
+          "value": "GPS / BDS / GLONASS"
+        },
+        {
+          "label": "Power",
+          "value": "Vehicle power hardwired"
+        },
+        {
+          "label": "Interface",
+          "value": "ACC / relay / digital input"
+        }
+      ],
+      "applicationScenarios": [
+        "Fleet management",
+        "Logistics vehicles",
+        "Rental vehicle monitoring"
+      ],
+      "children": [
+        {
+          "slug": "4g-hardwired-gps-tracker",
+          "name": "4G 有线定位器",
+          "subtitle": "适用于车队、物流、租赁车辆和企业车辆管理的 4G 有线 GPS 定位终端",
+          "image": "/images/products/models/4g-hardwired-gps-tracker.jpeg",
+          "summary": "支持 4G 网络通信，适合跨区域车队、租赁车辆和长期在线定位管理。",
+          "tags": [
+            "4G 网络",
+            "长期在线",
+            "车队管理"
+          ],
+          "specs": [
+            {
+              "label": "尺寸重量",
+              "value": "80 x 39 x 17 mm / 49.1 g"
+            },
+            {
+              "label": "工作电压",
+              "value": "9-90V 宽电压"
+            },
+            {
+              "label": "频段",
+              "value": "LTE-FDD B1/B2/B3/B4/B5/B7/B8/B28/B66，GSM/GPRS/EDGE 850/900/1800/1900MHz"
+            },
+            {
+              "label": "适用场景",
+              "value": "跨区域车队 / 租赁车辆 / 长期在线定位"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "4G 有线定位器",
+            "heroDescription": "一款面向车辆长期在线管理的 4G 有线 GPS 定位终端，支持 9-90V 宽电压供电、ACC 点火启停检测、断电报警、历史轨迹、里程统计、电子围栏、超速提醒和平台管理。",
+            "heroBullets": [
+              "80 x 39 x 17 mm 小体积，约 49.1 g",
+              "9-90V 宽电压供电，内置 100mAh 后备电池",
+              "支持 ACC 点火启停检测与断电报警",
+              "支持历史轨迹、里程统计、电子围栏和超速提醒"
+            ],
+            "features": [
+              {
+                "title": "4G 全网通信",
+                "description": "支持 LTE-FDD 多频段与 GSM/GPRS/EDGE 频段，适合跨区域车辆长期在线管理。"
+              },
+              {
+                "title": "宽电压供电",
+                "description": "支持 9-90V 工作电压，适配多种车型和车载供电环境。"
+              },
+              {
+                "title": "内置后备电池",
+                "description": "内置 100mAh 3.7V 电池，可用于断电状态提示和短时状态保持。"
+              },
+              {
+                "title": "ACC 点火检测",
+                "description": "支持 ACC 点火启停检测，帮助识别车辆启动、熄火和使用状态。"
+              },
+              {
+                "title": "轨迹与报表",
+                "description": "支持历史轨迹、停靠报表、里程统计和一键导航，便于车队运营追溯。"
+              },
+              {
+                "title": "报警与地图能力",
+                "description": "支持震动提醒、电子围栏、超速提醒、断电提醒、位置分享、卫星地图和 3D 地图。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "物流车队",
+                "description": "用于干线运输、城市配送和企业车队定位管理。"
+              },
+              {
+                "title": "租赁车辆",
+                "description": "帮助租赁公司掌握车辆位置和异常使用情况。"
+              },
+              {
+                "title": "企业车辆",
+                "description": "适合公务车、服务车、销售车辆和运维车辆管理。"
+              },
+              {
+                "title": "工程车辆",
+                "description": "适合工程车、货车、特种车辆等长期在线定位场景。"
+              }
+            ],
+            "overview": "4G 有线定位器适合安装在车辆内部，通过 9-90V 宽电压车载电源长期供电，实现稳定在线定位。设备体积小、重量轻，内置 100mAh 后备电池，支持 ACC 点火启停检测、断电报警、震动提醒、电子围栏、超速提醒、历史轨迹、停靠报表、里程统计、网页管理、位置分享和多地图切换。适用于物流、租赁、企业车队和工程车辆等需要长期在线监管的场景。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品类型",
+                    "value": "有线 GPS 定位终端"
+                  },
+                  {
+                    "label": "尺寸重量",
+                    "value": "80 x 39 x 17 mm / 49.1 g"
+                  },
+                  {
+                    "label": "工作电压",
+                    "value": "9-90V"
+                  },
+                  {
+                    "label": "内置电池",
+                    "value": "100mAh / 3.7V"
+                  },
+                  {
+                    "label": "储存温度",
+                    "value": "-20°C to +70°C"
+                  },
+                  {
+                    "label": "安装方式",
+                    "value": "车内隐藏式安装"
+                  },
+                  {
+                    "label": "适用对象",
+                    "value": "车型通用，适用于汽车 / 货车 / 工程车辆 / 企业车辆"
+                  }
+                ]
+              },
+              {
+                "title": "通信规格",
+                "items": [
+                  {
+                    "label": "网络",
+                    "value": "4G LTE / GSM / GPRS / EDGE"
+                  },
+                  {
+                    "label": "LTE 频段",
+                    "value": "FDD B1 / B2 / B3 / B4 / B5 / B7 / B8 / B28 / B66"
+                  },
+                  {
+                    "label": "2G 频段",
+                    "value": "GSM/GPRS/EDGE 850 / 900 / 1800 / 1900MHz"
+                  },
+                  {
+                    "label": "动态输出范围",
+                    "value": "-15~-108dBm"
+                  },
+                  {
+                    "label": "接收灵敏度",
+                    "value": "-107dBm"
+                  },
+                  {
+                    "label": "启动灵敏度",
+                    "value": "冷启动 -145dBm / 热启动 -156dBm"
+                  }
+                ]
+              },
+              {
+                "title": "定位与报警",
+                "items": [
+                  {
+                    "label": "定位方式",
+                    "value": "GPS / 北斗 / LBS，具体以实际硬件配置为准"
+                  },
+                  {
+                    "label": "电源检测",
+                    "value": "ACC 点火启停检测 / 断电报警"
+                  },
+                  {
+                    "label": "功能",
+                    "value": "历史轨迹 / 停靠报表 / 里程统计 / 一键导航 / 车队管理 / 网页管理 / 位置分享"
+                  },
+                  {
+                    "label": "报警",
+                    "value": "震动提醒 / 电子围栏 / 超速提醒 / 断电提醒"
+                  },
+                  {
+                    "label": "地图能力",
+                    "value": "高德地图 / 百度地图 / 谷歌地图 / 卫星地图 / 3D 地图 / 地图切换"
+                  },
+                  {
+                    "label": "使用特性",
+                    "value": "防尘防水 / 静默工作 / 不占地方 / 无需充电 / 低误差低延迟"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "4G 有线定位器中文规格书",
+                "description": "包含尺寸重量、工作电压、内置电池、频段、灵敏度、电源检测和功能说明。",
+                "href": "/downloads/cloud-wired-sa-spec-cn.pdf",
+                "buttonLabel": "下载 PDF"
+              },
+              {
+                "title": "4G 有线定位器英文规格书",
+                "description": "英文版规格书，便于海外客户查看产品参数、功能说明和项目选型信息。",
+                "href": "/downloads/cloud-wired-sa-spec-en.pdf",
+                "buttonLabel": "下载英文 PDF"
+              }
+            ]
+          }
+        },
+        {
+          "slug": "fuel-cut-hardwired-tracker",
+          "name": "断油断电定位器",
+          "subtitle": "730-4G-G 继电器型远程油电控制 GPS 定位终端",
+          "image": "/images/products/models/relay-4g-fuel-cut-tracker.png",
+          "summary": "继电器型 4G GPS 追踪器，支持远程油电切断、恢复油电、ACC 开关、车辆电压监测和多种报警。",
+          "tags": [
+            "远程油电切断",
+            "IP64",
+            "8V-90V"
+          ],
+          "specs": [
+            {
+              "label": "型号",
+              "value": "730-4G-G"
+            },
+            {
+              "label": "尺寸重量",
+              "value": "70 x 33 x 32 mm / 65g"
+            },
+            {
+              "label": "工作电压",
+              "value": "8V-90V"
+            },
+            {
+              "label": "防水等级",
+              "value": "IP64"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "断油断电定位器",
+            "heroDescription": "730-4G-G 继电器型 4G GPS 追踪器，支持 8V-90V 宽电压、IP64 防护、远程油电切断与恢复、ACC 开关报警、车辆电压监测、断电报警和多星定位。",
+            "heroBullets": [
+              "型号 730-4G-G，70 x 33 x 32 mm，约 65g",
+              "8V-90V 宽电压，内置 45mAh 电池",
+              "IP64 防护，支持远程油电切断与恢复",
+              "支持 GPS + 北斗 + Glonass 全模式卫星定位"
+            ],
+            "features": [
+              {
+                "title": "远程油电控制",
+                "description": "支持远程油电切断与恢复油电，适合租赁车辆、金融风控和防盗管理。"
+              },
+              {
+                "title": "多星定位",
+                "description": "支持 GPS + 北斗 + Glonass 全模式卫星定位，资料标注 3m（3D 模式下）定位精度。"
+              },
+              {
+                "title": "1 秒上传能力",
+                "description": "支持 1s 上传频率，也支持 10 分钟以上固定时间上传模式。"
+              },
+              {
+                "title": "报警体系",
+                "description": "支持震动、位移、超速、断电、拖车、ACC 开关和 ACC 自动布撤防报警。"
+              },
+              {
+                "title": "盲区补传",
+                "description": "支持盲区补传、拐弯补报和网络注册显示（2G/4G），减少轨迹断点。"
+              },
+              {
+                "title": "远程维护",
+                "description": "支持车辆电压监测和远程软件升级，便于项目部署后的持续运维。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "租赁车辆",
+                "description": "适用于汽车租赁车辆的位置监管、异常报警和远程油电控制。"
+              },
+              {
+                "title": "物流车队",
+                "description": "适用于物流运输车辆的实时定位、历史轨迹、超速报警和断电报警管理。"
+              },
+              {
+                "title": "金融风控",
+                "description": "面向金融风控车辆，支持远程控制、位置监管、位移报警和电压监测。"
+              },
+              {
+                "title": "私家车防盗",
+                "description": "适用于私家车防盗、异常移动提醒、拖车报警和远程恢复油电。"
+              },
+              {
+                "title": "摩托车与电动车",
+                "description": "适用于摩托车、电动车等小型车辆的定位、防盗和异常报警。"
+              }
+            ],
+            "overview": "断油断电定位器基于 730-4G-G 继电器型 4G GPS 追踪器资料整理，适用于汽车租赁、物流运输、金融风控、私家车防盗、摩托车和电动车等场景。设备支持 8V-90V 宽电压、IP64 防护、内置 45mAh 电池、GPS + 北斗 + Glonass 全模式卫星定位、远程油电切断与恢复、ACC 开关报警、车辆电压监测、盲区补传和远程软件升级。实际远程控制策略应结合当地法规、项目安全要求和安装方案配置。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品型号",
+                    "value": "730-4G-G"
+                  },
+                  {
+                    "label": "产品类型",
+                    "value": "继电器型 4G GPS 追踪器"
+                  },
+                  {
+                    "label": "尺寸",
+                    "value": "70 x 33 x 32 mm"
+                  },
+                  {
+                    "label": "重量",
+                    "value": "65g"
+                  },
+                  {
+                    "label": "工作电压",
+                    "value": "8V-90V"
+                  },
+                  {
+                    "label": "内置电池",
+                    "value": "45mAh"
+                  },
+                  {
+                    "label": "防水等级",
+                    "value": "IP64"
+                  },
+                  {
+                    "label": "工作温度",
+                    "value": "-40°C to +55°C"
+                  }
+                ]
+              },
+              {
+                "title": "通信与定位",
+                "items": [
+                  {
+                    "label": "LTE 频段",
+                    "value": "B1 / B2 / B3 / B4 / B5 / B7 / B8 / B12 / B13 / B18 / B19 / B20 / B25 / B26 / B28 / B66 / B34 / B38 / B39 / B40 / B41"
+                  },
+                  {
+                    "label": "2G 频段",
+                    "value": "GSM 850 / 900 / 1800 / 1900"
+                  },
+                  {
+                    "label": "定位系统",
+                    "value": "GPS + 北斗 + Glonass 全模式卫星定位"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "3m（3D 模式下）"
+                  },
+                  {
+                    "label": "GPS 灵敏度",
+                    "value": "-161dBm"
+                  },
+                  {
+                    "label": "定位时间",
+                    "value": "冷启动 35-80s / 热启动 1s"
+                  }
+                ]
+              },
+              {
+                "title": "控制与报警",
+                "items": [
+                  {
+                    "label": "远程控制",
+                    "value": "远程油电切断 / 恢复油电"
+                  },
+                  {
+                    "label": "ACC 能力",
+                    "value": "ACC 开关报警 / ACC 自动报警和解除"
+                  },
+                  {
+                    "label": "报警能力",
+                    "value": "震动报警 / 位移报警 / 超速报警 / 断电报警 / 拖车报警"
+                  },
+                  {
+                    "label": "轨迹能力",
+                    "value": "实时定位 / 历史轨迹 / 电子围栏 / 拐弯补报 / 盲区补传"
+                  },
+                  {
+                    "label": "上传模式",
+                    "value": "支持 1s 上传频率 / 10 分钟以上固定时间上传模式"
+                  },
+                  {
+                    "label": "维护能力",
+                    "value": "车辆电压监测 / 网络注册显示（2G/4G）/ 远程软件升级"
+                  },
+                  {
+                    "label": "适用场景",
+                    "value": "汽车租赁 / 物流运输 / 金融风控 / 私家车防盗 / 摩托车 / 电动车"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "继电器 G 中文资料图",
+                "description": "中文资料图包含型号、尺寸、电压、防水等级、定位能力、报警能力和核心功能说明。",
+                "href": "/downloads/relay-g-spec-cn.jpg",
+                "buttonLabel": "下载中文资料图"
+              },
+              {
+                "title": "4G Relay GPS Tracker English Sheet",
+                "description": "English sheet for model 730-4G-G, including specifications, application scenarios, and main functions.",
+                "href": "/downloads/relay-g-spec-en.jpg",
+                "buttonLabel": "下载英文资料图"
+              }
+            ]
+          }
+        },
+        {
+          "slug": "waterproof-4g-hardwired-tracker",
+          "name": "4G 有线防水定位器",
+          "subtitle": "GT02X 车载防水接线 GPS/BDS 定位终端",
+          "image": "/images/products/models/gt02x-waterproof-wired-tracker.png",
+          "summary": "GT02X 融合 4G 通信与 GPS/北斗双星定位，支持 IP67 防护、ACC 检测、震动报警、断电报警、超速报警和非法启动报警。",
+          "tags": [
+            "GT02X",
+            "IP67",
+            "GPS/北斗"
+          ],
+          "specs": [
+            {
+              "label": "型号",
+              "value": "GT02X"
+            },
+            {
+              "label": "尺寸重量",
+              "value": "90.6 x 34 x 20 mm / 68g"
+            },
+            {
+              "label": "工作电压",
+              "value": "DC 9V-95V"
+            },
+            {
+              "label": "防护等级",
+              "value": "IP67"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "4G 有线防水定位器",
+            "heroDescription": "GT02X 是面向车联网场景的防水接线定位终端，集成 4G/GSM 通信、GPS/北斗双星定位、工业级内置天线、3 轴传感器和智能省电唤醒机制。",
+            "heroBullets": [
+              "主机尺寸 90.6 x 34 x 20 mm，约 68g",
+              "DC 9V-95V 宽电压供电，IP67 防护",
+              "支持 GPS/北斗双星定位，跟踪灵敏度 -162dBm",
+              "支持 ACC 检测、震动、断电、超速和非法启动报警"
+            ],
+            "features": [
+              {
+                "title": "IP67 防护",
+                "description": "ABS 外壳与防水接线结构，适合户外车辆和复杂安装环境。"
+              },
+              {
+                "title": "双星定位",
+                "description": "支持 GPS + 北斗定位，内置抗干扰陶瓷天线，支持 AGPS 快速定位和同步授时。"
+              },
+              {
+                "title": "4G/GSM 通信",
+                "description": "采用 SIMCOM 7670SA 通信模组，支持 LTE-FDD 与 GSM 频段、TCP/IP 数据传输和域名/IP 接入。"
+              },
+              {
+                "title": "智能休眠",
+                "description": "ACC 关静止 10 分钟后进入休眠，仅上传心跳；检测到震动后重新计时唤醒。"
+              },
+              {
+                "title": "多重报警",
+                "description": "支持震动、断电、超速、位移、非法启动等报警，并可上传平台或通知监护号码。"
+              },
+              {
+                "title": "盲区补传",
+                "description": "内置大容量存储芯片，弱信号或干扰环境下可缓存数据，信号恢复后补传。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "企业车队",
+                "description": "适用于企业车队车辆实时定位、异常报警、电子围栏和用车状态管理。"
+              },
+              {
+                "title": "租赁车辆",
+                "description": "适合租赁车辆定位、ACC 状态识别、断电报警和非法启动报警管理。"
+              },
+              {
+                "title": "保险与风控",
+                "description": "适用于保险行业、金融风控和车辆风险管理场景。"
+              },
+              {
+                "title": "新能源车辆",
+                "description": "适用于电动新能源车辆、客运车辆、出租汽车和个人车辆管理。"
+              },
+              {
+                "title": "汽车厂商与 4S 店",
+                "description": "适合汽车厂商、4S 店和渠道项目进行车辆定位终端配套。"
+              }
+            ],
+            "overview": "GT02X 防水接线定位终端面向车联网车辆管理场景，融合 GSM/4G 无线通信技术与 GPS/BDS 卫星导航定位技术。设备采用全内置天线设计，内置 3 轴传感器，支持 DC 检测、ACC 检测、震动报警、断电报警、超速报警、位移报警、非法启动报警、电子围栏、离线数据存储和盲区补传。搭配全球定位服务平台，可实现车辆数据实时获取、追踪定位和异常事件管理。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品型号",
+                    "value": "GT02X"
+                  },
+                  {
+                    "label": "产品类型",
+                    "value": "防水接线 GPS/BDS 车载定位终端"
+                  },
+                  {
+                    "label": "主机尺寸",
+                    "value": "90.6 x 34 x 20 mm"
+                  },
+                  {
+                    "label": "主机重量",
+                    "value": "68g"
+                  },
+                  {
+                    "label": "外壳材质",
+                    "value": "ABS 塑料"
+                  },
+                  {
+                    "label": "IP 防护等级",
+                    "value": "IP67"
+                  },
+                  {
+                    "label": "工作温度",
+                    "value": "-20°C - 75°C"
+                  },
+                  {
+                    "label": "储存温度",
+                    "value": "-30°C - 80°C"
+                  },
+                  {
+                    "label": "工作湿度",
+                    "value": "10%-85% RH，不凝结"
+                  }
+                ]
+              },
+              {
+                "title": "电气与通信",
+                "items": [
+                  {
+                    "label": "供电方式",
+                    "value": "电瓶供电"
+                  },
+                  {
+                    "label": "工作电压",
+                    "value": "DC 9V-95V"
+                  },
+                  {
+                    "label": "工作电流",
+                    "value": "12V / 平均 40mA"
+                  },
+                  {
+                    "label": "休眠电流",
+                    "value": "12V / 小于 10mA"
+                  },
+                  {
+                    "label": "内置电池",
+                    "value": "60mAh 3.7V 聚合物电池（选配）"
+                  },
+                  {
+                    "label": "通信模组",
+                    "value": "SIMCOM 7670SA"
+                  },
+                  {
+                    "label": "LTE 频段",
+                    "value": "FDD B1 / B2 / B3 / B4 / B5 / B7 / B8 / B28 / B66"
+                  },
+                  {
+                    "label": "2G 频段",
+                    "value": "GSM 850 / 900 / 1800 / 1900MHz"
+                  },
+                  {
+                    "label": "SIM 卡",
+                    "value": "标准 SIM 卡"
+                  },
+                  {
+                    "label": "通信天线",
+                    "value": "内置天线"
+                  }
+                ]
+              },
+              {
+                "title": "定位与报警",
+                "items": [
+                  {
+                    "label": "定位模组",
+                    "value": "中科微 AT6558D"
+                  },
+                  {
+                    "label": "定位方式",
+                    "value": "北斗 + GPS"
+                  },
+                  {
+                    "label": "冷启动时间",
+                    "value": "平均 32 秒"
+                  },
+                  {
+                    "label": "热启动时间",
+                    "value": "平均 1 秒"
+                  },
+                  {
+                    "label": "跟踪灵敏度",
+                    "value": "-162dBm"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "<10m（1σ）"
+                  },
+                  {
+                    "label": "卫星通道数",
+                    "value": "32"
+                  },
+                  {
+                    "label": "GPS 频段",
+                    "value": "L1: 1575.42±1.023MHz"
+                  },
+                  {
+                    "label": "北斗频段",
+                    "value": "B1: 1561.098±2.046MHz"
+                  },
+                  {
+                    "label": "报警能力",
+                    "value": "震动报警 / 位移报警 / 断电报警 / 超速报警 / 非法启动报警"
+                  },
+                  {
+                    "label": "平台能力",
+                    "value": "电子围栏 / 报警短信或电话 / 离线存储 / 盲区补传 / 休眠唤醒"
+                  },
+                  {
+                    "label": "外部接口",
+                    "value": "ACC 检测输入 / 断油电选配"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "GT02X 水线中文规格文档",
+                "description": "中文 Word 文档，包含产品介绍、工作逻辑、功能特点、硬件规格和定位参数。",
+                "href": "/downloads/ak-waterproof-wired-cn.docx",
+                "buttonLabel": "下载中文 DOCX"
+              },
+              {
+                "title": "GT02X Waterproof Wired English Document",
+                "description": "English Word document with product introduction, working logic, functions, hardware specifications, and positioning parameters.",
+                "href": "/downloads/ak-waterproof-wired-en.docx",
+                "buttonLabel": "下载英文 DOCX"
+              }
+            ]
+          }
+        },
+        {
+          "slug": "waterproof-fuel-cut-hardwired-tracker",
+          "name": "防水断油断电定位器",
+          "subtitle": "GT02T 车载防水断油电 GPS/BDS 定位终端",
+          "image": "/images/products/models/gt02t-waterproof-fuel-cut-tracker.jpg",
+          "summary": "GT02T 在 GT02X 防水接线定位终端基础上增加断油电控制线，支持远程断油断电、IP67 防护、ACC 检测和多重报警。",
+          "tags": [
+            "GT02T",
+            "断油电控制",
+            "IP67"
+          ],
+          "specs": [
+            {
+              "label": "型号",
+              "value": "GT02T"
+            },
+            {
+              "label": "尺寸重量",
+              "value": "90.6 x 34 x 20 mm / 68g"
+            },
+            {
+              "label": "工作电压",
+              "value": "DC 9V-95V"
+            },
+            {
+              "label": "控制线",
+              "value": "支持断油电控制"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "防水断油断电定位器",
+            "heroDescription": "GT02T 是在 GT02X 防水接线定位终端基础上增加断油电控制线的车载 GPS/BDS 定位终端，适合需要远程风控、防盗和车辆管控的项目。",
+            "heroBullets": [
+              "主机尺寸 90.6 x 34 x 20 mm，约 68g",
+              "DC 9V-95V 宽电压供电，IP67 防护",
+              "支持 GPS/北斗双星定位，跟踪灵敏度 -162dBm",
+              "比 GT02X 增加断油电控制线，支持远程风控管理"
+            ],
+            "features": [
+              {
+                "title": "断油电控制线",
+                "description": "相比 GT02X 增加控制线，可配合继电器实现远程断油断电。"
+              },
+              {
+                "title": "IP67 防护",
+                "description": "ABS 外壳与防水接线结构，适合户外车辆和复杂安装环境。"
+              },
+              {
+                "title": "双星定位",
+                "description": "支持 GPS + 北斗定位，内置抗干扰陶瓷天线，支持 AGPS 快速定位和同步授时。"
+              },
+              {
+                "title": "4G/GSM 通信",
+                "description": "采用 SIMCOM 7670SA 通信模组，支持 LTE-FDD 与 GSM 频段、TCP/IP 数据传输和域名/IP 接入。"
+              },
+              {
+                "title": "智能休眠",
+                "description": "ACC 关静止 10 分钟后进入休眠，仅上传心跳；检测到震动后重新计时唤醒。"
+              },
+              {
+                "title": "多重报警",
+                "description": "支持震动、断电、超速、位移、非法启动等报警，并可上传平台或通知监护号码。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "户外租赁车辆",
+                "description": "用于户外租赁车辆的位置监管、异常使用提醒和远程断油电风控。"
+              },
+              {
+                "title": "企业车队",
+                "description": "适用于企业车队车辆实时定位、异常报警、电子围栏和用车状态管理。"
+              },
+              {
+                "title": "工程车辆",
+                "description": "适合工程车辆定位、作业区域管理、异常移动提醒和长期在线监管。"
+              },
+              {
+                "title": "保险与风控",
+                "description": "适用于保险行业、金融风控和车辆风险管理场景。"
+              },
+              {
+                "title": "高价值车辆防盗",
+                "description": "适用于高价值车辆和重点车辆的防盗定位、断电报警与远程管控。"
+              }
+            ],
+            "overview": "GT02T 防水断油断电定位器与 GT02X 保持相同的防水接线、4G/GSM 通信、GPS/BDS 双星定位、IP67 防护和宽电压供电能力，并额外增加断油电控制线。设备适用于户外租赁车辆、企业车队、工程车辆、金融风控和高价值车辆防盗管理，可通过平台实现车辆实时定位、轨迹回放、电子围栏、异常报警、ACC 状态识别和远程断油电控制。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品型号",
+                    "value": "GT02T"
+                  },
+                  {
+                    "label": "产品类型",
+                    "value": "防水断油电 GPS/BDS 车载定位终端"
+                  },
+                  {
+                    "label": "主机尺寸",
+                    "value": "90.6 x 34 x 20 mm"
+                  },
+                  {
+                    "label": "主机重量",
+                    "value": "68g"
+                  },
+                  {
+                    "label": "外壳材质",
+                    "value": "ABS 塑料"
+                  },
+                  {
+                    "label": "IP 防护等级",
+                    "value": "IP67"
+                  },
+                  {
+                    "label": "工作温度",
+                    "value": "-20°C - 75°C"
+                  },
+                  {
+                    "label": "储存温度",
+                    "value": "-30°C - 80°C"
+                  },
+                  {
+                    "label": "工作湿度",
+                    "value": "10%-85% RH，不凝结"
+                  }
+                ]
+              },
+              {
+                "title": "电气与通信",
+                "items": [
+                  {
+                    "label": "供电方式",
+                    "value": "电瓶供电"
+                  },
+                  {
+                    "label": "工作电压",
+                    "value": "DC 9V-95V"
+                  },
+                  {
+                    "label": "工作电流",
+                    "value": "12V / 平均 40mA"
+                  },
+                  {
+                    "label": "休眠电流",
+                    "value": "12V / 小于 10mA"
+                  },
+                  {
+                    "label": "内置电池",
+                    "value": "60mAh 3.7V 聚合物电池（选配）"
+                  },
+                  {
+                    "label": "通信模组",
+                    "value": "SIMCOM 7670SA"
+                  },
+                  {
+                    "label": "LTE 频段",
+                    "value": "FDD B1 / B2 / B3 / B4 / B5 / B7 / B8 / B28 / B66"
+                  },
+                  {
+                    "label": "2G 频段",
+                    "value": "GSM 850 / 900 / 1800 / 1900MHz"
+                  },
+                  {
+                    "label": "SIM 卡",
+                    "value": "标准 SIM 卡"
+                  },
+                  {
+                    "label": "通信天线",
+                    "value": "内置天线"
+                  }
+                ]
+              },
+              {
+                "title": "定位与报警",
+                "items": [
+                  {
+                    "label": "定位模组",
+                    "value": "中科微 AT6558D"
+                  },
+                  {
+                    "label": "定位方式",
+                    "value": "北斗 + GPS"
+                  },
+                  {
+                    "label": "冷启动时间",
+                    "value": "平均 32 秒"
+                  },
+                  {
+                    "label": "热启动时间",
+                    "value": "平均 1 秒"
+                  },
+                  {
+                    "label": "跟踪灵敏度",
+                    "value": "-162dBm"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "<10m（1σ）"
+                  },
+                  {
+                    "label": "卫星通道数",
+                    "value": "32"
+                  },
+                  {
+                    "label": "GPS 频段",
+                    "value": "L1: 1575.42±1.023MHz"
+                  },
+                  {
+                    "label": "北斗频段",
+                    "value": "B1: 1561.098±2.046MHz"
+                  },
+                  {
+                    "label": "报警能力",
+                    "value": "震动报警 / 位移报警 / 断电报警 / 超速报警 / 非法启动报警"
+                  },
+                  {
+                    "label": "平台能力",
+                    "value": "电子围栏 / 报警短信或电话 / 离线存储 / 盲区补传 / 休眠唤醒"
+                  },
+                  {
+                    "label": "外部接口",
+                    "value": "ACC 检测输入 / 断油电控制线"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "asset",
+      "slug": "asset",
+      "category": "asset",
+      "name": "Asset Tracker",
+      "image": "/images/products/categories/asset-container-location.jpg",
+      "heroImage": "/images/products/models/lihang-3-year-global-asset-tracker.png",
+      "icon": "asset",
+      "shortDescription": "Portable tracking for containers, tools, and mobile assets.",
+      "features": [
+        "Long standby",
+        "Movement alerts",
+        "Tamper detection",
+        "Low power reporting"
+      ],
+      "specifications": [
+        {
+          "label": "Network",
+          "value": "4G LTE / LTE-M optional"
+        },
+        {
+          "label": "GNSS",
+          "value": "GPS / BDS"
+        },
+        {
+          "label": "Battery",
+          "value": "Rechargeable lithium battery"
+        },
+        {
+          "label": "Protection",
+          "value": "IP-rated enclosure"
+        }
+      ],
+      "applicationScenarios": [
+        "Container tracking",
+        "Equipment tracking",
+        "High-value asset security"
+      ],
+      "children": [
+        {
+          "slug": "temperature-sensing-asset-tracker",
+          "name": "温感资产追踪器",
+          "subtitle": "4G-温感M7 无线超长待机资产定位终端",
+          "image": "/images/products/models/m7-temperature-asset-tracker.png",
+          "summary": "4G-温感M7 支持温感、光感拆机报警、GPS/BDS/GLONASS + WIFI + LBS 多重定位和干电池超长待机，适合移动资产长期部署。",
+          "tags": [
+            "温感监测",
+            "超长待机",
+            "光感拆机"
+          ],
+          "specs": [
+            {
+              "label": "型号",
+              "value": "4G-温感M7"
+            },
+            {
+              "label": "尺寸",
+              "value": "78 x 47 x 27 mm"
+            },
+            {
+              "label": "电池",
+              "value": "3V / 2800mAh 干电池"
+            },
+            {
+              "label": "工作时间",
+              "value": "默认一天一次，约 3 年"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "温感资产追踪器",
+            "heroDescription": "4G-温感M7 是面向移动资产、设备箱、冷链与仓储周转场景的无线超长待机定位终端，支持温感、光感拆机报警、CAT1 通信和多重定位。",
+            "heroBullets": [
+              "整机尺寸 78 x 47 x 27 mm",
+              "3V / 2800mAh 干电池，默认一天一次约 3 年",
+              "支持 GPS/BDS/GLONASS + WIFI + LBS 多重定位",
+              "支持光感拆机报警、温感兼容和多种低功耗上报模式"
+            ],
+            "features": [
+              {
+                "title": "温感支持",
+                "description": "支持温感能力，适合需要关注环境温度变化的移动资产和周转设备。"
+              },
+              {
+                "title": "超长待机",
+                "description": "采用 3V / 2800mAh 干电池，默认一天一次上报场景下可实现约 3 年工作时间。"
+              },
+              {
+                "title": "多重定位",
+                "description": "支持 GPS/BDS/GLONASS、WIFI 与 LBS，适应户外、城市和复杂网络环境。"
+              },
+              {
+                "title": "光感拆机报警",
+                "description": "支持光感检测，设备从暗到亮时可触发拆机报警，用于资产防拆管理。"
+              },
+              {
+                "title": "CAT1 通信",
+                "description": "支持 4G-LTE-CAT1，TDD-LTE B34/B39/B40/B41 频段，通讯方式 UDP/TCP 可选。"
+              },
+              {
+                "title": "灵活上报模式",
+                "description": "支持定时回传、星期模式、闹钟模式和追踪模式，平衡定位频率与电池寿命。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "冷链资产",
+                "description": "适合需要温度关注的冷链箱、周转箱和移动资产定位管理。"
+              },
+              {
+                "title": "仓储周转",
+                "description": "用于设备箱、周转物料和仓储资产的周期上报、位置追踪和防拆提醒。"
+              },
+              {
+                "title": "跨区域资产",
+                "description": "适用于跨区域运输资产、货柜和长时间移动资产的位置追踪。"
+              },
+              {
+                "title": "高价值移动资产",
+                "description": "适合高价值设备、临时外借设备和需要低频长期监管的资产。"
+              }
+            ],
+            "overview": "4G-温感M7 无线超长待机资产定位终端采用 UIS8850+ 硬件平台，定位模块为中科微 AT6558R 或和芯星通 UC6228，支持 GPS/BDS/GLONASS、WIFI 和 LBS 多重定位。设备采用 3V / 2800mAh 干电池供电，默认一天一次上报可工作约 3 年，支持光感拆机报警、温感兼容、拨动开关、电池插拔安装、UDP/TCP 通讯和 CAT1 网络，适合长期部署在移动资产、冷链箱、设备箱和周转物料上。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品型号",
+                    "value": "4G-温感M7"
+                  },
+                  {
+                    "label": "产品类型",
+                    "value": "无线超长待机温感资产定位终端"
+                  },
+                  {
+                    "label": "硬件平台",
+                    "value": "UIS8850+ / 中科微 AT6558R 或和芯星通 UC6228"
+                  },
+                  {
+                    "label": "整机尺寸",
+                    "value": "78 x 47 x 27 mm"
+                  },
+                  {
+                    "label": "电池容量",
+                    "value": "干电池 3V / 2800mAh"
+                  },
+                  {
+                    "label": "工作时间",
+                    "value": "默认一天一次，约 3 年"
+                  },
+                  {
+                    "label": "工作温度",
+                    "value": "-30°C - +70°C"
+                  },
+                  {
+                    "label": "存储温度",
+                    "value": "-35°C - +75°C（最佳 0°C - +30°C）"
+                  }
+                ]
+              },
+              {
+                "title": "通信与定位",
+                "items": [
+                  {
+                    "label": "通讯网络",
+                    "value": "4G-LTE-CAT1"
+                  },
+                  {
+                    "label": "频段",
+                    "value": "TDD-LTE B34 / B39 / B40 / B41"
+                  },
+                  {
+                    "label": "通讯方式",
+                    "value": "UDP / TCP 可选"
+                  },
+                  {
+                    "label": "定位方式",
+                    "value": "GPS / BDS / GLONASS + WIFI + LBS"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "GPS ≤10m；WIFI 约 30m-500m，取决于数据库准确度"
+                  },
+                  {
+                    "label": "通讯天线",
+                    "value": "弹片天线"
+                  },
+                  {
+                    "label": "GPS 天线",
+                    "value": "内建 25 x 25 x 2 mm 陶瓷天线"
+                  }
+                ]
+              },
+              {
+                "title": "GPS 性能与功能",
+                "items": [
+                  {
+                    "label": "定位类型",
+                    "value": "GPS / BDS / GLONASS"
+                  },
+                  {
+                    "label": "冷启动 TTFF",
+                    "value": "≤35s"
+                  },
+                  {
+                    "label": "热启动 TTFF",
+                    "value": "≤1s"
+                  },
+                  {
+                    "label": "重捕获 TTFF",
+                    "value": "≤1s"
+                  },
+                  {
+                    "label": "冷启动捕获灵敏度",
+                    "value": "-147dBm"
+                  },
+                  {
+                    "label": "重捕获灵敏度",
+                    "value": "-157dBm"
+                  },
+                  {
+                    "label": "跟踪灵敏度",
+                    "value": "-160dBm"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "≤10m"
+                  },
+                  {
+                    "label": "测速精度",
+                    "value": "<0.1m/s"
+                  },
+                  {
+                    "label": "授时精度",
+                    "value": "<30ns"
+                  },
+                  {
+                    "label": "定位更新率",
+                    "value": "最大 5Hz"
+                  },
+                  {
+                    "label": "AGPS",
+                    "value": "支持"
+                  }
+                ]
+              },
+              {
+                "title": "设备能力",
+                "items": [
+                  {
+                    "label": "光感",
+                    "value": "支持"
+                  },
+                  {
+                    "label": "温感",
+                    "value": "兼容"
+                  },
+                  {
+                    "label": "WIFI",
+                    "value": "支持"
+                  },
+                  {
+                    "label": "震动传感器",
+                    "value": "不支持"
+                  },
+                  {
+                    "label": "麦克风",
+                    "value": "不支持"
+                  },
+                  {
+                    "label": "通话",
+                    "value": "不支持"
+                  },
+                  {
+                    "label": "短信",
+                    "value": "OVER SGS（需运营商支持）"
+                  },
+                  {
+                    "label": "上报模式",
+                    "value": "定时回传 / 星期模式 / 闹钟模式 / 追踪模式"
+                  },
+                  {
+                    "label": "拆机报警",
+                    "value": "检测光感由暗到亮时触发拆机报警"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "OC 温感M7 中文规格书",
+                "description": "中文 PDF 规格书，包含产品介绍、整机参数、网络性能、GPS 性能、指示灯和功能说明。",
+                "href": "/downloads/m7-temperature-asset-tracker-cn.pdf",
+                "buttonLabel": "下载中文 PDF"
+              },
+              {
+                "title": "OC M7 Temperature Asset Tracker English Specification",
+                "description": "English Word specification for overseas customers, covering product parameters and technical details.",
+                "href": "/downloads/m7-temperature-asset-tracker-en.docx",
+                "buttonLabel": "下载英文 DOCX"
+              }
+            ]
+          }
+        },
+        {
+          "slug": "global-asset-tracker",
+          "name": "国际全球资产追踪器",
+          "subtitle": "GF200LS 3 年长待机强磁资产定位器",
+          "image": "/images/products/models/lihang-3-year-global-asset-tracker.png",
+          "summary": "GF200LS 是一款强磁吸附式长待机资产 GPS 定位器，支持 IP65 防水、光感防拆、多种工作模式和约 3 年低频上报待机。",
+          "tags": [
+            "3 年待机",
+            "强磁吸附",
+            "光感防拆"
+          ],
+          "specs": [
+            {
+              "label": "型号",
+              "value": "GF200LS"
+            },
+            {
+              "label": "尺寸",
+              "value": "63 x 47 x 30 mm"
+            },
+            {
+              "label": "电池",
+              "value": "3000mAh / 3V，2 节 CR123 干电池"
+            },
+            {
+              "label": "工作时间",
+              "value": "每天 1 次定位上报约 3 年"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "国际全球资产追踪器",
+            "heroDescription": "GF200LS 是一款面向资产、集装箱、车辆和重型设备管理的长待机 GPS 追踪器，采用强磁吸附安装，支持 IP65 防水、光感防拆报警和多种低功耗工作模式。",
+            "heroBullets": [
+              "GF200LS，63 x 47 x 30 mm，约 0.15kg",
+              "2 节 CR123 干电池，默认每天一次定位约 3 年",
+              "支持 GPS / 北斗 / LBS 多重定位和 Web / APP 实时查看",
+              "IP65 防水外壳，强磁后盖，支持光感防拆报警"
+            ],
+            "features": [
+              {
+                "title": "3 年长待机",
+                "description": "基于每天一次定位上报的低功耗模式，设备可实现约 3 年待机，适合长期部署在移动资产上。"
+              },
+              {
+                "title": "强磁安装",
+                "description": "N54 级强磁后盖便于吸附在车辆、集装箱、设备外壳或金属资产表面，无需复杂接线。"
+              },
+              {
+                "title": "IP65 防水",
+                "description": "防水外壳适合户外运输、仓储周转和重型车辆资产管理环境。"
+              },
+              {
+                "title": "光感防拆报警",
+                "description": "通过光感检测识别设备被拆开或移除的异常情况，并可向平台发送防拆报警。"
+              },
+              {
+                "title": "多种工作模式",
+                "description": "支持实时模式、间隔模式和闹钟定位模式，可根据项目需求平衡定位频率和电池寿命。"
+              },
+              {
+                "title": "平台与 APP 管理",
+                "description": "支持通过 Web 平台和移动端 APP 查看位置、历史轨迹和设备状态，便于资产追踪管理。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "资产与集装箱追踪",
+                "description": "适用于货柜、集装箱、移动资产和高价值设备的低频长期位置追踪。",
+                "image": "/images/applications/container-yard.svg"
+              },
+              {
+                "title": "跨区域货物周转",
+                "description": "用于跨区域运输、仓储周转和临时外借资产的位置追踪与异常提醒。",
+                "image": "/images/applications/container-yard.svg"
+              },
+              {
+                "title": "租赁车辆",
+                "description": "适合汽车租赁、车辆服务店和临时车辆资产的非实时位置监管。",
+                "image": "/images/applications/realistic-rental-vehicles.png"
+              },
+              {
+                "title": "工程车辆",
+                "description": "适用于重型车辆、工程设备和户外机械的长待机资产定位管理。",
+                "image": "/images/applications/realistic-engineering-vehicles.png"
+              }
+            ],
+            "overview": "GF200LS 资产 GPS 定位器是一款不可充电的强磁长待机定位终端，插入 SIM 卡后可按预设频率自动上传 GPS 位置。设备采用 ABS 防火材质外壳，内置强磁后盖和 2 节 CR123 干电池，支持 LTE-FDD / LTE-TDD / GSM 网络、GPS / 北斗 / LBS 定位、Web 平台和 APP 查看、多工作模式、低电报警、震动报警、电子围栏和光感防拆报警。适合资产/集装箱追踪、车辆租赁、车队管理、重型车辆、摩托车和电动车等低频长期监管场景。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品型号",
+                    "value": "GF200LS"
+                  },
+                  {
+                    "label": "产品类型",
+                    "value": "强磁长待机资产 GPS 定位器"
+                  },
+                  {
+                    "label": "整机尺寸",
+                    "value": "63 x 47 x 30 mm"
+                  },
+                  {
+                    "label": "单机重量",
+                    "value": "0.15kg"
+                  },
+                  {
+                    "label": "外壳材质",
+                    "value": "ABS 防火材质，黑色外壳"
+                  },
+                  {
+                    "label": "防护等级",
+                    "value": "IP65"
+                  },
+                  {
+                    "label": "安装方式",
+                    "value": "N54 强磁后盖 / 3M 胶贴"
+                  }
+                ]
+              },
+              {
+                "title": "电池与工作模式",
+                "items": [
+                  {
+                    "label": "电池",
+                    "value": "3000mAh / 3V，2 节 CR123 干电池"
+                  },
+                  {
+                    "label": "待机时间",
+                    "value": "每天 1 次定位上报约 3 年"
+                  },
+                  {
+                    "label": "实时模式",
+                    "value": "约 24 小时，耗电较快"
+                  },
+                  {
+                    "label": "工作电流",
+                    "value": "40-80mA/h（3V 输入）"
+                  },
+                  {
+                    "label": "待机电流",
+                    "value": "60-100uA/h"
+                  },
+                  {
+                    "label": "工作温度",
+                    "value": "-20°C to +65°C"
+                  },
+                  {
+                    "label": "存储温度",
+                    "value": "-40°C to +80°C"
+                  }
+                ]
+              },
+              {
+                "title": "通信与定位",
+                "items": [
+                  {
+                    "label": "通信模块",
+                    "value": "SIMCom LTE Cat 1 A7670SA"
+                  },
+                  {
+                    "label": "定位芯片",
+                    "value": "AT6558R / UC6228CI，具体以实际批次为准"
+                  },
+                  {
+                    "label": "LTE 频段",
+                    "value": "LTE-FDD B1/B2/B3/B4/B5/B7/B8/B28/B66；LTE-TDD B34/B38/B39/B40/B41"
+                  },
+                  {
+                    "label": "2G 频段",
+                    "value": "GSM 850/900/1800/1900MHz"
+                  },
+                  {
+                    "label": "数据通信",
+                    "value": "GPRS Class 12，TCP/IP"
+                  },
+                  {
+                    "label": "定位方式",
+                    "value": "GPS / 北斗 / LBS"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "＜5 米"
+                  },
+                  {
+                    "label": "GPS 频率",
+                    "value": "GPS L1, 1575.42 MHz C/A code"
+                  },
+                  {
+                    "label": "跟踪灵敏度",
+                    "value": "-165dBm"
+                  },
+                  {
+                    "label": "捕获灵敏度",
+                    "value": "-148dBm"
+                  },
+                  {
+                    "label": "冷启动时间",
+                    "value": "≤45s（空旷区域）"
+                  },
+                  {
+                    "label": "热启动时间",
+                    "value": "≤3s（空旷区域）"
+                  }
+                ]
+              },
+              {
+                "title": "功能与接口",
+                "items": [
+                  {
+                    "label": "主要功能",
+                    "value": "实时定位 / 历史轨迹 / 电子围栏 / 低电报警 / 震动报警 / 光感防拆报警"
+                  },
+                  {
+                    "label": "工作模式",
+                    "value": "实时模式 / 间隔模式 / 闹钟定位模式"
+                  },
+                  {
+                    "label": "接口",
+                    "value": "Type-C 接口用于固件刷写和配置"
+                  },
+                  {
+                    "label": "天线",
+                    "value": "内置 LTE 天线 / GPS 陶瓷天线"
+                  },
+                  {
+                    "label": "指示灯",
+                    "value": "绿色 LTE 信号灯 / 蓝色 GPS 信号灯"
+                  },
+                  {
+                    "label": "平台",
+                    "value": "Web 平台 / Android 与 iOS APP"
+                  },
+                  {
+                    "label": "适用场景",
+                    "value": "资产 / 集装箱 / 车队管理 / 汽车租赁 / 重型车辆 / 摩托车与电动车"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "里航 3 年资产定位器中文规格书",
+                "description": "中文 PDF 资料，包含 GF200LS 产品说明、应用范围、功能特点、设备规格、指示灯说明和短信命令。",
+                "href": "/downloads/lihang-3-year-global-asset-tracker-cn.pdf",
+                "buttonLabel": "下载中文 PDF"
+              },
+              {
+                "title": "Lihang 3-Year Asset GPS Tracker English Specification",
+                "description": "English PDF manual covering GF200LS applications, features, photos, specifications, SMS commands, and platform notes.",
+                "href": "/downloads/lihang-3-year-global-asset-tracker-en.pdf",
+                "buttonLabel": "下载英文 PDF"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "obd-cigarette-lighter",
+      "slug": "obd-cigarette-lighter",
+      "category": "obd",
+      "name": "OBD Cigarette Lighter Tracker",
+      "image": "/images/products/categories/solar-outdoor-tracker.jpg",
+      "heroImage": "/images/products/models/c08a-obd-plug-and-play-tracker.png",
+      "icon": "obd",
+      "shortDescription": "Plug-in tracker powered by OBD or cigarette lighter ports.",
+      "features": [
+        "Plug and play",
+        "Trip reports",
+        "Driving behavior alerts",
+        "Vehicle power detection"
+      ],
+      "specifications": [
+        {
+          "label": "Network",
+          "value": "4G LTE"
+        },
+        {
+          "label": "GNSS",
+          "value": "GPS / BDS / GLONASS"
+        },
+        {
+          "label": "OBD Protocol",
+          "value": "OBD-II optional"
+        },
+        {
+          "label": "Installation",
+          "value": "OBD port or cigarette lighter socket"
+        }
+      ],
+      "applicationScenarios": [
+        "Private car tracking",
+        "Used car finance",
+        "Temporary fleet deployment"
+      ],
+      "children": [
+        {
+          "slug": "obd-plug-and-play-tracker",
+          "name": "OBD 即插即用定位器",
+          "subtitle": "C08A 4G OBD 即插即用 GPS 定位器",
+          "image": "/images/products/models/c08a-obd-plug-and-play-tracker.png",
+          "summary": "C08A 是一款 4G OBD 即插即用车载 GPS 定位器，支持免接线安装、实时定位、轨迹回放、断电报警、超速报警和震动报警。",
+          "tags": [
+            "4G OBD",
+            "即插即用",
+            "免接线"
+          ],
+          "specs": [
+            {
+              "label": "型号",
+              "value": "C08A"
+            },
+            {
+              "label": "尺寸",
+              "value": "49.5 x 34 x 39 mm"
+            },
+            {
+              "label": "供电",
+              "value": "OBD 接口，12-24V DC"
+            },
+            {
+              "label": "定位",
+              "value": "GPS / LBS / 三重定位"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "OBD 即插即用定位器",
+            "heroDescription": "C08A 是一款 4G OBD 免接线车载 GPS 定位器，直接插入车辆 OBD 接口即可使用，适合临时车队、私家车、二手车、租赁车辆和快速部署项目。",
+            "heroBullets": [
+              "C08A，49.5 x 34 x 39 mm，约 41g",
+              "OBD 接口供电，12-24V DC，内置 90mAh 3.7V 后备电池",
+              "支持实时定位、轨迹回放、电子围栏和车队管理",
+              "支持断电、超速、位移、震动和围栏报警"
+            ],
+            "features": [
+              {
+                "title": "OBD 即插即用",
+                "description": "直接插入车辆 OBD 接口使用，无需拆车接线，适合快速部署和临时项目安装。"
+              },
+              {
+                "title": "4G 内置天线",
+                "description": "采用 4G 内置天线和高集成设计，支持 2G + 4G 网络通信。"
+              },
+              {
+                "title": "实时定位",
+                "description": "支持实时位置更新和定时回传，可通过平台查看车辆经纬度和运行状态。"
+              },
+              {
+                "title": "轨迹回放",
+                "description": "支持历史轨迹回放，资料标注可回放 90 天驾驶轨迹、速度、方向和停留时间。"
+              },
+              {
+                "title": "多重报警",
+                "description": "支持断电、超速、位移、震动和电子围栏报警，便于车辆异常事件管理。"
+              },
+              {
+                "title": "车队管理",
+                "description": "支持一个手机管理多个设备，或一个设备被多个手机管理，适合小型车队和渠道项目。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "临时车队",
+                "description": "适合短期项目、临时车辆和快速上线的车队定位管理。"
+              },
+              {
+                "title": "私家车定位",
+                "description": "适合私家车防盗、实时位置查看、超速提醒和电子围栏管理。"
+              },
+              {
+                "title": "二手车管理",
+                "description": "适合二手车、试驾车和待售车辆的位置监管与异常提醒。"
+              },
+              {
+                "title": "租赁车辆",
+                "description": "适合租赁车辆快速安装定位，帮助掌握车辆位置和异常用车情况。",
+                "image": "/images/applications/realistic-rental-vehicles.png"
+              }
+            ],
+            "overview": "C08A 4G OBD 即插即用 GPS 定位器采用 OBD 接口免接线安装，集成 4G 通信、GPS 定位、内置天线和精密震动传感器。设备支持实时定位、定时回传、轨迹回放、电子围栏、断电报警、超速报警、位移报警、震动报警、盲区补偿和弯道修正。内置 90mAh 3.7V 后备电池，可在主电源断开时上传报警信息，适合临时车队、私家车、二手车、租赁车辆和快速部署定位项目。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品型号",
+                    "value": "C08A"
+                  },
+                  {
+                    "label": "产品类型",
+                    "value": "4G OBD 即插即用车载 GPS 定位器"
+                  },
+                  {
+                    "label": "整机尺寸",
+                    "value": "49.5 x 34 x 39 mm"
+                  },
+                  {
+                    "label": "单机重量",
+                    "value": "41g（含电池）"
+                  },
+                  {
+                    "label": "内置电池",
+                    "value": "90mAh 3.7V"
+                  },
+                  {
+                    "label": "工作电压",
+                    "value": "12-24V DC"
+                  },
+                  {
+                    "label": "安装方式",
+                    "value": "OBD 接口即插即用"
+                  },
+                  {
+                    "label": "工作温度",
+                    "value": "-20°C to +60°C"
+                  },
+                  {
+                    "label": "存储温度",
+                    "value": "-20°C to +70°C"
+                  }
+                ]
+              },
+              {
+                "title": "通信与定位",
+                "items": [
+                  {
+                    "label": "通信模块",
+                    "value": "SIMCOM-A7670SA"
+                  },
+                  {
+                    "label": "网络",
+                    "value": "2G + 4G"
+                  },
+                  {
+                    "label": "LTE 频段",
+                    "value": "LTE-FDD B1/B2/B3/B4/B5/B7/B8/B28/B66"
+                  },
+                  {
+                    "label": "2G 频段",
+                    "value": "GSM/GPRS/EDGE 850/900/1800/1900MHz"
+                  },
+                  {
+                    "label": "传输协议",
+                    "value": "TCP"
+                  },
+                  {
+                    "label": "定位方式",
+                    "value": "GPS / LBS / 三重定位"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "＜5 米"
+                  },
+                  {
+                    "label": "冷启动时间",
+                    "value": "平均 32 秒"
+                  },
+                  {
+                    "label": "跟踪灵敏度",
+                    "value": "-162dBm"
+                  },
+                  {
+                    "label": "天线",
+                    "value": "内置 4G 天线 / 内置 GPS 天线"
+                  }
+                ]
+              },
+              {
+                "title": "报警与平台能力",
+                "items": [
+                  {
+                    "label": "电源检测",
+                    "value": "主电源断开时上传报警信息"
+                  },
+                  {
+                    "label": "数据上报",
+                    "value": "实时上传 GPS 数据，支持客户定制"
+                  },
+                  {
+                    "label": "GPS 数据",
+                    "value": "实时位置更新"
+                  },
+                  {
+                    "label": "报警",
+                    "value": "断电报警 / 超速报警 / 位移报警 / 震动报警 / 围栏报警"
+                  },
+                  {
+                    "label": "轨迹能力",
+                    "value": "支持 90 天历史轨迹回放"
+                  },
+                  {
+                    "label": "车队管理",
+                    "value": "支持多设备管理和多手机管理同一设备"
+                  },
+                  {
+                    "label": "适用场景",
+                    "value": "临时车队 / 私家车 / 二手车 / 租赁车辆 / 快速部署"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "云 OBD C08A 中文规格书",
+                "description": "中文 PDF 规格书，包含产品功能、安装位置、技术参数、基础功能和常见问题说明。",
+                "href": "/downloads/cloud-obd-c08a-spec-cn.pdf",
+                "buttonLabel": "下载中文 PDF"
+              },
+              {
+                "title": "Cloud OBD C08A English Specification",
+                "description": "English PDF specification covering C08A product features, OBD installation positions, parameters, basic functions, and troubleshooting.",
+                "href": "/downloads/cloud-obd-c08a-spec-en.pdf",
+                "buttonLabel": "下载英文 PDF"
+              }
+            ]
+          }
+        },
+        {
+          "slug": "cigarette-lighter-gps-tracker",
+          "name": "点烟器 GPS 定位器",
+          "subtitle": "C036 4G 全网通车充 GPS 定位终端",
+          "image": "/images/products/models/ak-c036-cigarette-lighter-gps-tracker.png",
+          "summary": "C036 通过车辆点烟器接口供电，支持 4G 全网通通信、GPS/BDS/LBS 定位、震动报警、超速报警和拆除报警，适合免接线车辆定位项目。",
+          "tags": [
+            "C036",
+            "点烟器供电",
+            "免接线"
+          ],
+          "specs": [
+            {
+              "label": "型号",
+              "value": "C036"
+            },
+            {
+              "label": "尺寸",
+              "value": "85 x 49.2 x 26 mm"
+            },
+            {
+              "label": "供电",
+              "value": "DC 9V - 32V，点烟器接口"
+            },
+            {
+              "label": "定位",
+              "value": "北斗 + GPS + LBS"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "点烟器 GPS 定位器",
+            "heroDescription": "C036 是一款面向车联网的 4G 全网通车充定位终端，通过车辆点烟器接口供电，采用内置天线、3 轴传感器和智能省电唤醒设计，适合无需拆车接线的车辆定位管理。",
+            "heroBullets": [
+              "C036，85 x 49.2 x 26 mm，约 41g",
+              "点烟器接口供电，DC 9V - 32V，内置 50mAh 3.7V 聚合物电池",
+              "支持 GPS/BDS/LBS 定位、AGPS 快速定位和定时数据回传",
+              "支持震动、超速、拆除、断电、电子围栏和盲区补传"
+            ],
+            "features": [
+              {
+                "title": "点烟器免接线安装",
+                "description": "通过车辆点烟器接口供电，不需要拆车布线，适合临时车辆、租赁车辆和快速部署项目。"
+              },
+              {
+                "title": "4G 全网通通信",
+                "description": "支持 LTE-FDD、LTE-TDD 与 GSM 频段，内置通信天线，支持 TCP/IP 数据传输和域名/IP 服务器连接。"
+              },
+              {
+                "title": "GPS/BDS 双星定位",
+                "description": "内置 GPS/BDS 定位模块和抗干扰陶瓷天线，支持 GPS、北斗、LBS 以及 AGPS 快速定位跟踪。"
+              },
+              {
+                "title": "智能省电唤醒",
+                "description": "内置 3 轴传感器，静止熄火状态默认每 5 分钟上传，运动点火状态默认每 20 秒上传。"
+              },
+              {
+                "title": "多重异常报警",
+                "description": "支持震动报警、超速报警、拆除报警、断电报警和电子围栏进出提醒，便于车辆异常事件管理。"
+              },
+              {
+                "title": "盲区数据补传",
+                "description": "内置存储芯片，可在无线信号弱或干扰严重时暂存车辆运行数据，网络恢复后自动补传。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "企业车辆",
+                "description": "适合企业车队、车辆服务商和 4S 店进行免接线定位、行程追踪和异常提醒。",
+                "image": "/images/applications/realistic-enterprise-vehicles.png"
+              },
+              {
+                "title": "租赁车辆",
+                "description": "适合租赁车辆、临时车辆和短期项目快速安装定位，减少拆装成本。",
+                "image": "/images/applications/realistic-rental-vehicles.png"
+              },
+              {
+                "title": "出租车与客运车辆",
+                "description": "适用于出租车、客运车辆和轻量车队的实时定位、超速提醒和轨迹管理。"
+              },
+              {
+                "title": "新能源与个人车辆",
+                "description": "适合个人车辆、电动新能源车辆和无需复杂安装的车载定位管理。"
+              }
+            ],
+            "overview": "C036 点烟器 GPS 定位器是一款 4G 全网通车充定位终端，融合 4G 无线通信技术与 GPS/BDS 卫星导航定位技术。设备采用工业级高集成度内置天线设计，内置 3 轴加速度传感器和 50mAh 备用电池，支持震动报警、超速报警、拆除报警、断电报警、电子围栏、历史轨迹、盲区数据补传、远程参数配置和在线升级。它适合保险、企业车队、汽车厂商/4S 店、个人用户、新能源车辆、客运车辆、出租车和租赁车辆等无需拆车接线的定位项目。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品型号",
+                    "value": "C036"
+                  },
+                  {
+                    "label": "产品类型",
+                    "value": "4G 全网通车充 GPS 定位终端"
+                  },
+                  {
+                    "label": "主机尺寸",
+                    "value": "85 x 49.2 x 26 mm"
+                  },
+                  {
+                    "label": "主机重量",
+                    "value": "41g"
+                  },
+                  {
+                    "label": "外壳材质",
+                    "value": "ABS + PC"
+                  },
+                  {
+                    "label": "供电方式",
+                    "value": "点烟器接口供电"
+                  },
+                  {
+                    "label": "工作电压",
+                    "value": "DC 9V - 32V"
+                  },
+                  {
+                    "label": "工作电流",
+                    "value": "12V / 65mA"
+                  },
+                  {
+                    "label": "休眠电流",
+                    "value": "12V / 平均 10mA"
+                  },
+                  {
+                    "label": "内置电池",
+                    "value": "50mAh 3.7V 聚合物电池"
+                  }
+                ]
+              },
+              {
+                "title": "通信与定位",
+                "items": [
+                  {
+                    "label": "SIM 卡",
+                    "value": "Nano SIM 卡"
+                  },
+                  {
+                    "label": "网络",
+                    "value": "LTE / 4G + GSM / 2G"
+                  },
+                  {
+                    "label": "LTE 频段",
+                    "value": "LTE-FDD B1/B2/B3/B4/B5/B7/B8/B12/B13/B18/B19/B20/B25/B26/B28/B66；LTE-TDD B34/B38/B39/B40/B41"
+                  },
+                  {
+                    "label": "2G 频段",
+                    "value": "GSM 850/900/1800/1900MHz"
+                  },
+                  {
+                    "label": "通信天线",
+                    "value": "内置 FPC 天线"
+                  },
+                  {
+                    "label": "定位方式",
+                    "value": "北斗 + GPS + LBS"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "<10m（1σ）"
+                  },
+                  {
+                    "label": "冷启动时间",
+                    "value": "平均 32 秒"
+                  },
+                  {
+                    "label": "热启动时间",
+                    "value": "平均 1 秒"
+                  },
+                  {
+                    "label": "跟踪灵敏度",
+                    "value": "-162dBm"
+                  },
+                  {
+                    "label": "卫星通道数",
+                    "value": "32"
+                  }
+                ]
+              },
+              {
+                "title": "环境与接口",
+                "items": [
+                  {
+                    "label": "工作温度",
+                    "value": "-20℃ - 75℃"
+                  },
+                  {
+                    "label": "储存温度",
+                    "value": "-30℃ - 80℃"
+                  },
+                  {
+                    "label": "工作湿度",
+                    "value": "10%-85% RH 不凝结"
+                  },
+                  {
+                    "label": "Type-A 输出",
+                    "value": "DC 5V/2A；9V/2A"
+                  },
+                  {
+                    "label": "Type-C 输出",
+                    "value": "DC 5V/2A；9V/2A"
+                  },
+                  {
+                    "label": "SOS",
+                    "value": "支持 SOS 按键"
+                  },
+                  {
+                    "label": "数据上报",
+                    "value": "静止熄火每 5 分钟一条，运动点火每 20 秒一条"
+                  },
+                  {
+                    "label": "主要报警",
+                    "value": "震动报警 / 超速报警 / 拆除报警 / 断电报警 / 电子围栏"
+                  },
+                  {
+                    "label": "平台能力",
+                    "value": "历史轨迹 / 盲区补传 / 远程参数配置 / 在线升级"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "C036 点烟器 GPS 定位器中文规格书",
+                "description": "中文 DOCX 规格书，包含 C036 产品介绍、应用领域、安装说明、指示灯、工作逻辑、功能特点和硬件参数。",
+                "href": "/downloads/ak-c036-cigarette-lighter-tracker-cn.docx",
+                "buttonLabel": "下载中文 DOCX"
+              },
+              {
+                "title": "C036 Cigarette Lighter GPS Tracker English Specification",
+                "description": "English DOCX specification covering C036 product introduction, application fields, SIM installation, indicators, working logic, features, and hardware parameters.",
+                "href": "/downloads/ak-c036-cigarette-lighter-tracker-en.docx",
+                "buttonLabel": "下载英文 DOCX"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "smart-grazing",
+      "slug": "smart-grazing",
+      "category": "grazing",
+      "name": "Smart Grazing Tracker",
+      "image": "/images/products/categories/hardwired-logistics-gps.jpg",
+      "heroImage": "/images/products/models/k5-cattle-sheep-collar-tracker.png",
+      "icon": "grazing",
+      "shortDescription": "Smart livestock positioning for ranches and grazing areas.",
+      "features": [
+        "Collar-style mounting",
+        "Activity monitoring",
+        "Fence crossing alerts",
+        "Long battery life"
+      ],
+      "specifications": [
+        {
+          "label": "Network",
+          "value": "4G LTE / LoRa optional"
+        },
+        {
+          "label": "GNSS",
+          "value": "GPS / BDS"
+        },
+        {
+          "label": "Battery",
+          "value": "Long-life rechargeable battery"
+        },
+        {
+          "label": "Protection",
+          "value": "Outdoor waterproof housing"
+        }
+      ],
+      "applicationScenarios": [
+        "Cattle tracking",
+        "Pasture management",
+        "Livestock loss prevention"
+      ],
+      "children": [
+        {
+          "slug": "cattle-sheep-collar-tracker",
+          "name": "牛羊项圈定位器",
+          "subtitle": "K5 4G 牛羊项圈 GPS 定位器",
+          "image": "/images/products/models/k5-cattle-sheep-collar-tracker.png",
+          "summary": "K5 是一款低功耗 4G 无线定位器，可搭配项圈用于牛羊定位管理，支持 GPS、北斗、LBS、WiFi 四模定位、电子围栏和多种报警。",
+          "tags": [
+            "K5",
+            "项圈佩戴",
+            "10000mAh"
+          ],
+          "specs": [
+            {
+              "label": "型号",
+              "value": "K5"
+            },
+            {
+              "label": "尺寸",
+              "value": "75 x 57 x 31.5 mm"
+            },
+            {
+              "label": "电池",
+              "value": "10000mAh 3.8V 聚合物电池"
+            },
+            {
+              "label": "防护",
+              "value": "IP65"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "牛羊项圈定位器",
+            "heroDescription": "K5 是一款超低待机功耗的 4G 无线定位终端，可搭配项圈用于牛羊和牧场定位管理，支持 GPS、北斗、LBS、WiFi 四模定位、电子围栏、振动唤醒和低电报警。",
+            "heroBullets": [
+              "K5，75 x 57 x 31.5 mm，约 199g",
+              "10000mAh 3.8V 聚合物电池，低功耗待机",
+              "支持 GPS + 北斗 + LBS + WiFi 四模定位",
+              "支持拆除、震动、位移、低电、出围栏和超速报警"
+            ],
+            "features": [
+              {
+                "title": "项圈式佩戴",
+                "description": "可搭配项圈用于牛羊佩戴式定位，适合牧场、农场和放牧区域的牲畜位置管理。"
+              },
+              {
+                "title": "四模定位",
+                "description": "支持 GPS、北斗、LBS 和 WiFi 多重定位，可根据现场信号环境组合使用。"
+              },
+              {
+                "title": "低功耗长待机",
+                "description": "内置 10000mAh 3.8V 聚合物电池，支持低功耗数据传输、潜伏定位和振动唤醒。"
+              },
+              {
+                "title": "电子围栏",
+                "description": "可为牧场、围栏区或放牧范围设置电子围栏，离开指定范围后触发提醒。"
+              },
+              {
+                "title": "多重报警",
+                "description": "支持拆除报警、震动报警、位移报警、低电报警、出围栏报警和超速报警。"
+              },
+              {
+                "title": "IP65 防护",
+                "description": "外壳采用 ABS 塑料，支持 IP65 防护等级，适合户外牧场和移动资产使用环境。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "牛羊定位管理",
+                "description": "适合牛、羊等牲畜佩戴式定位，帮助牧场掌握分布位置和活动范围。"
+              },
+              {
+                "title": "牧场与放牧区",
+                "description": "用于牧场、农场和开放式放牧区域的牲畜追踪、围栏提醒和离群管理。"
+              },
+              {
+                "title": "贵重物品资产管理",
+                "description": "设备也可用于高价值移动资产定位，支持低功耗待机和异常移动提醒。"
+              },
+              {
+                "title": "货运与车辆临时追踪",
+                "description": "规格资料也覆盖货运车辆、租赁车辆和客运车辆等临时定位场景。"
+              }
+            ],
+            "overview": "K5 牛羊项圈定位器是一款超低待机功耗 4G 无线定位终端，结合北斗、GPS、LBS 和 WiFi 多重定位系统，可按场景组合使用。设备支持 LTE-Cat.1 低功耗数据传输，具备实时定位、潜伏定位、振动唤醒、计步定位、历史轨迹回放、电子围栏、多车管理、低电提醒和多种异常报警能力。K5 可搭配项圈用于牛羊定位管理，也可用于贵重物品、货运车辆和临时资产定位项目。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品型号",
+                    "value": "K5"
+                  },
+                  {
+                    "label": "产品类型",
+                    "value": "4G 无线项圈 GPS 定位终端"
+                  },
+                  {
+                    "label": "主机尺寸",
+                    "value": "75 x 57 x 31.5 mm"
+                  },
+                  {
+                    "label": "主机重量",
+                    "value": "约 199g"
+                  },
+                  {
+                    "label": "外壳材质",
+                    "value": "ABS 塑料"
+                  },
+                  {
+                    "label": "防护等级",
+                    "value": "IP65"
+                  },
+                  {
+                    "label": "项圈",
+                    "value": "选配"
+                  },
+                  {
+                    "label": "强磁",
+                    "value": "选配"
+                  }
+                ]
+              },
+              {
+                "title": "电池与环境",
+                "items": [
+                  {
+                    "label": "供电方式",
+                    "value": "电池供电"
+                  },
+                  {
+                    "label": "工作电压",
+                    "value": "DC 3.45V - 4.35V"
+                  },
+                  {
+                    "label": "内置电池",
+                    "value": "10000mAh 3.8V 聚合物电池"
+                  },
+                  {
+                    "label": "工作电流",
+                    "value": "22mA"
+                  },
+                  {
+                    "label": "休眠待机电流",
+                    "value": "约 30uA"
+                  },
+                  {
+                    "label": "在线待机电流",
+                    "value": "4.5mA"
+                  },
+                  {
+                    "label": "工作温度",
+                    "value": "-20℃ - 70℃"
+                  },
+                  {
+                    "label": "储存温度",
+                    "value": "-30℃ - 80℃"
+                  },
+                  {
+                    "label": "工作湿度",
+                    "value": "5%-95%"
+                  }
+                ]
+              },
+              {
+                "title": "通信与定位",
+                "items": [
+                  {
+                    "label": "通信模块",
+                    "value": "ML307A-DCLN，中移物联"
+                  },
+                  {
+                    "label": "SIM 卡",
+                    "value": "Micro SIM 卡"
+                  },
+                  {
+                    "label": "通信频段",
+                    "value": "TDD B34/B38/B39/B40/B41；FDD B1/B3/B5/B8"
+                  },
+                  {
+                    "label": "通信天线",
+                    "value": "内置 FPC 天线"
+                  },
+                  {
+                    "label": "定位方式",
+                    "value": "GPS + 北斗 + LBS + WiFi"
+                  },
+                  {
+                    "label": "定位芯片",
+                    "value": "华大 GPS 北斗芯片，支持北斗 3 代"
+                  },
+                  {
+                    "label": "定位天线",
+                    "value": "内置有源陶瓷 GPS 天线"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "约 1.5 米，资料标注卫星定位精度小于 5 米"
+                  },
+                  {
+                    "label": "冷启动时间",
+                    "value": "平均 32 秒"
+                  },
+                  {
+                    "label": "热启动时间",
+                    "value": "平均 1 秒"
+                  },
+                  {
+                    "label": "跟踪灵敏度",
+                    "value": "-162dBm"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "K5 牛羊项圈定位器中文规格书",
+                "description": "中文 DOCX 规格书，包含 K5 产品功能、应用领域、设备参数、通信定位参数和外形规格。",
+                "href": "/downloads/oc-k5-cattle-sheep-collar-tracker-cn.docx",
+                "buttonLabel": "下载中文 DOCX"
+              },
+              {
+                "title": "K5 牛羊项圈定位器英文规格书",
+                "description": "英文 DOCX 规格书，包含 K5 功能、应用领域、设备参数、通信定位参数和外形规格。",
+                "href": "/downloads/oc-k5-cattle-sheep-collar-tracker-en.docx",
+                "buttonLabel": "下载英文 DOCX"
+              },
+              {
+                "title": "K5 产品参数图",
+                "description": "JPG 参数图，包含 K5 产品描述、功能特性、可支持功能和技术参数表。",
+                "href": "/downloads/oc-k5-cattle-sheep-collar-tracker-spec.jpg",
+                "buttonLabel": "下载参数图"
+              }
+            ]
+          }
+        },
+        {
+          "slug": "solar-livestock-tracker",
+          "name": "太阳能牲畜追踪器",
+          "subtitle": "Q1-NY-2W 太阳能牛羊 GPS 追踪器",
+          "image": "/images/products/models/q1-ny-2w-solar-livestock-tracker.jpg",
+          "summary": "Q1-NY-2W / NY 太阳能大容量定位器支持太阳能辅助供电、GPS/北斗/WiFi 定位和 10000mAh/20000mAh 电池配置，适合户外牧场和长时间放牧场景。",
+          "tags": [
+            "Q1-NY-2W",
+            "太阳能",
+            "大容量电池"
+          ],
+          "specs": [
+            {
+              "label": "型号",
+              "value": "Q1-NY-2W / NY"
+            },
+            {
+              "label": "尺寸",
+              "value": "122 x 84 x 48.5 mm"
+            },
+            {
+              "label": "电池",
+              "value": "10000mAh / 20000mAh"
+            },
+            {
+              "label": "定位",
+              "value": "GPS / 北斗 / WiFi"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "太阳能牲畜追踪器",
+            "heroDescription": "Q1-NY-2W / NY 是一款面向户外牧场和长期放牧场景的太阳能大容量 GPS 定位器，支持 TDD/FDD/GSM 移动网络、GPS 定位、北斗定位和 WiFi 定位。",
+            "heroBullets": [
+              "Q1-NY-2W / NY，122 x 84 x 48.5 mm",
+              "10000mAh / 20000mAh 大容量电池，太阳能辅助供电",
+              "支持 GPS、北斗、WiFi 定位和智能省电定位",
+              "支持 Gsensor、Type-C、LED 指示灯、智能唤醒/休眠和 FOTA"
+            ],
+            "features": [
+              {
+                "title": "太阳能辅助供电",
+                "description": "设备结合太阳能与大容量电池设计，适合户外牧场、农场和长时间放牧管理场景。"
+              },
+              {
+                "title": "大容量电池",
+                "description": "支持 10000mAh / 20000mAh 电池配置，可根据项目续航需求选择不同容量版本。"
+              },
+              {
+                "title": "多重定位",
+                "description": "支持 GPS、北斗和 WiFi 定位，便于在户外牧场和复杂环境中获取牲畜或设备位置。"
+              },
+              {
+                "title": "全网通通信",
+                "description": "支持 TDD/FDD/GSM 移动网络接入，覆盖移动、联通、电信等网络环境。"
+              },
+              {
+                "title": "智能唤醒休眠",
+                "description": "支持定时或 Gsensor 触发的智能唤醒/休眠，并支持定时定位、智能定位和超级省电定位。"
+              },
+              {
+                "title": "户外硬件配置",
+                "description": "配备 LED 指示灯、Nano SIM 侧插接口、Type-C 接口、看门狗和内置天线，便于户外部署和维护。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "牧场与放牧区",
+                "description": "适合牧场、农场和开放式放牧区域的牛羊位置追踪、活动范围管理和长期部署。"
+              },
+              {
+                "title": "牛羊定位管理",
+                "description": "用于牛、羊等牲畜定位，帮助牧场掌握牲畜位置和移动状态。"
+              },
+              {
+                "title": "户外资产追踪",
+                "description": "适合长期放置在户外的移动资产、设备和高价值物品定位管理。"
+              },
+              {
+                "title": "低维护长期部署",
+                "description": "太阳能辅助供电和大容量电池组合，适合不便频繁充电或维护的项目现场。"
+              }
+            ],
+            "overview": "Q1-NY-2W / NY 太阳能牲畜追踪器是一款面向户外牧场、放牧区和长期资产监管场景的太阳能大容量定位终端。设备支持 TDD/FDD/GSM 移动网络，支持 GPS、北斗和 WiFi 定位，内置 Gsensor、Nano SIM 接口、Type-C 接口、LED 指示灯和看门狗能力。通过太阳能辅助供电和 10000mAh / 20000mAh 电池配置，可用于牛羊定位管理、户外设备追踪和低维护长期部署项目。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品型号",
+                    "value": "Q1-NY-2W / NY"
+                  },
+                  {
+                    "label": "产品类型",
+                    "value": "太阳能大容量 GPS 定位终端"
+                  },
+                  {
+                    "label": "主机尺寸",
+                    "value": "122 x 84 x 48.5 mm"
+                  },
+                  {
+                    "label": "主机重量",
+                    "value": "400g / 551g"
+                  },
+                  {
+                    "label": "内置电池",
+                    "value": "10000mAh / 20000mAh"
+                  },
+                  {
+                    "label": "供电方式",
+                    "value": "太阳能辅助 + 内置电池"
+                  },
+                  {
+                    "label": "工作电压",
+                    "value": "3.5-4.2V DC"
+                  },
+                  {
+                    "label": "电压波动",
+                    "value": "3.3-4.5V DC"
+                  }
+                ]
+              },
+              {
+                "title": "通信与定位",
+                "items": [
+                  {
+                    "label": "网络制式",
+                    "value": "TDD / FDD / GSM"
+                  },
+                  {
+                    "label": "全网通",
+                    "value": "移动 / 联通 / 电信"
+                  },
+                  {
+                    "label": "FDD 频段",
+                    "value": "B1 / B3 / B5 / B8"
+                  },
+                  {
+                    "label": "TDD 频段",
+                    "value": "B38 / B39 / B40 / B41"
+                  },
+                  {
+                    "label": "GSM 频段",
+                    "value": "900 / 1800MHz"
+                  },
+                  {
+                    "label": "定位方式",
+                    "value": "GPS / 北斗 / WiFi"
+                  },
+                  {
+                    "label": "北斗频段",
+                    "value": "1561.098MHz"
+                  },
+                  {
+                    "label": "GPS 频段",
+                    "value": "1575.42MHz"
+                  },
+                  {
+                    "label": "捕获灵敏度",
+                    "value": "-148dBm cold / -163dBm hot"
+                  },
+                  {
+                    "label": "跟踪灵敏度",
+                    "value": "-165dBm"
+                  }
+                ]
+              },
+              {
+                "title": "电源与硬件",
+                "items": [
+                  {
+                    "label": "工作电流",
+                    "value": "休眠 0.3mA / 待机 3.3mA / 定位 60mA（LTE+GPS）"
+                  },
+                  {
+                    "label": "工作温度",
+                    "value": "-20℃～+70℃"
+                  },
+                  {
+                    "label": "极限工作温度",
+                    "value": "-30℃～+75℃"
+                  },
+                  {
+                    "label": "存储温度",
+                    "value": "-40℃～+85℃"
+                  },
+                  {
+                    "label": "相对湿度",
+                    "value": "5%～95%"
+                  },
+                  {
+                    "label": "SIM 接口",
+                    "value": "Nano SIM，push-push 侧插，兼容 5 x 6 eSIM"
+                  },
+                  {
+                    "label": "USB",
+                    "value": "Type-C，充电 / 下载 / 测试 / 激活电池"
+                  },
+                  {
+                    "label": "天线",
+                    "value": "GPS 无源双模陶瓷 18 x 18；LTE / WiFi FPC 天线"
+                  },
+                  {
+                    "label": "软件功能",
+                    "value": "智能唤醒/休眠 / 定时定位 / 智能定位 / 超级省电定位 / WiFi 定位 / FOTA"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "Q1-NY-2W 太阳能牲畜追踪器中文规格书",
+                "description": "中文 DOCX 规格书，包含 NY 太阳能产品参数、结构尺寸、网络频段、电源特性、硬件功能和软件功能。",
+                "href": "/downloads/oc-ny-solar-livestock-tracker-cn.docx",
+                "buttonLabel": "下载中文 DOCX"
+              },
+              {
+                "title": "Q1-NY-2W 太阳能牲畜追踪器英文规格书",
+                "description": "英文 DOCX 规格书，包含 NY 太阳能产品参数、通信网络、GPS/WiFi 定位、电源特性和硬件软件功能。",
+                "href": "/downloads/oc-ny-solar-livestock-tracker-en.docx",
+                "buttonLabel": "下载英文 DOCX"
+              }
+            ]
+          }
+        },
+        {
+          "slug": "waterproof-box-cattle-sheep-tracker",
+          "name": "防水盒牛羊追踪器",
+          "subtitle": "C035 4G 防水盒牛羊 GPS 定位器",
+          "image": "/images/products/models/ak-2w-waterproof-box-cattle-sheep-tracker.png",
+          "summary": "C035 是一款面向牛羊放牧管理的 4G 全网通智能定位终端，内置 20000mAh 电池、3 轴传感器和 IP67 防水盒外壳，支持 GPS/BDS/GLONASS 多重定位。",
+          "tags": [
+            "C035",
+            "20000mAh",
+            "IP67 防水盒"
+          ],
+          "specs": [
+            {
+              "label": "型号",
+              "value": "C035"
+            },
+            {
+              "label": "尺寸",
+              "value": "110 x 77 x 46 mm"
+            },
+            {
+              "label": "电池",
+              "value": "20000mAh 3.7V 聚合物电池"
+            },
+            {
+              "label": "防护",
+              "value": "IP67"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "防水盒牛羊追踪器",
+            "heroDescription": "C035 是一款专为牛羊放牧和户外资产管理打造的 4G 全网通智能定位终端，采用防水盒结构和全内置天线设计，支持 GPS/BDS/GLONASS、AGPS、LBS 多重定位。",
+            "heroBullets": [
+              "C035，110 x 77 x 46 mm，约 476.5g",
+              "20000mAh 3.7V 聚合物电池，适合长时间户外部署",
+              "支持 GPS/BDS/GLONASS + AGPS + LBS 多重定位",
+              "IP67 防护，内置 3 轴传感器，支持震动报警和多工作模式"
+            ],
+            "features": [
+              {
+                "title": "防水盒结构",
+                "description": "设备采用 ABS 塑料外壳和 IP67 防护设计，适合牧场、放牧区和户外长期佩戴或固定部署。"
+              },
+              {
+                "title": "20000mAh 大容量电池",
+                "description": "内置 20000mAh 3.7V 聚合物电池，面向牛羊放牧和户外项目的长周期定位需求。"
+              },
+              {
+                "title": "多重定位",
+                "description": "支持 GPS、BDS、GLONASS、AGPS 和 LBS 定位能力，可根据现场信号环境组合使用。"
+              },
+              {
+                "title": "四种工作模式",
+                "description": "支持连续定位、正常模式、省电模式和待机模式，用户可通过指令切换定位频率和功耗策略。"
+              },
+              {
+                "title": "报警与围栏",
+                "description": "支持电子围栏、震动报警、报警短信/电话提醒和平台报警上报，便于牲畜异常活动管理。"
+              },
+              {
+                "title": "离线补传与远程配置",
+                "description": "内置大容量存储芯片，支持盲区数据补传、在线远程升级和远程参数配置。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "牛羊放牧管理",
+                "description": "用于牛、羊等牲畜的户外定位和活动范围监控，帮助牧场掌握放牧分布和异常移动。"
+              },
+              {
+                "title": "牧场与农场",
+                "description": "适合牧场、农场和开放式放牧区域的长时间定位、电子围栏和离群提醒项目。"
+              },
+              {
+                "title": "户外资产管理",
+                "description": "可用于货物、设备和户外移动资产定位，支持低功耗待机和跨区域追踪。"
+              },
+              {
+                "title": "客运与临时车辆",
+                "description": "资料应用领域覆盖客运车辆等临时定位场景，可按项目需求确认安装方式和使用模式。"
+              }
+            ],
+            "overview": "C035 防水盒牛羊追踪器是一款针对牛羊定位管理设计的 4G 全网通智能定位终端。设备融合 4G 无线通信、GPS/BDS/GLONASS 卫星定位、AGPS、LBS 和 3 轴传感器能力，支持实时定位、震动报警、电子围栏、点名定位、历史轨迹、盲区数据补传和远程参数配置。设备内置 20000mAh 3.7V 聚合物电池，外壳尺寸为 110 x 77 x 46 mm，重量约 476.5g，防护等级 IP67，适合牛羊放牧、户外牧场和长期户外资产监管。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品型号",
+                    "value": "C035"
+                  },
+                  {
+                    "label": "产品类型",
+                    "value": "4G 防水盒牛羊 GPS 定位终端"
+                  },
+                  {
+                    "label": "主机尺寸",
+                    "value": "110 x 77 x 46 mm"
+                  },
+                  {
+                    "label": "主机重量",
+                    "value": "约 476.5g"
+                  },
+                  {
+                    "label": "外壳材质",
+                    "value": "ABS 塑料"
+                  },
+                  {
+                    "label": "防护等级",
+                    "value": "IP67"
+                  },
+                  {
+                    "label": "充电口",
+                    "value": "1 路"
+                  }
+                ]
+              },
+              {
+                "title": "电池与环境",
+                "items": [
+                  {
+                    "label": "供电方式",
+                    "value": "电池供电"
+                  },
+                  {
+                    "label": "工作电压范围",
+                    "value": "DC 3.4V - 4.5V"
+                  },
+                  {
+                    "label": "内置电池",
+                    "value": "20000mAh 3.7V 聚合物电池"
+                  },
+                  {
+                    "label": "工作状态电流",
+                    "value": "4V / 60mA 平均"
+                  },
+                  {
+                    "label": "待机状态电流",
+                    "value": "4V / 5mA 平均"
+                  },
+                  {
+                    "label": "工作温度",
+                    "value": "-20℃ - 75℃"
+                  },
+                  {
+                    "label": "储存温度",
+                    "value": "-30℃ - 80℃"
+                  },
+                  {
+                    "label": "工作湿度",
+                    "value": "10%-85% RH 不凝结"
+                  }
+                ]
+              },
+              {
+                "title": "通信与定位",
+                "items": [
+                  {
+                    "label": "通信模块",
+                    "value": "SIMCOM 7670C-LASE"
+                  },
+                  {
+                    "label": "SIM 卡",
+                    "value": "Nona SIM 卡"
+                  },
+                  {
+                    "label": "通信频段",
+                    "value": "LTE-FDD B1/B3/B5/B8；LTE-TDD B34/B38/B39/B40/B41；GSM 900/1800MHz"
+                  },
+                  {
+                    "label": "通信天线",
+                    "value": "内置 FPC 天线"
+                  },
+                  {
+                    "label": "定位芯片",
+                    "value": "AT6558R"
+                  },
+                  {
+                    "label": "定位方式",
+                    "value": "BDS / GPS / GLONASS"
+                  },
+                  {
+                    "label": "定位天线",
+                    "value": "内置天线，18 x 18 x 2 mm"
+                  },
+                  {
+                    "label": "GPS 频段",
+                    "value": "L1: 1575.42±1.023MHz"
+                  },
+                  {
+                    "label": "北斗频段",
+                    "value": "B1: 1561.098±2.046MHz"
+                  },
+                  {
+                    "label": "卫星通道数",
+                    "value": "32"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "<2m（1σ）"
+                  },
+                  {
+                    "label": "跟踪灵敏度",
+                    "value": "-162dBm"
+                  },
+                  {
+                    "label": "冷启动时间",
+                    "value": "平均 32 秒"
+                  },
+                  {
+                    "label": "热启动时间",
+                    "value": "平均 1 秒"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "C035 防水盒牛羊追踪器中文规格书",
+                "description": "中文 DOCX 规格书，包含 C035 产品介绍、工作模式、功能特点、电池参数、通信频段、定位参数和外形规格。",
+                "href": "/downloads/ak-2w-waterproof-box-cattle-sheep-tracker-cn.docx",
+                "buttonLabel": "下载中文 DOCX"
+              },
+              {
+                "title": "C035 防水盒牛羊追踪器英文规格书",
+                "description": "英文 DOCX 规格书，包含 C035 产品介绍、应用领域、工作逻辑、功能特点、电气参数、通信定位参数和外形规格。",
+                "href": "/downloads/ak-2w-waterproof-box-cattle-sheep-tracker-en.docx",
+                "buttonLabel": "下载英文 DOCX"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fuel-monitoring",
+      "slug": "fuel-monitoring",
+      "category": "fuel",
+      "name": "Fuel Monitoring Tracker",
+      "image": "/images/products/categories/asset-container-location.jpg",
+      "heroImage": "/images/products/models/fuel-monitoring-hero.png",
+      "icon": "fuel",
+      "shortDescription": "Fuel level, mileage, and abnormal consumption monitoring.",
+      "features": [
+        "Fuel level monitoring",
+        "Mileage statistics",
+        "Abnormal fuel alerts",
+        "Consumption reports"
+      ],
+      "specifications": [
+        {
+          "label": "Network",
+          "value": "4G LTE"
+        },
+        {
+          "label": "GNSS",
+          "value": "GPS / BDS"
+        },
+        {
+          "label": "Sensor",
+          "value": "Fuel level sensor input"
+        },
+        {
+          "label": "Interface",
+          "value": "Analog / RS485 optional"
+        }
+      ],
+      "applicationScenarios": [
+        "Fleet fuel management",
+        "Heavy truck monitoring",
+        "Fuel theft prevention"
+      ],
+      "children": [
+        {
+          "slug": "fuel-level-sensor-device",
+          "name": "油位传感器设备",
+          "subtitle": "电容式油位传感器",
+          "image": "/images/products/models/fuel-level-sensor-device.jpg",
+          "summary": "电容式油位传感器采用 302/304 材质，可根据油箱高度定制杆长，适合车队、货车、工程机械和储液罐液位监测。",
+          "tags": [
+            "电容式",
+            "RS232/RS485",
+            "可定制杆长"
+          ],
+          "specs": [
+            {
+              "label": "输入电压",
+              "value": "DC5V"
+            },
+            {
+              "label": "测量范围",
+              "value": "200-2250mm 可定制"
+            },
+            {
+              "label": "接口",
+              "value": "RS232 / RS485"
+            },
+            {
+              "label": "适用场景",
+              "value": "货车 / 工程机械 / 储液罐"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "油位传感器设备",
+            "heroDescription": "一款电容式油位传感器设备，可根据油箱高度定制杆长，支持 RS232 / RS485 通讯，适合车辆油耗、罐体液位和工程设备油量监测项目。",
+            "heroBullets": [
+              "测量范围 200-2250mm，可按油箱高度定制",
+              "DC5V 供电，工作电流 ≤10mA",
+              "支持 RS232 / RS485 通讯接口，9600bit/s",
+              "适用于柴油、汽油、轻质油、水和其他流动液体"
+            ],
+            "features": [
+              {
+                "title": "电容式液位检测",
+                "description": "采用电容式测量方式，用于检测油箱或罐体内液位高度变化。"
+              },
+              {
+                "title": "杆长可定制",
+                "description": "传感器长度可根据油箱高度定制，资料覆盖 200-2250mm 测量范围。"
+              },
+              {
+                "title": "多接口输出",
+                "description": "支持 RS232 / RS485 通讯接口，可按项目对接 GPS 终端或监控主机。"
+              },
+              {
+                "title": "智能滤波",
+                "description": "支持智能液位检测和滤波处理，适合车辆行驶晃动场景下的油位监测。"
+              },
+              {
+                "title": "多液体适配",
+                "description": "可用于柴油、汽油、轻质油、低介质油品、水和其他流动液体监测。"
+              },
+              {
+                "title": "车队油耗管理",
+                "description": "结合 GPS 平台用于油耗变化、异常耗油和车辆运营成本管理。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "货车油耗监测",
+                "description": "用于货车、重卡和物流车辆油位变化监测，辅助识别异常油耗。"
+              },
+              {
+                "title": "工程机械油量监测",
+                "description": "适合挖掘机、装载机和工程设备油箱液位监控。"
+              },
+              {
+                "title": "运输车罐体液位",
+                "description": "可用于运输罐体液位管理，帮助掌握液体装载和消耗变化。"
+              },
+              {
+                "title": "储液罐液位测量",
+                "description": "适合固定储罐、储油罐和其他储液容器的液位采集。"
+              }
+            ],
+            "overview": "油位传感器设备基于电容式液位检测原理，外壳和探杆可采用 302/304 材质，支持按油箱高度定制杆长。设备支持 DC5V 供电、低工作电流、1mm 分辨率和 RS232 / RS485 通讯接口，可与 GPS 终端或客户平台组合，用于车辆油耗、罐体液位、工程设备油量和储液容器监测。实际杆长、协议和液体类型需根据项目现场确认。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品类型",
+                    "value": "电容式油位传感器"
+                  },
+                  {
+                    "label": "输入电压",
+                    "value": "DC5V"
+                  },
+                  {
+                    "label": "工作电流",
+                    "value": "≤10mA"
+                  },
+                  {
+                    "label": "测量范围",
+                    "value": "200-2250mm，可定制"
+                  },
+                  {
+                    "label": "分辨率",
+                    "value": "1mm"
+                  },
+                  {
+                    "label": "测量精度",
+                    "value": "0.1（资料标注）"
+                  }
+                ]
+              },
+              {
+                "title": "通信与接口",
+                "items": [
+                  {
+                    "label": "通讯接口",
+                    "value": "RS232 / RS485"
+                  },
+                  {
+                    "label": "通讯速率",
+                    "value": "9600bit/s，可调波特率"
+                  },
+                  {
+                    "label": "线序定义",
+                    "value": "黑色-地线；红色-正极；绿色-TX/B；黄色-RX/A"
+                  },
+                  {
+                    "label": "输出协议",
+                    "value": "市场通用协议 / 可对接 GPS 主机"
+                  }
+                ]
+              },
+              {
+                "title": "安装与介质",
+                "items": [
+                  {
+                    "label": "材质",
+                    "value": "302 / 304"
+                  },
+                  {
+                    "label": "被测液体",
+                    "value": "柴油 / 汽油 / 轻质油 / 低介质油品 / 水 / 其他流动液体"
+                  },
+                  {
+                    "label": "定制要求",
+                    "value": "根据罐体高度定制传感器长度"
+                  },
+                  {
+                    "label": "安装提示",
+                    "value": "默认测量 0# 柴油，其他液体需提前确认"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "油位传感器设备中文规格书",
+                "description": "中文 PDF 规格书，包含电容式油位传感器介绍、应用领域、基础参数、通讯接口和安装说明。",
+                "href": "/downloads/fuel-level-sensor-device-cn.pdf",
+                "buttonLabel": "下载中文 PDF"
+              },
+              {
+                "title": "油位传感器设备英文规格书",
+                "description": "英文 PPTX 规格书，便于海外客户查看油位传感器参数、应用场景和项目选型信息。",
+                "href": "/downloads/fuel-level-sensor-device-en.pptx",
+                "buttonLabel": "下载英文 PPTX"
+              }
+            ]
+          }
+        },
+        {
+          "slug": "ultrasonic-fuel-monitoring-device",
+          "name": "超声波油耗监测设备",
+          "subtitle": "ZC-05 超声波油位传感器",
+          "image": "/images/products/models/ultrasonic-fuel-monitoring-device.png",
+          "summary": "ZC-05 超声波油位传感器采用外贴式非开孔安装，适合货车、客车、工程机械和运输罐体的油耗与液位监测。",
+          "tags": [
+            "ZC-05",
+            "非开孔安装",
+            "0-5V / 4-20mA 可选"
+          ],
+          "specs": [
+            {
+              "label": "型号",
+              "value": "ZC-05"
+            },
+            {
+              "label": "输入电压",
+              "value": "DC5V-36V"
+            },
+            {
+              "label": "测量范围",
+              "value": "1-10000mm 可定制"
+            },
+            {
+              "label": "接口",
+              "value": "RS232 / RS485 / 0-5V / 4-20mA 可选"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "超声波油耗监测设备",
+            "heroDescription": "ZC-05 超声波油位传感器采用外贴式非开孔安装，可穿透油箱外壁进行液位检测，适合车辆油耗监测、工程设备油量管理和罐体液位采集。",
+            "heroBullets": [
+              "ZC-05，外贴式超声波液位检测",
+              "DC5V-36V 供电，工作电流 ≤10mA",
+              "测量范围 1-10000mm，分辨率 1mm",
+              "支持 RS232 / RS485，0-5V / 4-20mA 可定制"
+            ],
+            "features": [
+              {
+                "title": "非开孔安装",
+                "description": "传感器从油箱外部贴装检测，不需要在油箱上开孔，降低安装风险。"
+              },
+              {
+                "title": "超声波检测",
+                "description": "通过超声波液位检测识别油位变化，适合车辆和设备燃油监测。"
+              },
+              {
+                "title": "宽电压供电",
+                "description": "支持 DC5V-36V 输入，适配多种车载和设备供电环境。"
+              },
+              {
+                "title": "多接口输出",
+                "description": "支持 RS232 / RS485 通讯接口，并可按项目定制 0-5V 或 4-20mA 输出。"
+              },
+              {
+                "title": "智能滤波",
+                "description": "支持智能算法处理油面晃动和复杂道路工况，提升液位数据稳定性。"
+              },
+              {
+                "title": "复杂油箱适配",
+                "description": "可穿透 0-5mm 铝、铁、塑料油箱，适合多类车辆油箱环境。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "货车远程油耗监测",
+                "description": "用于货车和重卡燃油液位变化监控，辅助识别异常耗油。"
+              },
+              {
+                "title": "工程机械油量消耗",
+                "description": "适合工程机械、施工设备和户外车辆的油量消耗监测。"
+              },
+              {
+                "title": "客运车辆燃油检测",
+                "description": "适合客车、班车和运输车辆的非开孔油耗监测项目。"
+              },
+              {
+                "title": "运输车罐体液位",
+                "description": "用于运输罐体和固定储罐液位采集，减少人工巡检成本。"
+              }
+            ],
+            "overview": "超声波油耗监测设备基于 ZC-05 外贴式超声波油位传感器资料整理，适用于需要非开孔安装的油耗与液位监测项目。设备支持 DC5V-36V 供电、1-10000mm 测量范围、1mm 分辨率、RS232 / RS485 通讯接口，并可按项目定制 0-5V 或 4-20mA 输出。安装时需结合油箱材质、厚度、液体类型和现场环境确认方案。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品型号",
+                    "value": "ZC-05"
+                  },
+                  {
+                    "label": "产品类型",
+                    "value": "外贴式超声波油位传感器"
+                  },
+                  {
+                    "label": "输入电压",
+                    "value": "DC5V-36V"
+                  },
+                  {
+                    "label": "工作电流",
+                    "value": "≤10mA"
+                  },
+                  {
+                    "label": "测量范围",
+                    "value": "1-10000mm，可定制"
+                  },
+                  {
+                    "label": "分辨率",
+                    "value": "1mm"
+                  },
+                  {
+                    "label": "测量精度",
+                    "value": "0.1mm"
+                  }
+                ]
+              },
+              {
+                "title": "通信与接口",
+                "items": [
+                  {
+                    "label": "通讯接口",
+                    "value": "RS232 / RS485"
+                  },
+                  {
+                    "label": "模拟输出",
+                    "value": "0-5V / 4-20mA 可定制"
+                  },
+                  {
+                    "label": "通讯速率",
+                    "value": "9600bit/s，可调波特率"
+                  },
+                  {
+                    "label": "线序定义",
+                    "value": "黑色-地线；红色-正极；绿色-TX/B；黄色-RX/A"
+                  }
+                ]
+              },
+              {
+                "title": "安装与介质",
+                "items": [
+                  {
+                    "label": "安装方式",
+                    "value": "外贴式 / 非开孔"
+                  },
+                  {
+                    "label": "穿透能力",
+                    "value": "0-5mm 铝、铁、塑料油箱"
+                  },
+                  {
+                    "label": "被测液体",
+                    "value": "柴油 / 汽油 / 轻质油 / 低介质油品"
+                  },
+                  {
+                    "label": "壁厚说明",
+                    "value": "超过 6mm 需提前确认材料和壁厚"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "超声波油耗监测设备中文规格书",
+                "description": "中文 PDF 规格书，包含 ZC-05 超声波油位传感器介绍、安装方式、技术参数和应用说明。",
+                "href": "/downloads/ultrasonic-fuel-monitoring-device-cn.pdf",
+                "buttonLabel": "下载中文 PDF"
+              },
+              {
+                "title": "超声波油耗监测设备英文规格书",
+                "description": "英文 PPTX 规格书，便于海外客户查看超声波油位传感器参数、安装方式和项目选型信息。",
+                "href": "/downloads/ultrasonic-fuel-monitoring-device-en.pptx",
+                "buttonLabel": "下载英文 PPTX"
+              }
+            ]
+          }
+        },
+        {
+          "slug": "oil-liquid-monitoring-wired-gps-tracker",
+          "name": "油液监测GPS有线追踪器",
+          "subtitle": "C003F 4G 测油 GPS 主机",
+          "image": "/images/products/models/oil-liquid-monitoring-wired-gps-tracker.jpg",
+          "summary": "C003F 是支持外接油杆、RS232/RS485/TTL、ACC 检测和多重报警的 4G 有线车载 GPS 主机，适合油液监测与车队定位项目。",
+          "tags": [
+            "C003F",
+            "外接油杆",
+            "RS232/RS485/TTL"
+          ],
+          "specs": [
+            {
+              "label": "型号",
+              "value": "C003F"
+            },
+            {
+              "label": "工作电压",
+              "value": "DC 9V-95V"
+            },
+            {
+              "label": "定位方式",
+              "value": "北斗 + GPS"
+            },
+            {
+              "label": "外部接口",
+              "value": "断油电 / SOS / ACC / RS232/RS485/TTL"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "油液监测GPS有线追踪器",
+            "heroDescription": "C003F 是一款面向车联网和油液监测项目的 4G 全网通有线车载 GPS 主机，支持外接油杆、摄像头、RFID、继电器和 SOS 按键，可用于车辆定位、油耗监控、异常报警和平台化车队管理。",
+            "heroBullets": [
+              "C003F，4G 全网通有线 GPS/BDS 定位主机",
+              "DC 9V-95V 宽电压供电，支持 ACC 与 DC 检测",
+              "支持 RS232/RS485/TTL，可外接油杆、摄像头和 RFID",
+              "支持震动、断电、超速、SOS、非法启动和电子围栏报警"
+            ],
+            "features": [
+              {
+                "title": "油杆外设接入",
+                "description": "硬件可配备 232/485 接口，支持外接油杆、摄像头、RFID 等外设，适合油液监测和车联网项目。"
+              },
+              {
+                "title": "4G 全网通通信",
+                "description": "采用 SIMCOM A7670SA 通信方案，支持 LTE-FDD 多频段和 GSM 2G 频段。"
+              },
+              {
+                "title": "GPS/北斗双星定位",
+                "description": "内置 GPS/BDS 双星定位模块和陶瓷天线，支持 AGPS 快速定位和同步授时。"
+              },
+              {
+                "title": "ACC 与电源检测",
+                "description": "支持 ACC 检测、DC 检测、车辆点火熄火判断和电瓶低电压监测报警。"
+              },
+              {
+                "title": "多重报警",
+                "description": "支持震动、断电、超速、SOS 紧急求救、非法启动、电子围栏和位移报警。"
+              },
+              {
+                "title": "盲区补传",
+                "description": "内置大容量存储芯片，可在弱信号或干扰环境下缓存数据，网络恢复后自动补传。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "车队油液监测",
+                "description": "适合车队车辆接入油杆进行油液变化监测、异常耗油预警和运营成本管理。"
+              },
+              {
+                "title": "工程机械油耗管理",
+                "description": "适合工程机械和施工设备接入油杆、继电器或平台，实现定位和油耗监管。"
+              },
+              {
+                "title": "租赁车辆风控",
+                "description": "适合租赁车辆的位置监管、断电报警、电子围栏和远程风控管理。"
+              },
+              {
+                "title": "企业车辆管理",
+                "description": "适合企业车队、4S 店、客运车辆、出租车和新能源车辆的日常定位管理。"
+              }
+            ],
+            "overview": "油液监测GPS有线追踪器基于 C003F 4G 测油 GPS 主机资料整理，是一款面向车联网和油液监测项目的有线车载定位终端。设备融合 4G 全网通无线通信、GPS/BDS 卫星定位、3 轴传感器和智能省电唤醒机制，支持外接油杆、摄像头、RFID、断油电继电器和 SOS 按键。设备可通过平台实现车辆数据实时获取、轨迹定位、油液监测、电子围栏、多重报警、盲区补传和远程参数配置。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品型号",
+                    "value": "C003F"
+                  },
+                  {
+                    "label": "产品类型",
+                    "value": "4G 测油 GPS 有线主机"
+                  },
+                  {
+                    "label": "主机尺寸",
+                    "value": "99mm x 54mm x 16.5mm"
+                  },
+                  {
+                    "label": "主机重量",
+                    "value": "81g"
+                  },
+                  {
+                    "label": "外壳材质",
+                    "value": "ABS 塑料"
+                  },
+                  {
+                    "label": "SIM 卡",
+                    "value": "标准 SIM 卡"
+                  }
+                ]
+              },
+              {
+                "title": "电气与环境",
+                "items": [
+                  {
+                    "label": "供电方式",
+                    "value": "电瓶供电"
+                  },
+                  {
+                    "label": "工作电压",
+                    "value": "DC 9V-95V"
+                  },
+                  {
+                    "label": "工作电流",
+                    "value": "12V / 55mA"
+                  },
+                  {
+                    "label": "休眠电流",
+                    "value": "12V / 15mA"
+                  },
+                  {
+                    "label": "内置电池",
+                    "value": "180mAh 3.7V 聚合物电池（选配）"
+                  },
+                  {
+                    "label": "工作温度",
+                    "value": "-20℃ - 75℃"
+                  },
+                  {
+                    "label": "储存温度",
+                    "value": "-30℃ - 80℃"
+                  },
+                  {
+                    "label": "工作湿度",
+                    "value": "10%-85% RH 不凝结"
+                  }
+                ]
+              },
+              {
+                "title": "通信与定位",
+                "items": [
+                  {
+                    "label": "通信模组",
+                    "value": "SIMCOM A7670SA"
+                  },
+                  {
+                    "label": "LTE 频段",
+                    "value": "LTE-FDD B1/B2/B3/B4/B5/B7/B8/B28/B66"
+                  },
+                  {
+                    "label": "2G 频段",
+                    "value": "GSM 850/900/1800/1900MHz"
+                  },
+                  {
+                    "label": "定位芯片",
+                    "value": "中科微 AT6558R"
+                  },
+                  {
+                    "label": "定位方式",
+                    "value": "北斗 + GPS"
+                  },
+                  {
+                    "label": "冷启动时间",
+                    "value": "平均 32 秒"
+                  },
+                  {
+                    "label": "热启动时间",
+                    "value": "平均 1 秒"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "<10m（1σ）"
+                  },
+                  {
+                    "label": "卫星通道数",
+                    "value": "64"
+                  }
+                ]
+              },
+              {
+                "title": "接口与报警",
+                "items": [
+                  {
+                    "label": "外设接口",
+                    "value": "RS232 / RS485 / TTL 选配，可外接油杆、摄像头、RFID"
+                  },
+                  {
+                    "label": "断油电",
+                    "value": "可外接一路继电器"
+                  },
+                  {
+                    "label": "SOS",
+                    "value": "可外接一路 SOS 按键（选配）"
+                  },
+                  {
+                    "label": "ACC 检测",
+                    "value": "ACC 检测口一路"
+                  },
+                  {
+                    "label": "报警能力",
+                    "value": "震动 / 断电 / 超速 / SOS / 非法启动 / 位移 / 电子围栏"
+                  },
+                  {
+                    "label": "平台能力",
+                    "value": "实时定位 / 轨迹回放 / 盲区补传 / 远程配置 / 在线升级"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "C003F 油液监测GPS有线追踪器中文规格书",
+                "description": "中文 DOCX 规格书，包含 C003F 产品介绍、使用说明、功能特点、硬件参数、通信定位参数和接口说明。",
+                "href": "/downloads/oil-liquid-monitoring-wired-gps-tracker-cn.docx",
+                "buttonLabel": "下载中文 DOCX"
+              },
+              {
+                "title": "C003F Oil Liquid Monitoring Wired GPS Tracker English Specification",
+                "description": "English DOCX specification covering C003F product introduction, working logic, features, hardware specifications, positioning parameters, and external interfaces.",
+                "href": "/downloads/oil-liquid-monitoring-wired-gps-tracker-en.docx",
+                "buttonLabel": "下载英文 DOCX"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bicycle-two-wheeler",
+      "slug": "bicycle-two-wheeler",
+      "category": "two-wheeler",
+      "name": "Bicycle & Two-Wheeler Tracker",
+      "image": "/images/products/models/k6-bicycle-tail-light-tracker.png",
+      "heroImage": "/images/products/models/k6-bicycle-tail-light-tracker.png",
+      "icon": "bike",
+      "shortDescription": "Tracking for bicycles, e-bikes, mountain bikes, and light two-wheel vehicles.",
+      "features": [
+        "Real-time tracking",
+        "Route playback",
+        "Geo-fence alerts",
+        "Strobe warning light"
+      ],
+      "specifications": [
+        {
+          "label": "Network",
+          "value": "4G LTE / GSM"
+        },
+        {
+          "label": "Positioning",
+          "value": "GPS / BDS / LBS / WIFI"
+        },
+        {
+          "label": "Battery",
+          "value": "1500mAh polymer battery"
+        },
+        {
+          "label": "Protection",
+          "value": "IP65"
+        }
+      ],
+      "applicationScenarios": [
+        "Bicycle tracking",
+        "Mountain bike anti-theft",
+        "E-bike location management"
+      ],
+      "children": [
+        {
+          "slug": "k6-bicycle-tail-light-tracker",
+          "name": "自行车尾灯模块",
+          "subtitle": "适用于自行车、山地车、电动车和两轮车防丢管理的 4G 尾灯定位模块",
+          "image": "/images/products/models/k6-bicycle-tail-light-tracker.png",
+          "summary": "K6-4G 自行车尾灯定位模块，集成实时定位、轨迹回放、电子围栏、爆闪警示灯、蜂鸣器一键寻车和支架安装能力。",
+          "tags": [
+            "4G 定位",
+            "爆闪尾灯",
+            "一键寻车"
+          ],
+          "specs": [
+            {
+              "label": "定位",
+              "value": "GPS / 北斗 / LBS / WIFI"
+            },
+            {
+              "label": "电池",
+              "value": "1500mAh 3.8V 聚合物电池"
+            },
+            {
+              "label": "防护",
+              "value": "IP65"
+            },
+            {
+              "label": "适用场景",
+              "value": "自行车 / 山地车 / 电动车 / 两轮车"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "自行车尾灯模块",
+            "heroDescription": "K6-4G 自行车尾灯定位模块面向自行车、山地车、电动车和两轮车防丢管理，集成 4G 通信、GPS/北斗/LBS/WIFI 多重定位、爆闪警示灯、蜂鸣器一键寻车和支架安装能力。",
+            "heroBullets": [
+              "支持实时定位、历史轨迹回放和电子围栏",
+              "GPS + 北斗 + LBS + WIFI 四模定位，定位精度约 5 米",
+              "内置 1500mAh 3.8V 聚合物电池，Type-C 充电",
+              "IP65 防护，适合自行车、山地车和两轮车安装"
+            ],
+            "features": [
+              {
+                "title": "四模定位",
+                "description": "支持 GPS、北斗、LBS 和 WIFI 定位，适合城市道路、停车点和骑行场景追踪。"
+              },
+              {
+                "title": "尾灯警示",
+                "description": "内置爆闪警示灯，兼顾定位管理和夜间骑行安全提醒。"
+              },
+              {
+                "title": "一键寻车",
+                "description": "内置蜂鸣器，支持一键寻车，方便在停车场或集中停放区域快速找到车辆。"
+              },
+              {
+                "title": "轨迹与围栏",
+                "description": "可通过 APP / Web 平台查看实时位置、历史轨迹，并设置电子围栏触发提醒。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "自行车定位防丢",
+                "description": "适合共享单车、私人自行车和山地车位置追踪、防丢管理和骑行路线查看。"
+              },
+              {
+                "title": "电动车与两轮车管理",
+                "description": "适合轻型电动车、两轮车和短途配送车辆的实时定位、停放管理和异常提醒。"
+              },
+              {
+                "title": "骑行安全与寻车",
+                "description": "结合尾灯警示和蜂鸣器寻车能力，适合夜间骑行提醒和停车后快速找车。"
+              }
+            ],
+            "overview": "K6-4G 自行车尾灯定位模块采用 ASR1603S 通信方案，支持 GSM 900/1800MHz、FDD-LTE B1/B3/B5/B8 和 TDD-LTE B38/B39/B40/B41 频段。设备内置 Nano SIM 卡位、FPC 通信天线、GPS/北斗定位能力、WIFI 定位、Gsensor、爆闪警示灯和蜂鸣器，支持通过 APP / Web 查看实时位置、历史轨迹、电子围栏和多账户管理，适合自行车、山地车、电动车和两轮车防丢定位项目。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品名称",
+                    "value": "K6-4G 自行车定位器"
+                  },
+                  {
+                    "label": "尺寸",
+                    "value": "73 x 60.5 x 29 mm"
+                  },
+                  {
+                    "label": "重量",
+                    "value": "约 85 g"
+                  },
+                  {
+                    "label": "外壳材质",
+                    "value": "ABS 塑料"
+                  },
+                  {
+                    "label": "防护等级",
+                    "value": "IP65"
+                  }
+                ]
+              },
+              {
+                "title": "供电与环境",
+                "items": [
+                  {
+                    "label": "供电方式",
+                    "value": "电池供电"
+                  },
+                  {
+                    "label": "工作电压",
+                    "value": "DC 3.45V - 4.35V"
+                  },
+                  {
+                    "label": "工作电流",
+                    "value": "3.7V / 45mA（GPS 一分钟上传）"
+                  },
+                  {
+                    "label": "休眠电流",
+                    "value": "3.7V / 4mA"
+                  },
+                  {
+                    "label": "电池容量",
+                    "value": "1500mAh（3.8V 聚合物电池）"
+                  },
+                  {
+                    "label": "工作温度",
+                    "value": "-20℃ - 70℃"
+                  },
+                  {
+                    "label": "储存温度",
+                    "value": "-40℃ - 85℃"
+                  },
+                  {
+                    "label": "工作湿度",
+                    "value": "5% - 95%"
+                  }
+                ]
+              },
+              {
+                "title": "通信与定位",
+                "items": [
+                  {
+                    "label": "通信芯片",
+                    "value": "ASR1603S"
+                  },
+                  {
+                    "label": "频段",
+                    "value": "GSM 900/1800MHz，FDD-LTE B1/B3/B5/B8，TDD-LTE B38/B39/B40/B41"
+                  },
+                  {
+                    "label": "SIM 卡",
+                    "value": "Nano SIM 卡"
+                  },
+                  {
+                    "label": "定位方式",
+                    "value": "GPS / 北斗 / LBS / WIFI"
+                  },
+                  {
+                    "label": "冷启动",
+                    "value": "平均 45 秒"
+                  },
+                  {
+                    "label": "热启动",
+                    "value": "平均 1 秒"
+                  },
+                  {
+                    "label": "跟踪灵敏度",
+                    "value": "-165dBm"
+                  }
+                ]
+              },
+              {
+                "title": "硬件与平台功能",
+                "items": [
+                  {
+                    "label": "USB",
+                    "value": "Type-C，充电 / 激活电池"
+                  },
+                  {
+                    "label": "LED",
+                    "value": "爆闪警示灯"
+                  },
+                  {
+                    "label": "蜂鸣器",
+                    "value": "一键寻车"
+                  },
+                  {
+                    "label": "传感器",
+                    "value": "内置 Gsensor"
+                  },
+                  {
+                    "label": "平台功能",
+                    "value": "实时追踪 / 电子围栏 / 历史轨迹 / 多账户管理 / OTA 升级"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "K6 自行车尾灯定位模块中文规格书",
+                "description": "中文 DOCX 规格书，包含产品概述、技术参数、电源特性、通信频段、定位能力、外形规格和软件功能。",
+                "href": "/downloads/k6-bicycle-tail-light-tracker-cn.docx",
+                "buttonLabel": "下载中文 DOCX"
+              },
+              {
+                "title": "K6 Bicycle Tail Light GPS Tracker English Specification",
+                "description": "English DOCX specification covering product overview, technical specifications, power, communication bands, positioning, dimensions, and software features.",
+                "href": "/downloads/k6-bicycle-tail-light-tracker-en.docx",
+                "buttonLabel": "下载英文 DOCX"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "wireless",
+      "slug": "wireless",
+      "category": "wireless",
+      "name": "Wireless Tracker",
+      "image": "/images/products/categories/hardwired-logistics-gps.jpg",
+      "heroImage": "/images/products/models/sos-magnetic-wireless-tracker.png",
+      "icon": "wireless",
+      "shortDescription": "Battery powered tracker for flexible installation.",
+      "features": [
+        "No wiring required",
+        "Low power mode",
+        "Movement alerts",
+        "Magnetic mounting optional"
+      ],
+      "specifications": [
+        {
+          "label": "Network",
+          "value": "4G LTE / LTE-M optional"
+        },
+        {
+          "label": "GNSS",
+          "value": "GPS / BDS"
+        },
+        {
+          "label": "Battery",
+          "value": "Rechargeable lithium battery"
+        },
+        {
+          "label": "Installation",
+          "value": "Portable / magnetic optional"
+        }
+      ],
+      "applicationScenarios": [
+        "Temporary tracking",
+        "Mobile asset tracking",
+        "Equipment security"
+      ],
+      "children": [
+        {
+          "slug": "sos-magnetic-wireless-tracker",
+          "name": "SOS无线强磁追踪器",
+          "subtitle": "W07A/B/C/D 2G+4G 充电款强磁无线 GPS 定位器",
+          "image": "/images/products/models/sos-magnetic-wireless-tracker.png",
+          "summary": "免接线强磁安装，支持 4G 通信、GPS/北斗/LBS/WiFi 四重定位、轨迹回放、电子围栏、超速报警和震动上线。",
+          "tags": [
+            "SOS按键",
+            "强磁免接线",
+            "4G无线"
+          ],
+          "specs": [
+            {
+              "label": "型号",
+              "value": "W07A / W07B / W07C / W07D"
+            },
+            {
+              "label": "电池",
+              "value": "1200 / 3000 / 6000 / 10000mAh"
+            },
+            {
+              "label": "定位",
+              "value": "GPS + 北斗 + LBS + WiFi"
+            },
+            {
+              "label": "适用场景",
+              "value": "临时车辆 / 资产防丢 / 设备监管"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "SOS无线强磁追踪器",
+            "heroDescription": "W07A/B/C/D 2G+4G 充电款无线 GPS 定位器采用内置天线和强磁免接线安装，支持 4G 全网通信、GPS/北斗/LBS/WiFi 四重定位、实时跟踪、轨迹回放、电子围栏、超速报警、震动上线和多种工作模式切换。",
+            "heroBullets": [
+              "免接线安装，自带强磁，适合快速部署",
+              "提供 1200/3000/6000/10000mAh 多种电池容量",
+              "支持 GPS + 北斗 + LBS + WiFi 四重定位",
+              "支持轨迹回放、电子围栏、超速报警和震动报警"
+            ],
+            "features": [
+              {
+                "title": "4G 全网通信",
+                "description": "内置 4G 天线和 SIMCom A7070SA 通信模组，支持 LTE-FDD 多频段与 2G 频段回落。"
+              },
+              {
+                "title": "强磁免接线",
+                "description": "无需接入车辆电源，配合强磁吸附即可快速部署，适合临时车辆、移动资产和设备防丢。"
+              },
+              {
+                "title": "四重定位",
+                "description": "支持 GPS、北斗、LBS 和 WiFi 四重定位，便于在不同信号环境下保持位置可见。"
+              },
+              {
+                "title": "多档电池容量",
+                "description": "提供 1200mAh、3000mAh、6000mAh 和 10000mAh 四种电池容量，可按项目续航需求选型。"
+              },
+              {
+                "title": "轨迹与围栏",
+                "description": "支持实时定位跟踪、历史轨迹回放、电子围栏和定时跟踪，方便平台侧追溯车辆与资产状态。"
+              },
+              {
+                "title": "报警与省电",
+                "description": "支持超速报警、震动报警、静止休眠、震动上线和多种工作模式切换，兼顾告警能力与续航。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "临时车辆",
+                "description": "适合无需拆车接线的临时定位、车辆调拨、短期项目和快速部署场景。"
+              },
+              {
+                "title": "物流车队",
+                "description": "用于货运车辆、调度车辆和临时运输车辆的位置查看、轨迹追溯和异常报警。"
+              },
+              {
+                "title": "移动资产",
+                "description": "适合移动设备、临时资产和周转物料的防丢定位与异常移动提醒。"
+              },
+              {
+                "title": "设备防丢",
+                "description": "用于不方便接线的设备监管，通过强磁安装实现灵活布控和位置追踪。"
+              }
+            ],
+            "overview": "SOS无线强磁追踪器基于 W07A/B/C/D 2G+4G 充电款车载 GPS 定位器资料整理，采用高集成度内置天线设计，支持强磁免接线部署。设备可通过平台实现实时定位、轨迹回放、电子围栏、超速报警、震动报警、定时跟踪、历史轨迹查询和车队管理，并提供 1200mAh、3000mAh、6000mAh、10000mAh 四种电池容量，适合临时车辆、移动资产、设备防丢和不便接线的定位项目。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品类型",
+                    "value": "2G+4G 充电款车载 GPS 定位器"
+                  },
+                  {
+                    "label": "产品型号",
+                    "value": "W07A / W07B / W07C / W07D"
+                  },
+                  {
+                    "label": "尺寸",
+                    "value": "A款 57 x 33 x 19mm；B款 75 x 45 x 21mm；C款 75 x 45 x 31mm；D款 85 x 61 x 31mm"
+                  },
+                  {
+                    "label": "重量",
+                    "value": "A款 40.2g（不含磁铁）；B款 95.1g；C款 146g；D款 216.5g"
+                  },
+                  {
+                    "label": "内置电池",
+                    "value": "1200 / 3000 / 6000 / 10000mAh（3.7V）"
+                  },
+                  {
+                    "label": "充电电压",
+                    "value": "DC 5V / 600mA，Type-C"
+                  },
+                  {
+                    "label": "工作温度",
+                    "value": "-20°C to +60°C"
+                  },
+                  {
+                    "label": "储存温度",
+                    "value": "-20°C to +70°C"
+                  }
+                ]
+              },
+              {
+                "title": "通信与定位",
+                "items": [
+                  {
+                    "label": "通信模组",
+                    "value": "SIMCom A7070SA"
+                  },
+                  {
+                    "label": "LTE 频段",
+                    "value": "LTE-FDD B1 / B2 / B3 / B4 / B5 / B7 / B8 / B28 / B66"
+                  },
+                  {
+                    "label": "2G 频段",
+                    "value": "GSM / GPRS / EDGE 850 / 900 / 1800 / 1900MHz"
+                  },
+                  {
+                    "label": "定位方式",
+                    "value": "GPS + 北斗 + LBS + WiFi"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "＜5m"
+                  },
+                  {
+                    "label": "首次定位",
+                    "value": "冷启动平均 32 秒"
+                  },
+                  {
+                    "label": "天线",
+                    "value": "LTE 4G 内置天线 / GPS 内置天线"
+                  },
+                  {
+                    "label": "传输协议",
+                    "value": "TCP"
+                  }
+                ]
+              },
+              {
+                "title": "报警与功能",
+                "items": [
+                  {
+                    "label": "传感器",
+                    "value": "精密震动传感器"
+                  },
+                  {
+                    "label": "灵敏度",
+                    "value": "冷启动 -147dBm / 热启动 -155dBm / 重捕获 -158dBm / 跟踪 -160dBm"
+                  },
+                  {
+                    "label": "基础功能",
+                    "value": "实时定位跟踪 / 定时跟踪 / 轨迹回放 / 365 天历史轨迹"
+                  },
+                  {
+                    "label": "报警",
+                    "value": "超速报警 / 电子围栏报警 / 震动报警"
+                  },
+                  {
+                    "label": "省电模式",
+                    "value": "智能省电 / 静止休眠 / 震动上线 / 多种工作模式切换"
+                  },
+                  {
+                    "label": "平台能力",
+                    "value": "GPRS/SMS 远程监控 / 车队管理 / 多设备管理"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "SOS无线强磁追踪器中文规格书",
+                "description": "中文 DOCX 资料，包含 W07A/B/C/D 产品特点、安装说明、参数、基础功能、常见问题和注意事项。",
+                "href": "/downloads/sos-magnetic-wireless-tracker-cn.docx",
+                "buttonLabel": "下载中文 DOCX"
+              },
+              {
+                "title": "SOS Magnetic Wireless Tracker English Manual",
+                "description": "English DOCX manual covering W07A/B/C/D product features, installation notes, parameters, basic functions, troubleshooting, and precautions.",
+                "href": "/downloads/sos-magnetic-wireless-tracker-en.docx",
+                "buttonLabel": "Download English DOCX"
+              }
+            ]
+          }
+        },
+        {
+          "slug": "long-standby-magnetic-tracker",
+          "name": "长续航强磁追踪器",
+          "image": "/images/products/models/long-standby-magnetic-tracker.png",
+          "summary": "强磁免接线部署，支持 4G Cat.1 网络、多重定位、智能省电和拆机报警，适合车辆、资产和设备长期追踪。",
+          "tags": [
+            "4G Cat.1",
+            "强磁免接线",
+            "长续航"
+          ],
+          "specs": [
+            {
+              "label": "定位",
+              "value": "GPS / BDS / GLONASS / LBS"
+            },
+            {
+              "label": "防护",
+              "value": "IP65 防水防尘"
+            },
+            {
+              "label": "适用场景",
+              "value": "资产 / 临时车辆 / 设备防丢"
+            }
+          ],
+          "subtitle": "4G 强磁无线定位终端",
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "长续航强磁追踪器",
+            "heroDescription": "面向资产、临时车辆和设备防丢的 4G 强磁无线 GPS 定位终端，支持北斗/GPS/GLONASS/LBS 多重定位、4G Cat.1 通信、AGPS 辅助定位、光感拆机报警和智能省电模式。",
+            "heroBullets": [
+              "强磁免接线安装，适合不便布线的资产和车辆",
+              "支持北斗 / GPS / GLONASS / LBS 多重定位",
+              "支持 IP65 防水防尘与光感拆机报警",
+              "支持智能省电、间隔上传和一天一次模式"
+            ],
+            "features": [
+              {
+                "title": "多重定位",
+                "description": "支持 GPS、BDS、GLONASS 与 LBS 组合定位，适合不同信号环境下的位置追踪。"
+              },
+              {
+                "title": "4G Cat.1 网络",
+                "description": "支持 FDD-LTE Cat.1 / TDD-LTE Cat.1 网络通信，适合跨区域部署。"
+              },
+              {
+                "title": "强磁安装",
+                "description": "无需接线即可吸附安装，适合临时车辆、移动资产和设备防丢项目。"
+              },
+              {
+                "title": "智能省电",
+                "description": "支持运动上传、静止休眠、间隔模式和一天一次模式，降低长期部署维护成本。"
+              },
+              {
+                "title": "拆机报警",
+                "description": "光感由暗到亮时可触发拆机报警，提升资产安全管理能力。"
+              },
+              {
+                "title": "轨迹管理",
+                "description": "支持位置查询、轨迹回放、电子围栏、低电量报警、超速报警和位移报警。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "临时车辆",
+                "description": "适合短期租赁、调拨车辆和无需接线的临时定位项目。"
+              },
+              {
+                "title": "移动资产",
+                "description": "用于周转设备、临时资产和高价值物品的位置追踪与防丢管理。"
+              },
+              {
+                "title": "设备防丢",
+                "description": "适合户外设备、工程辅助设备和不便接电设备的异常移动提醒。"
+              },
+              {
+                "title": "物流车队",
+                "description": "用于补充有线设备之外的临时车辆定位与轨迹追溯。"
+              }
+            ],
+            "overview": "长续航强磁追踪器适合不方便接线或需要快速部署的定位项目。设备支持多重卫星定位、4G Cat.1 通信、IP65 防护、AGPS 辅助定位和光感拆机报警，可结合平台实现位置查询、轨迹回放、电子围栏、低电量报警、超速报警、位移报警和多种省电工作模式。",
+            "specGroups": [
+              {
+                "title": "核心参数",
+                "items": [
+                  {
+                    "label": "硬件平台",
+                    "value": "N58 + 和芯星通 UC6228"
+                  },
+                  {
+                    "label": "定位方式",
+                    "value": "GPS / BDS / GLONASS & LBS"
+                  },
+                  {
+                    "label": "通讯网络",
+                    "value": "FDD-LTE Cat.1 / TDD-LTE Cat.1"
+                  },
+                  {
+                    "label": "通讯方式",
+                    "value": "TCP"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "≤2m（理想环境）"
+                  },
+                  {
+                    "label": "防护等级",
+                    "value": "IP65"
+                  }
+                ]
+              },
+              {
+                "title": "定位性能",
+                "items": [
+                  {
+                    "label": "冷启动 TTFF",
+                    "value": "≤35s"
+                  },
+                  {
+                    "label": "热启动 TTFF",
+                    "value": "≤1s"
+                  },
+                  {
+                    "label": "重捕获 TTFF",
+                    "value": "≤1s"
+                  },
+                  {
+                    "label": "跟踪灵敏度",
+                    "value": "-162dBm"
+                  },
+                  {
+                    "label": "定位更新率",
+                    "value": "最大 5Hz"
+                  },
+                  {
+                    "label": "GPS 天线",
+                    "value": "内置 25 x 25 x 4mm 陶瓷天线"
+                  }
+                ]
+              },
+              {
+                "title": "环境与功能",
+                "items": [
+                  {
+                    "label": "工作温度",
+                    "value": "-25°C ~ +75°C"
+                  },
+                  {
+                    "label": "存储温度",
+                    "value": "-35°C ~ +80°C"
+                  },
+                  {
+                    "label": "功能",
+                    "value": "智能省电 / 间隔模式 / 一天一次模式 / 拆机报警"
+                  },
+                  {
+                    "label": "应用",
+                    "value": "车辆 / 资产 / 临时追踪 / 设备防丢"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "长续航强磁追踪器中文说明书",
+                "description": "中文 DOC 资料，包含安装使用、平台操作、短信指令和常见问题。",
+                "href": "/downloads/long-standby-magnetic-tracker-cn.doc",
+                "buttonLabel": "下载中文 DOC"
+              },
+              {
+                "title": "Long Standby Magnetic Tracker English Manual",
+                "description": "English DOCX manual covering functions, parameters, installation, SMS commands, platform usage and troubleshooting.",
+                "href": "/downloads/long-standby-magnetic-tracker-en.docx",
+                "buttonLabel": "Download English DOCX"
+              },
+              {
+                "title": "长续航强磁追踪器参数图",
+                "description": "参数图片，便于快速查看核心定位、通信、环境和省电功能。",
+                "href": "/downloads/long-standby-magnetic-tracker-params.jpg",
+                "buttonLabel": "下载参数图"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bluetooth-beacon",
+      "slug": "bluetooth-beacon",
+      "category": "bluetooth",
+      "name": "Bluetooth Beacon Tracker",
+      "image": "/images/products/categories/asset-container-location.jpg",
+      "icon": "bluetooth",
+      "shortDescription": "Bluetooth beacon for short-range asset identification.",
+      "features": [
+        "BLE beacon broadcast",
+        "Short-range identification",
+        "Low power design",
+        "Gateway integration"
+      ],
+      "specifications": [
+        {
+          "label": "Protocol",
+          "value": "Bluetooth Low Energy"
+        },
+        {
+          "label": "Battery",
+          "value": "Coin cell / long-life battery"
+        },
+        {
+          "label": "Range",
+          "value": "Indoor short-range positioning"
+        },
+        {
+          "label": "Integration",
+          "value": "Gateway / mobile app optional"
+        }
+      ],
+      "applicationScenarios": [
+        "Warehouse asset tags",
+        "Tool management",
+        "Indoor proximity tracking"
+      ],
+      "children": [
+        {
+          "slug": "bluetooth-beacon-tag-tracker",
+          "name": "蓝牙信标Tag追踪器",
+          "image": "/images/products/models/bluetooth-anti-loss-tag.png",
+          "summary": "用于近距离资产识别和防丢提醒的蓝牙信标 Tag，支持蜂鸣器、LED 提示和纽扣电池长续航。",
+          "tags": [
+            "BLE",
+            "防丢提醒",
+            "IP65"
+          ],
+          "specs": [
+            {
+              "label": "协议",
+              "value": "Bluetooth Low Energy"
+            },
+            {
+              "label": "供电",
+              "value": "CR2032 纽扣电池"
+            },
+            {
+              "label": "适用场景",
+              "value": "仓储 / 工具 / 室内资产"
+            }
+          ],
+          "subtitle": "Bluetooth anti-loss device",
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "蓝牙信标Tag追踪器",
+            "heroDescription": "蓝牙信标 Tag 适合仓储、工具、钥匙扣、室内资产和近距离防丢场景，可通过蜂鸣器和 LED 灯提示辅助快速查找。",
+            "heroBullets": [
+              "蓝牙低功耗广播，适合近距离资产识别",
+              "蜂鸣器 + LED 灯提示，便于快速查找",
+              "CR2032 纽扣电池供电，资料标注电池寿命约 365 天",
+              "IP65 防护，适合日常防尘防水场景"
+            ],
+            "features": [
+              {
+                "title": "近距离识别",
+                "description": "通过 BLE 广播实现室内资产、工具和随身物品的近距离识别。"
+              },
+              {
+                "title": "防丢提醒",
+                "description": "支持蜂鸣器和 LED 灯提示，帮助快速定位目标物品。"
+              },
+              {
+                "title": "轻量小巧",
+                "description": "产品重量约 10g，适合钥匙扣、工具和小型资产挂载。"
+              },
+              {
+                "title": "长续航电池",
+                "description": "采用 CR2032 纽扣电池，资料标注电池寿命约 365 天。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "仓储资产",
+                "description": "适合仓库内周转资产、托盘和小型设备的近距离识别。"
+              },
+              {
+                "title": "工具管理",
+                "description": "用于工具、箱包和维护设备的防丢提醒。"
+              },
+              {
+                "title": "室内资产",
+                "description": "适合办公室、仓库和门店内的物品防丢与快速查找。"
+              },
+              {
+                "title": "移动端配合",
+                "description": "可与移动端或网关方案配合，用于项目型资产识别。"
+              }
+            ],
+            "overview": "蓝牙信标Tag追踪器是一款轻量化 BLE 防丢设备，适合近距离资产识别与防丢提醒。设备采用 CR2032 纽扣电池，支持蜂鸣器和 LED 提示，资料图标注 IP65 防护和约 365 天电池寿命，适合工具、钥匙扣、室内资产和仓储辅助管理。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "产品名称",
+                    "value": "anti-loss device"
+                  },
+                  {
+                    "label": "尺寸",
+                    "value": "长 3.4cm / 厚 0.85cm / 高 4cm"
+                  },
+                  {
+                    "label": "重量",
+                    "value": "10g"
+                  },
+                  {
+                    "label": "控制器",
+                    "value": "ARM 32-bit processor"
+                  }
+                ]
+              },
+              {
+                "title": "电池与提示",
+                "items": [
+                  {
+                    "label": "电池型号",
+                    "value": "CR2032 button battery"
+                  },
+                  {
+                    "label": "电池寿命",
+                    "value": "365 days"
+                  },
+                  {
+                    "label": "提示方式",
+                    "value": "Buzzer / LED light"
+                  },
+                  {
+                    "label": "防护等级",
+                    "value": "IP65"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "蓝牙信标Tag中英双语说明书",
+                "description": "PDF 资料包含中文和英文说明，可用于项目沟通和产品资料归档。",
+                "href": "/downloads/bluetooth-anti-loss-tag-bilingual.pdf",
+                "buttonLabel": "下载中英双语 PDF"
+              },
+              {
+                "title": "蓝牙信标Tag参数图",
+                "description": "参数图片，包含尺寸、重量、电池、防护和提示方式。",
+                "href": "/downloads/bluetooth-anti-loss-tag-params.jpg",
+                "buttonLabel": "下载参数图"
+              }
+            ]
+          }
+        }
+      ],
+      "heroImage": "/images/products/models/bluetooth-anti-loss-tag.png"
+    },
+    {
+      "id": "solar",
+      "slug": "solar",
+      "category": "solar",
+      "name": "Solar Tracker",
+      "image": "/images/products/categories/solar-outdoor-tracker.jpg",
+      "icon": "solar",
+      "shortDescription": "Solar powered tracker for long outdoor deployment.",
+      "features": [
+        "Solar charging",
+        "Long standby",
+        "Outdoor waterproof housing",
+        "Geo-fence alerts"
+      ],
+      "specifications": [
+        {
+          "label": "Network",
+          "value": "4G LTE / LTE-M optional"
+        },
+        {
+          "label": "GNSS",
+          "value": "GPS / BDS"
+        },
+        {
+          "label": "Power",
+          "value": "Solar panel + rechargeable battery"
+        },
+        {
+          "label": "Protection",
+          "value": "Outdoor waterproof enclosure"
+        }
+      ],
+      "applicationScenarios": [
+        "Container tracking",
+        "Remote equipment",
+        "Outdoor asset monitoring"
+      ],
+      "children": [
+        {
+          "slug": "ak-1w-solar-tracker",
+          "name": "1W太阳能追踪器",
+          "image": "/images/products/models/ak-1w-solar-tracker.png",
+          "summary": "面向渔船、集装箱和户外资产的 4G 太阳能定位终端，支持太阳能充电、强磁/螺丝安装和多种省电模式。",
+          "tags": [
+            "太阳能充电",
+            "4G 通信",
+            "户外资产"
+          ],
+          "specs": [
+            {
+              "label": "型号",
+              "value": "AK-GT07E"
+            },
+            {
+              "label": "电池",
+              "value": "10000mAh 聚合物电池"
+            },
+            {
+              "label": "适用场景",
+              "value": "渔船 / 集装箱 / 户外资产"
+            }
+          ],
+          "subtitle": "AK-GT07E 4G 太阳能定位终端",
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "1W太阳能追踪器",
+            "heroDescription": "AK-GT07E 是面向渔船、集装箱和户外长期资产部署的 4G 太阳能定位终端，支持 GPS/北斗定位、太阳能充电、SOS、落水检测、防拆检测和多种工作模式。",
+            "heroBullets": [
+              "太阳能充电 + 10000mAh 内置电池",
+              "支持 4G 通信与 GPS / 北斗定位",
+              "支持强磁吸附和螺丝固定两种安装方式",
+              "支持 SOS、落水检测、霍尔防拆和光敏防拆"
+            ],
+            "features": [
+              {
+                "title": "太阳能充电",
+                "description": "支持太阳能充电与 5V/1A 充电线补电，适合户外长期部署。"
+              },
+              {
+                "title": "多模式省电",
+                "description": "支持普通模式、省电模式和智能模式，按场景调整上报策略。"
+              },
+              {
+                "title": "防拆与落水检测",
+                "description": "支持霍尔防拆、光敏防拆和落水检测触点，适合资产安全监管。"
+              },
+              {
+                "title": "双星定位",
+                "description": "支持 GPS / 北斗定位，内置天线设计，便于一体化安装。"
+              },
+              {
+                "title": "离线补传",
+                "description": "弱信号场景下支持盲区数据存储与补传，减少轨迹断点。"
+              },
+              {
+                "title": "多场景安装",
+                "description": "支持强磁吸附或螺丝固定安装，适合渔船、集装箱和户外资产。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "渔船资产",
+                "description": "适合渔船、作业船和离岸资产的位置追踪与异常提醒。"
+              },
+              {
+                "title": "集装箱追踪",
+                "description": "用于户外集装箱、货柜和跨区域运输资产的定位管理。"
+              },
+              {
+                "title": "户外设备",
+                "description": "适合远端设备、户外资产和不便频繁维护的项目。"
+              },
+              {
+                "title": "车辆与租赁",
+                "description": "资料应用覆盖租赁车辆、出租车、企业车队和新能源车辆等场景。"
+              }
+            ],
+            "overview": "1W太阳能追踪器基于 AK-GT07E 资料整理，采用 4G 无线通信、GPS/北斗卫星定位、内置天线和 3 轴传感器设计。设备支持太阳能充电、落水检测、防拆检测、电子围栏、报警上传、离线补传和多种工作模式，适合渔船、集装箱、户外资产以及需要长期部署的定位项目。",
+            "specGroups": [
+              {
+                "title": "电气规格",
+                "items": [
+                  {
+                    "label": "型号",
+                    "value": "AK-GT07E"
+                  },
+                  {
+                    "label": "供电方式",
+                    "value": "电池供电"
+                  },
+                  {
+                    "label": "充电",
+                    "value": "太阳能充电 + 5V/1A 充电线"
+                  },
+                  {
+                    "label": "工作电压",
+                    "value": "DC 3.4V - 4.5V"
+                  },
+                  {
+                    "label": "平均电流",
+                    "value": "4V / 平均 50mA"
+                  },
+                  {
+                    "label": "电池容量",
+                    "value": "10000mAh（3.7V 聚合物电池）"
+                  }
+                ]
+              },
+              {
+                "title": "通信与定位",
+                "items": [
+                  {
+                    "label": "SIM 卡",
+                    "value": "Micro SIM"
+                  },
+                  {
+                    "label": "LTE-FDD",
+                    "value": "B1/2/3/4/5/7/8/12/13/17/18/19/20/25/26/28/66"
+                  },
+                  {
+                    "label": "LTE-TDD",
+                    "value": "B34/38/39/40/41"
+                  },
+                  {
+                    "label": "定位芯片",
+                    "value": "中科微 AT6558R"
+                  },
+                  {
+                    "label": "定位方式",
+                    "value": "北斗 + GPS"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "<10m（1σ）"
+                  }
+                ]
+              },
+              {
+                "title": "环境与安装",
+                "items": [
+                  {
+                    "label": "工作温度",
+                    "value": "-20°C ~ 75°C"
+                  },
+                  {
+                    "label": "存储温度",
+                    "value": "-30°C ~ 80°C"
+                  },
+                  {
+                    "label": "湿度",
+                    "value": "10% - 85% RH 非凝露"
+                  },
+                  {
+                    "label": "主机尺寸",
+                    "value": "138mm x 77mm x 30mm"
+                  },
+                  {
+                    "label": "安装方式",
+                    "value": "强磁吸附 / 螺丝固定"
+                  },
+                  {
+                    "label": "检测能力",
+                    "value": "霍尔防拆 / 光敏防拆 / 落水检测"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "1W太阳能追踪器中文规格书",
+                "description": "中文 DOCX 资料，包含 AK-GT07E 产品介绍、工作逻辑、功能特性和规格参数。",
+                "href": "/downloads/ak-1w-solar-tracker-cn.docx",
+                "buttonLabel": "下载中文 DOCX"
+              },
+              {
+                "title": "AK-GT07E Solar Tracker English Specification",
+                "description": "English DOCX specification covering product introduction, work modes, features and parameters.",
+                "href": "/downloads/ak-1w-solar-tracker-en.docx",
+                "buttonLabel": "Download English DOCX"
+              }
+            ]
+          }
+        }
+      ],
+      "heroImage": "/images/products/models/ak-1w-solar-tracker.png"
+    },
+    {
+      "id": "pet",
+      "slug": "pet",
+      "category": "pet",
+      "name": "Pet Tracker",
+      "image": "/images/products/categories/hardwired-logistics-gps.jpg",
+      "icon": "pet",
+      "shortDescription": "Compact positioning tracker for pets and companion animals.",
+      "features": [
+        "Lightweight design",
+        "Safe zone alerts",
+        "Activity monitoring",
+        "Mobile app viewing"
+      ],
+      "specifications": [
+        {
+          "label": "Network",
+          "value": "4G LTE / LTE-M optional"
+        },
+        {
+          "label": "GNSS",
+          "value": "GPS / BDS"
+        },
+        {
+          "label": "Battery",
+          "value": "Rechargeable battery"
+        },
+        {
+          "label": "Installation",
+          "value": "Collar / clip mounting"
+        }
+      ],
+      "applicationScenarios": [
+        "Pet location",
+        "Safe zone monitoring",
+        "Outdoor activity tracking"
+      ],
+      "children": [
+        {
+          "slug": "hunting-dog-tracker",
+          "name": "猎狗追踪器",
+          "image": "/images/products/models/hunting-dog-tracker.png",
+          "summary": "面向户外狩猎、训练和犬只活动管理的 GPS 项圈式追踪器，支持远距离位置追踪和户外防护。",
+          "tags": [
+            "猎犬管理",
+            "户外追踪",
+            "可充电"
+          ],
+          "specs": [
+            {
+              "label": "定位",
+              "value": "GPS / BDS"
+            },
+            {
+              "label": "防护",
+              "value": "户外防护外壳"
+            },
+            {
+              "label": "适用场景",
+              "value": "猎犬 / 训练 / 户外活动"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "猎狗追踪器",
+            "heroDescription": "猎狗追踪器用于户外狩猎、训练和犬只活动管理，支持项圈佩戴、实时位置查看、活动范围管理和户外追踪。",
+            "heroBullets": [
+              "适合猎犬户外活动和训练管理",
+              "支持 GPS / BDS 位置追踪",
+              "项圈式佩戴，便于犬只长期使用",
+              "支持平台或移动端查看位置"
+            ],
+            "features": [
+              {
+                "title": "犬只定位",
+                "description": "用于户外犬只位置追踪和活动范围查看。"
+              },
+              {
+                "title": "户外使用",
+                "description": "适合狩猎、训练和野外活动场景。"
+              },
+              {
+                "title": "安全区域",
+                "description": "可结合平台设置活动范围和异常离开提醒。"
+              },
+              {
+                "title": "移动端查看",
+                "description": "支持通过移动端查看犬只位置和轨迹。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "猎犬训练",
+                "description": "适合户外狩猎、训练和犬只活动路径追踪。"
+              },
+              {
+                "title": "户外犬只管理",
+                "description": "用于农场、牧场或户外活动中的犬只位置查看。"
+              },
+              {
+                "title": "安全范围管理",
+                "description": "结合电子围栏或安全区域提醒降低走失风险。"
+              }
+            ],
+            "overview": "猎狗追踪器面向户外犬只活动管理，适合狩猎、训练、农牧场和户外看护场景。设备通过项圈佩戴，结合 GPS 定位和平台查看能力，帮助用户掌握犬只位置、活动范围和异常离开情况。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "定位",
+                    "value": "GPS / BDS"
+                  },
+                  {
+                    "label": "防护",
+                    "value": "户外防护外壳"
+                  },
+                  {
+                    "label": "适用场景",
+                    "value": "猎犬 / 训练 / 户外活动"
+                  }
+                ]
+              },
+              {
+                "title": "项目功能",
+                "items": [
+                  {
+                    "label": "平台能力",
+                    "value": "实时定位 / 轨迹查看 / 安全区域提醒"
+                  },
+                  {
+                    "label": "佩戴方式",
+                    "value": "项圈式"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "猎狗追踪器中文规格书",
+                "description": "中文 PDF 资料，用于猎狗追踪器项目资料和选型沟通。",
+                "href": "/downloads/hunting-dog-tracker-cn.pdf",
+                "buttonLabel": "下载中文 PDF"
+              },
+              {
+                "title": "Hunting Dog Tracker English Specification",
+                "description": "English PDF specification for hunting dog tracker product evaluation.",
+                "href": "/downloads/hunting-dog-tracker-en.pdf",
+                "buttonLabel": "Download English PDF"
+              }
+            ]
+          }
+        },
+        {
+          "slug": "electric-training-tracker-collar",
+          "name": "电击追踪器项圈",
+          "image": "/images/products/models/electric-training-tracker-collar.png",
+          "summary": "集 GPS 定位与训练辅助于一体的犬只追踪项圈，适合户外犬只位置管理和训练控制。",
+          "tags": [
+            "定位项圈",
+            "训练辅助",
+            "IP68"
+          ],
+          "specs": [
+            {
+              "label": "定位",
+              "value": "GPS L1 / 4G LTE"
+            },
+            {
+              "label": "电池",
+              "value": "4500mAh 可充电锂电池"
+            },
+            {
+              "label": "适用场景",
+              "value": "犬只训练 / 户外管理"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "电击追踪器项圈",
+            "heroDescription": "面向犬只训练与户外位置管理的 GPS 追踪项圈，支持实时追踪、电子围栏、低电量报警、蜂鸣寻宠、训练辅助、磁吸充电和 IP68 防水。",
+            "heroBullets": [
+              "支持实时追踪与电子围栏",
+              "支持蜂鸣寻宠和训练辅助",
+              "4500mAh 可充电锂电池",
+              "资料标注 IP68 防水"
+            ],
+            "features": [
+              {
+                "title": "实时追踪",
+                "description": "通过平台或 APP 查看犬只位置和活动轨迹。"
+              },
+              {
+                "title": "训练辅助",
+                "description": "集成犬只训练辅助功能，适合户外训练管理场景。"
+              },
+              {
+                "title": "蜂鸣寻宠",
+                "description": "可通过蜂鸣声音帮助寻找犬只。"
+              },
+              {
+                "title": "多模式工作",
+                "description": "支持实时追踪、省电模式和深度休眠模式。"
+              },
+              {
+                "title": "磁吸充电",
+                "description": "采用磁吸充电触点，便于日常充电维护。"
+              },
+              {
+                "title": "户外防水",
+                "description": "资料标注 IP68 防水，适合户外使用。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "犬只训练",
+                "description": "适合训练犬、猎犬和户外犬只的定位与训练辅助。"
+              },
+              {
+                "title": "户外追踪",
+                "description": "用于狩猎、农牧场和户外活动中的犬只位置追踪。"
+              },
+              {
+                "title": "活动范围",
+                "description": "结合电子围栏和低电量报警，辅助犬只安全管理。"
+              }
+            ],
+            "overview": "电击追踪器项圈基于 YG119 Hunting Dog GPS Tracker 资料整理，定位为可充电长待机 GPS 追踪项圈。设备支持 4G LTE、GPS L1、实时追踪、电子围栏、低电量报警、蜂鸣寻宠、训练辅助、磁吸充电和 IP68 防水，适合户外犬只训练和位置管理。",
+            "specGroups": [
+              {
+                "title": "通信规格",
+                "items": [
+                  {
+                    "label": "4G 频段",
+                    "value": "LTE-FDD B1/B2/B3/B4/B5/B7/B8/B28/B66；LTE-TDD B34/B38/B39/B40/B41"
+                  },
+                  {
+                    "label": "2G 频段",
+                    "value": "GSM850 / GSM900 / GSM1800 / GSM1900"
+                  },
+                  {
+                    "label": "GPRS",
+                    "value": "Class 12, TCP/IP"
+                  }
+                ]
+              },
+              {
+                "title": "定位与性能",
+                "items": [
+                  {
+                    "label": "GPS 频率",
+                    "value": "GPS L1 1575.42MHz C/A code"
+                  },
+                  {
+                    "label": "通道",
+                    "value": "66"
+                  },
+                  {
+                    "label": "定位精度",
+                    "value": "<5m"
+                  },
+                  {
+                    "label": "跟踪灵敏度",
+                    "value": "-165dBm"
+                  },
+                  {
+                    "label": "捕获灵敏度",
+                    "value": "-148dBm"
+                  },
+                  {
+                    "label": "TTFF",
+                    "value": "热启动 ≤1s；冷启动 ≤40s"
+                  }
+                ]
+              },
+              {
+                "title": "整机规格",
+                "items": [
+                  {
+                    "label": "电池",
+                    "value": "4500mAh 可充电锂电池"
+                  },
+                  {
+                    "label": "续航",
+                    "value": "每天活动 1 小时，待机约 14 天"
+                  },
+                  {
+                    "label": "工作温度",
+                    "value": "-20°C ~ +60°C"
+                  },
+                  {
+                    "label": "尺寸",
+                    "value": "78 x 40 x 44mm"
+                  },
+                  {
+                    "label": "防水",
+                    "value": "IP68"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "电击追踪器项圈中文规格书",
+                "description": "中文 DOCX 资料，用于犬只训练追踪项圈项目沟通。",
+                "href": "/downloads/electric-training-tracker-collar-cn.docx",
+                "buttonLabel": "下载中文 DOCX"
+              },
+              {
+                "title": "Electric Training Tracker Collar English Specification",
+                "description": "English DOCX specification for dog tracking and training collar evaluation.",
+                "href": "/downloads/electric-training-tracker-collar-en.docx",
+                "buttonLabel": "Download English DOCX"
+              }
+            ]
+          }
+        }
+      ],
+      "heroImage": "/images/products/models/hunting-dog-tracker.png"
+    },
+    {
+      "id": "personal",
+      "slug": "personal",
+      "category": "personal",
+      "name": "Personal Tracker",
+      "image": "/images/products/categories/asset-container-location.jpg",
+      "icon": "personal",
+      "shortDescription": "Portable tracker for personnel and safety management.",
+      "features": [
+        "SOS button",
+        "Real-time location",
+        "Geo-fence alerts",
+        "Mobile app monitoring"
+      ],
+      "specifications": [
+        {
+          "label": "Network",
+          "value": "4G LTE"
+        },
+        {
+          "label": "GNSS",
+          "value": "GPS / BDS / GLONASS"
+        },
+        {
+          "label": "Battery",
+          "value": "Rechargeable battery"
+        },
+        {
+          "label": "Alert",
+          "value": "SOS / low battery / geo-fence"
+        }
+      ],
+      "applicationScenarios": [
+        "Field worker safety",
+        "Personnel management",
+        "Emergency location"
+      ],
+      "children": [
+        {
+          "slug": "sos-emergency-personal-tracker",
+          "name": "Q8 SOS 紧急报警定位器",
+          "image": "/images/products/models/q8-sos-emergency-personal-tracker.png",
+          "summary": "适合户外人员、老人看护和紧急定位场景，支持 GPS/北斗/WiFi 定位、SOS 报警和低功耗工作。",
+          "tags": [
+            "SOS 报警",
+            "GPS/北斗/WiFi",
+            "人员定位"
+          ],
+          "specs": [
+            {
+              "label": "尺寸",
+              "value": "68 x 38 x 20mm"
+            },
+            {
+              "label": "电池",
+              "value": "1500mAh 聚合物锂电池"
+            },
+            {
+              "label": "适用场景",
+              "value": "老人看护 / 户外人员 / 应急定位"
+            }
+          ],
+          "subtitle": "Q8 老人看护与应急定位终端",
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "Q8 SOS 紧急报警定位器",
+            "heroDescription": "Q8 老人看护定位器支持 TDD/FDD/GSM 网络接入、GPS 定位、北斗定位和 WiFi 定位，适合户外人员、老人看护和紧急报警场景。",
+            "heroBullets": [
+              "支持 GPS / 北斗 / WiFi 定位",
+              "支持 SOS 与自定义按键方案",
+              "1500mAh 高容量聚合物锂电池",
+              "支持智能唤醒/休眠和 FOTA"
+            ],
+            "features": [
+              {
+                "title": "SOS 报警",
+                "description": "支持 SOS 按键和紧急呼叫类应用，适合人员安全管理。"
+              },
+              {
+                "title": "多重定位",
+                "description": "支持 GPS、北斗和 WiFi 定位，提升不同环境下的可见性。"
+              },
+              {
+                "title": "低功耗工作",
+                "description": "支持睡眠、待机和定位工作状态，兼顾续航与位置上报。"
+              },
+              {
+                "title": "语音能力",
+                "description": "资料中包含麦克风、扬声器和语音相关配置选项。"
+              },
+              {
+                "title": "蓝牙防丢",
+                "description": "支持可选蓝牙防丢功能，适合人员随身设备管理。"
+              },
+              {
+                "title": "FOTA 升级",
+                "description": "支持远程升级，便于项目部署后的维护。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "老人看护",
+                "description": "用于老人位置查看、紧急报警和安全管理。"
+              },
+              {
+                "title": "户外人员",
+                "description": "适合户外作业、远程人员和应急定位场景。"
+              },
+              {
+                "title": "应急定位",
+                "description": "结合 SOS 按键和平台报警，提升异常事件响应效率。"
+              }
+            ],
+            "overview": "Q8 SOS 紧急报警定位器面向人员安全和老人看护场景，支持 TDD/FDD/GSM 移动网络、GPS/北斗/WiFi 定位、SOS 按键、Gsensor、智能唤醒/休眠、蓝牙防丢和 FOTA。设备尺寸为 68 x 38 x 20mm，内置 1500mAh 高容量聚合物锂电池。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "尺寸",
+                    "value": "68 x 38 x 20mm"
+                  },
+                  {
+                    "label": "电池",
+                    "value": "1500mAh 高容量聚合物锂电池"
+                  },
+                  {
+                    "label": "工作电压",
+                    "value": "3.5 - 4.2V DC"
+                  },
+                  {
+                    "label": "电压波动",
+                    "value": "3.3 - 4.5V DC"
+                  },
+                  {
+                    "label": "工作温度",
+                    "value": "-20°C ~ +70°C"
+                  },
+                  {
+                    "label": "存储温度",
+                    "value": "-40°C ~ +85°C"
+                  }
+                ]
+              },
+              {
+                "title": "通信定位",
+                "items": [
+                  {
+                    "label": "FDD",
+                    "value": "B1 / B3 / B5 / B8"
+                  },
+                  {
+                    "label": "TDD",
+                    "value": "B38 / B39 / B40 / B41"
+                  },
+                  {
+                    "label": "GSM",
+                    "value": "900 / 1800MHz"
+                  },
+                  {
+                    "label": "北斗",
+                    "value": "1561.098MHz"
+                  },
+                  {
+                    "label": "GPS",
+                    "value": "1575.42MHz"
+                  },
+                  {
+                    "label": "跟踪灵敏度",
+                    "value": "-165dBm"
+                  }
+                ]
+              },
+              {
+                "title": "接口与功能",
+                "items": [
+                  {
+                    "label": "SIM 接口",
+                    "value": "Nano push-push，兼容 2x2 eSIM"
+                  },
+                  {
+                    "label": "USB",
+                    "value": "Type-C 或磁吸 10-pin 方案"
+                  },
+                  {
+                    "label": "LED",
+                    "value": "GPS 蓝灯 / GSM 绿灯 / 电源红灯"
+                  },
+                  {
+                    "label": "功能",
+                    "value": "Gsensor / WiFi 定位 / 蓝牙防丢 / 防盗录音 / FOTA"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "Q8 SOS 紧急报警定位器中文规格书",
+                "description": "中文 PDF 规格资料，包含 Q8 老人看护定位器主要参数。",
+                "href": "/downloads/q8-sos-emergency-personal-tracker-cn.pdf",
+                "buttonLabel": "下载中文 PDF"
+              },
+              {
+                "title": "Q8 SOS Personal Tracker English Specification",
+                "description": "English DOCX specification covering Q8 elderly locator network, positioning, battery and function parameters.",
+                "href": "/downloads/q8-sos-emergency-personal-tracker-en.docx",
+                "buttonLabel": "Download English DOCX"
+              }
+            ]
+          }
+        },
+        {
+          "slug": "patrol-attendance-tracking-terminal",
+          "name": "巡检人员考勤定位终端",
+          "image": "/images/products/models/patrol-attendance-tracking-terminal.png",
+          "summary": "用于巡检、安保和外勤人员管理的工牌式定位终端，支持位置记录、考勤和异常提醒。",
+          "tags": [
+            "巡检考勤",
+            "外勤管理",
+            "SOS"
+          ],
+          "specs": [
+            {
+              "label": "数据",
+              "value": "位置 / 时间 / 状态"
+            },
+            {
+              "label": "管理",
+              "value": "考勤 / 巡检记录"
+            },
+            {
+              "label": "适用场景",
+              "value": "巡检 / 安保 / 外勤人员"
+            }
+          ],
+          "detail": {
+            "heroEyebrow": "产品详情",
+            "heroTitle": "巡检人员考勤定位终端",
+            "heroDescription": "工牌式定位终端适合巡检、安保、外勤和人员安全管理，支持位置记录、考勤、SOS 和异常提醒。",
+            "heroBullets": [
+              "工牌式佩戴，适合人员随身携带",
+              "支持位置、时间和状态记录",
+              "适合巡检、安保和外勤人员管理",
+              "中英文规格书支持下载"
+            ],
+            "features": [
+              {
+                "title": "巡检考勤",
+                "description": "记录人员位置、时间和状态，辅助巡检与考勤管理。"
+              },
+              {
+                "title": "SOS 求助",
+                "description": "支持人员安全类项目中的紧急求助功能。"
+              },
+              {
+                "title": "外勤管理",
+                "description": "适合外勤、安保和现场服务人员定位管理。"
+              },
+              {
+                "title": "平台对接",
+                "description": "可结合平台查看人员位置、任务记录和异常提醒。"
+              }
+            ],
+            "applications": [
+              {
+                "title": "巡检人员",
+                "description": "适合巡检路线、到岗记录和外勤人员状态管理。"
+              },
+              {
+                "title": "安保人员",
+                "description": "用于安保巡逻、岗位到达和异常事件记录。"
+              },
+              {
+                "title": "外勤团队",
+                "description": "适合工程服务、现场维护和户外作业人员管理。"
+              }
+            ],
+            "overview": "巡检人员考勤定位终端采用工牌式形态，适合人员随身佩戴。设备用于巡检、安保和外勤人员管理，可结合平台实现位置记录、考勤、异常提醒和安全管理。",
+            "specGroups": [
+              {
+                "title": "基础规格",
+                "items": [
+                  {
+                    "label": "数据",
+                    "value": "位置 / 时间 / 状态"
+                  },
+                  {
+                    "label": "管理",
+                    "value": "考勤 / 巡检记录"
+                  },
+                  {
+                    "label": "适用场景",
+                    "value": "巡检 / 安保 / 外勤人员"
+                  }
+                ]
+              },
+              {
+                "title": "项目能力",
+                "items": [
+                  {
+                    "label": "平台",
+                    "value": "位置记录 / 考勤记录 / 异常提醒"
+                  },
+                  {
+                    "label": "佩戴方式",
+                    "value": "工牌式 / 挂绳式"
+                  }
+                ]
+              }
+            ],
+            "downloads": [
+              {
+                "title": "巡检人员考勤定位终端中文规格书",
+                "description": "中文 PDF 资料，用于工牌定位终端项目资料归档。",
+                "href": "/downloads/patrol-attendance-tracking-terminal-cn.pdf",
+                "buttonLabel": "下载中文 PDF"
+              },
+              {
+                "title": "Patrol Attendance Tracking Terminal English Specification",
+                "description": "English PDF specification for patrol attendance and personnel tracking projects.",
+                "href": "/downloads/patrol-attendance-tracking-terminal-en.pdf",
+                "buttonLabel": "Download English PDF"
+              }
+            ]
+          }
+        }
+      ],
+      "heroImage": "/images/products/models/patrol-attendance-tracking-terminal.png"
+    },
+    {
+      "id": "sim-card",
+      "slug": "sim-card",
+      "category": "sim",
+      "name": "SIM Card",
+      "image": "/images/products/categories/solar-outdoor-tracker.jpg",
+      "icon": "sim",
+      "shortDescription": "IoT SIM card for GPS tracker connectivity.",
+      "features": [
+        "IoT data plan",
+        "Multi-region connectivity",
+        "Device activation support",
+        "Traffic management"
+      ],
+      "specifications": [
+        {
+          "label": "Network",
+          "value": "4G LTE / NB-IoT optional"
+        },
+        {
+          "label": "Form Factor",
+          "value": "Standard / micro / nano SIM"
+        },
+        {
+          "label": "Management",
+          "value": "Activation and data usage support"
+        },
+        {
+          "label": "Use Case",
+          "value": "GPS tracker connectivity"
+        }
+      ],
+      "applicationScenarios": [
+        "Tracker data service",
+        "IoT device connectivity",
+        "Fleet SIM management"
+      ],
+      "children": [
+        {
+          "slug": "iot-sim-card",
+          "name": "物联网 SIM 卡",
+          "image": "/images/products/models/iot-sim-card.svg",
+          "summary": "为 GPS 追踪器和物联网终端提供联网能力，适合批量设备接入和流量管理。",
+          "tags": [
+            "物联网连接",
+            "流量管理",
+            "设备联网"
+          ],
+          "specs": [
+            {
+              "label": "网络",
+              "value": "4G / NB-IoT 可选"
+            },
+            {
+              "label": "卡型",
+              "value": "标准 / Micro / Nano SIM"
+            },
+            {
+              "label": "适用场景",
+              "value": "GPS 终端 / IoT 设备 / 批量联网"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
