@@ -1,3 +1,5 @@
+import countryVideos from "@/data/country-videos.json";
+
 export type CountryVideoCase = {
   slug: string;
   country: string;
@@ -11,6 +13,8 @@ export type CountryVideoCase = {
   tags: string[];
   videoUrl?: string;
   youtubeId?: string;
+  youtubeEmbedAllowed?: boolean;
+  durationSeconds?: number;
   tiktokUrl?: string;
   shortsUrl?: string;
   status: "ready" | "coming-soon";
@@ -32,7 +36,7 @@ export const caseMenuItems = [
     label: "各国视频案例",
     href: "/cases/videos",
     description:
-      "按国家和地区查看 GPS 项目视频、安装现场、平台演示和客户应用案例。",
+      "按国家和地区查看 GPS 平台与手机端的英文操作演示。",
   },
   {
     label: "行业图片案例",
@@ -42,76 +46,10 @@ export const caseMenuItems = [
   },
 ] as const;
 
-export const countryVideoCases: CountryVideoCase[] = [
-  {
-    slug: "malaysia-logistics-fleet-video",
-    country: "Malaysia",
-    countryCn: "马来西亚",
-    region: "东南亚",
-    title: "马来西亚物流车队 GPS 定位案例",
-    summary: "展示物流车辆实时定位、轨迹回放、电子围栏和平台管理应用。",
-    scenario: "物流车队",
-    industry: "物流运输",
-    thumbnail: "/images/cases/videos/malaysia-logistics.jpg",
-    tags: ["物流车队", "4G GPS", "实时定位", "轨迹回放"],
-    videoUrl: "",
-    youtubeId: "",
-    tiktokUrl: "",
-    shortsUrl: "",
-    status: "coming-soon",
-  },
-  {
-    slug: "uae-rental-vehicle-video",
-    country: "UAE",
-    countryCn: "阿联酋",
-    region: "中东",
-    title: "阿联酋租赁车辆定位与风控案例",
-    summary: "展示租赁车辆定位、异常用车提醒、电子围栏和风控管理应用。",
-    scenario: "租赁车辆",
-    industry: "车辆租赁",
-    thumbnail: "/images/cases/videos/uae-rental.jpg",
-    tags: ["租赁车辆", "风控管理", "电子围栏", "异常报警"],
-    videoUrl: "",
-    youtubeId: "",
-    tiktokUrl: "",
-    shortsUrl: "",
-    status: "coming-soon",
-  },
-  {
-    slug: "saudi-construction-machinery-video",
-    country: "Saudi Arabia",
-    countryCn: "沙特阿拉伯",
-    region: "中东",
-    title: "沙特工程机械远程管理案例",
-    summary: "展示工程机械定位、工时统计、异常移动报警和设备管理应用。",
-    scenario: "工程机械",
-    industry: "工程建设",
-    thumbnail: "/images/cases/videos/saudi-machinery.jpg",
-    tags: ["工程机械", "设备定位", "工时统计", "异常移动"],
-    videoUrl: "",
-    youtubeId: "",
-    tiktokUrl: "",
-    shortsUrl: "",
-    status: "coming-soon",
-  },
-  {
-    slug: "indonesia-asset-tracking-video",
-    country: "Indonesia",
-    countryCn: "印度尼西亚",
-    region: "东南亚",
-    title: "印度尼西亚资产追踪案例",
-    summary: "展示移动资产定位、防丢管理、异常移动报警和平台查看应用。",
-    scenario: "资产追踪",
-    industry: "资产管理",
-    thumbnail: "/images/cases/videos/indonesia-asset.jpg",
-    tags: ["资产追踪", "防丢管理", "长续航", "异常报警"],
-    videoUrl: "",
-    youtubeId: "",
-    tiktokUrl: "",
-    shortsUrl: "",
-    status: "coming-soon",
-  },
-];
+export const countryVideoCases: CountryVideoCase[] = countryVideos.map((item) => ({
+  ...item,
+  status: "ready",
+}));
 
 export const industryImageCases: IndustryImageCase[] = [
   {

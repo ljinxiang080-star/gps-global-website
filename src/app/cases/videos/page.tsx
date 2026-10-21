@@ -7,7 +7,7 @@ import { countryVideoCases } from "@/lib/case-data";
 export const metadata: Metadata = {
   title: "各国视频案例 | 全球 GPS 项目案例",
   description:
-    "按国家和地区查看 GPS 项目视频、安装现场、平台演示和客户应用案例。",
+    "按国家、地区和跨境路线观看 GPS 平台与手机端的英文操作演示。",
 };
 
 export default function CountryVideoCasesPage() {
@@ -17,7 +17,7 @@ export default function CountryVideoCasesPage() {
         compact
         eyebrow="全球案例"
         title="各国视频案例"
-        description="按国家和地区整理 GPS 项目视频、安装现场、平台演示和客户应用案例。当前先搭建结构，后续可直接补充 YouTube ID 或普通视频链接。"
+        description="按国家、地区和跨境路线，观看 GPS 平台与手机端的实际操作演示，了解不同市场的位置管理应用。"
         imageSrc="/images/hero/global-gps-network-bg.png"
         imageAlt="全球 GPS 案例视频背景"
         actions={[
@@ -31,7 +31,7 @@ export default function CountryVideoCasesPage() {
           <SectionHeader
             eyebrow="Video Cases"
             title="按国家快速查找项目视频"
-            description="支持搜索国家、地区、行业和场景。视频数据有 YouTube ID 时弹窗播放，有普通链接时打开链接，暂未补链接时显示视频待上传。"
+            description="使用中文或英文搜索目标市场，查看对应的英文讲解视频。你也可以前往 SAIFUYA YouTube 频道观看更多内容。"
           />
         </div>
       </section>
