@@ -1,8 +1,17 @@
 import Link from "next/link";
+import Image from "next/image";
 import { HeroBanner } from "@/components/HeroBanner";
 import { SectionHeader } from "@/components/SectionHeader";
-import { SolutionScene } from "@/components/SolutionScene";
-import { solutions } from "@/lib/site-data";
+import { solutions, type SolutionVisual } from "@/lib/site-data";
+
+const solutionCovers: Record<SolutionVisual, { src: string; alt: string; position: string }> = {
+  fleet: { src: "/images/solutions/fleet-logistics.webp", alt: "物流货车公路运输场景", position: "50% 66%" },
+  asset: { src: "/images/solutions/asset-container.webp", alt: "集装箱堆场装卸作业场景", position: "50% 50%" },
+  machinery: { src: "/images/solutions/machinery-rental.webp", alt: "施工现场的挖掘机设备", position: "50% 70%" },
+  fuel: { src: "/images/solutions/fuel-monitoring.webp", alt: "技术人员巡检货车油箱", position: "50% 50%" },
+  livestock: { src: "/images/solutions/livestock-farm.webp", alt: "牧场中的牛羊放牧场景", position: "48% 50%" },
+  integration: { src: "/images/solutions/platform-integration.webp", alt: "GPS终端、电脑与手机协同调试场景", position: "50% 50%" },
+};
 
 const workflow = [
   {
@@ -53,10 +62,17 @@ export default function SolutionsPage() {
                 key={solution.title}
                 className="overflow-hidden rounded-md border border-blue-100 bg-white shadow-sm transition hover:-translate-y-1 hover:border-blue-300 hover:shadow-xl hover:shadow-blue-950/10"
               >
-                <SolutionScene
-                  visual={solution.visual}
-                  className="aspect-[4/3] w-full"
-                />
+                <Link href={solution.href} aria-label={solution.title} className="group relative block aspect-[4/3] overflow-hidden bg-slate-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0b68ff]">
+                  <Image
+                    src={solutionCovers[solution.visual].src}
+                    alt={solutionCovers[solution.visual].alt}
+                    fill
+                    sizes="(min-width: 1280px) 395px, (min-width: 1024px) calc((100vw - 96px) / 3), calc(100vw - 48px)"
+                    className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                    style={{ objectPosition: solutionCovers[solution.visual].position }}
+                  />
+                  <span className="absolute bottom-3 right-3 rounded bg-slate-950/55 px-2 py-1 text-[10px] font-medium tracking-wide text-white">场景示意</span>
+                </Link>
                 <div className="p-6">
                   <span className="text-sm font-semibold text-[#0b68ff]">
                     {String(index + 1).padStart(2, "0")}

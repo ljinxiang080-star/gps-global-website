@@ -4297,6 +4297,13 @@
 
   Object.assign(CASE_EXACT["en-US"], {
     "按国家查看": "Browse by country",
+    "场景示意": "Illustrative scene",
+    "物流货车公路运输场景": "Logistics truck on the road",
+    "集装箱堆场装卸作业场景": "Container handling at a cargo yard",
+    "施工现场的挖掘机设备": "Excavators at a construction site",
+    "技术人员巡检货车油箱": "Technician inspecting a truck fuel tank",
+    "牧场中的牛羊放牧场景": "Cattle and sheep grazing on a farm",
+    "GPS终端、电脑与手机协同调试场景": "GPS device integration with a laptop and smartphone",
     "查看全部视频": "View all videos",
     "国家与地区入口": "Browse countries and regions",
     "个国家与地区": "countries and regions",
