@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { FeatureSection } from "@/components/FeatureSection";
 import { HeroBanner } from "@/components/HeroBanner";
@@ -32,114 +33,58 @@ const industryEntries = [
     subtitle: "Fleet Management",
     href: "/solutions/fleet-logistics",
     summary: "统一查看车辆位置、在线状态、路线和报警，提升调度与安全管理效率。",
-    scene: "fleet",
+    image: "/images/applications/realistic-enterprise-vehicles.png",
+    imageAlt: "企业车辆整齐停放的车队管理场景",
   },
   {
     title: "物流运输",
     subtitle: "Logistics",
     href: "/solutions/fleet-logistics",
     summary: "面向干线运输、城市配送和跨区域物流，掌握在途位置、停留和轨迹。",
-    scene: "logistics",
+    image: "/images/applications/realistic-logistics-fleet.png",
+    imageAlt: "物流货车在公路上运输货物的场景",
   },
   {
     title: "租赁车辆",
     subtitle: "Rental Vehicles",
     href: "/solutions/machinery-rental",
     summary: "围绕租赁车辆位置、越界、断电和异常移动进行风险控制。",
-    scene: "rental",
+    image: "/images/applications/realistic-rental-vehicles.png",
+    imageAlt: "多辆厢式车辆集中停放的租赁车队场景",
   },
   {
     title: "工程机械",
     subtitle: "Construction",
     href: "/solutions/machinery-rental",
     summary: "管理挖掘机、装载机和租赁设备的位置、工时、状态和异常移动。",
-    scene: "construction",
+    image: "/images/applications/realistic-engineering-vehicles.png",
+    imageAlt: "建筑工地中的挖掘机和工程机械",
   },
   {
     title: "资产追踪",
     subtitle: "Asset Tracking",
     href: "/solutions/asset-container",
     summary: "适合集装箱、工具、周转设备和高价值移动资产的跨区域追踪。",
-    scene: "asset",
+    image: "/images/products/categories/asset-container-location.jpg",
+    imageAlt: "仓储货架与定位终端结合的资产追踪场景示意",
   },
   {
     title: "油耗管理",
     subtitle: "Fuel Monitoring",
     href: "/solutions/fuel-abnormal",
     summary: "结合油位传感器和 GPS 数据识别异常耗油、疑似偷油和成本风险。",
-    scene: "fuel",
+    image: "/images/products/categories/fuel-monitoring-truck.jpg",
+    imageAlt: "货运车辆与油位传感器结合的油耗监测场景示意",
   },
   {
     title: "农牧场",
     subtitle: "Livestock Tracking",
     href: "/solutions/livestock-farm",
     summary: "支持牛羊定位、活动范围监控、离群提醒和放牧区域管理。",
-    scene: "livestock",
+    image: "/images/products/categories/smart-grazing-livestock.jpg",
+    imageAlt: "牛只与定位设备结合的农牧场追踪场景示意",
   },
 ] as const;
-
-type IndustryScene = (typeof industryEntries)[number]["scene"];
-
-const industrySceneMeta: Record<
-  IndustryScene,
-  { label: string; accent: string; marker: string }
-> = {
-  fleet: { label: "Fleet Map", accent: "#79d7ff", marker: "Truck" },
-  logistics: { label: "Route Control", accent: "#38bdf8", marker: "Cargo" },
-  rental: { label: "Risk Zone", accent: "#fbbf24", marker: "Rental" },
-  construction: { label: "Site Operation", accent: "#60a5fa", marker: "Machine" },
-  asset: { label: "Asset Network", accent: "#22c55e", marker: "Asset" },
-  fuel: { label: "Fuel Monitor", accent: "#fb7185", marker: "Fuel" },
-  livestock: { label: "Ranch Tracking", accent: "#34d399", marker: "Ranch" },
-};
-
-function IndustrySceneVisual({ scene }: { scene: IndustryScene }) {
-  const meta = industrySceneMeta[scene];
-
-  return (
-    <div className="relative h-36 overflow-hidden rounded-md border border-cyan-300/15 bg-[#061936]">
-      <div className="absolute inset-0 bg-[linear-gradient(rgba(121,215,255,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(121,215,255,0.08)_1px,transparent_1px)] bg-[size:28px_28px]" />
-      <svg
-        aria-hidden="true"
-        className="absolute inset-0 h-full w-full"
-        viewBox="0 0 320 160"
-        preserveAspectRatio="none"
-      >
-        <path
-          d="M16 118 C76 42 122 126 176 70 S250 32 304 92"
-          fill="none"
-          stroke={meta.accent}
-          strokeLinecap="round"
-          strokeWidth="5"
-        />
-        <path
-          d="M30 30 H126 M194 22 H290 M206 132 H292"
-          fill="none"
-          stroke="rgba(255,255,255,0.18)"
-          strokeLinecap="round"
-          strokeWidth="4"
-        />
-        {[
-          [66, 78],
-          [174, 70],
-          [252, 56],
-        ].map(([cx, cy], index) => (
-          <g key={`${cx}-${cy}`}>
-            <circle cx={cx} cy={cy} fill={meta.accent} opacity="0.18" r="18" />
-            <circle cx={cx} cy={cy} fill={index === 1 ? "#0b68ff" : "#fff"} r="5" />
-          </g>
-        ))}
-      </svg>
-      <div className="absolute left-4 top-4 rounded-full border border-white/15 bg-white/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-cyan-100">
-        {meta.label}
-      </div>
-      <div className="absolute bottom-4 right-4 rounded-md border border-white/15 bg-slate-950/70 px-3 py-2 text-right text-[11px] text-slate-200">
-        <p className="font-semibold text-white">{meta.marker}</p>
-        <p className="mt-1 text-[#79d7ff]">GPS Online</p>
-      </div>
-    </div>
-  );
-}
 
 function IndustryEntrySection() {
   return (
@@ -166,7 +111,15 @@ function IndustryEntrySection() {
               href={entry.href}
               className="group rounded-md border border-blue-100 bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:border-blue-300 hover:shadow-xl hover:shadow-blue-950/10"
             >
-              <IndustrySceneVisual scene={entry.scene} />
+              <div className="relative h-36 overflow-hidden rounded-md border border-slate-200 bg-slate-100">
+                <Image
+                  src={entry.image}
+                  alt={entry.imageAlt}
+                  fill
+                  sizes="(min-width: 1280px) 280px, (min-width: 768px) 50vw, 100vw"
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
               <div className="p-2 pt-5">
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#0b68ff]">
                   {entry.subtitle}
