@@ -1,4 +1,5 @@
 import countryVideos from "@/data/country-videos.json";
+import { countryVideoPath } from "@/lib/country-video-routes";
 
 export type CountryVideoCase = {
   slug: string;
@@ -50,6 +51,19 @@ export const countryVideoCases: CountryVideoCase[] = countryVideos.map((item) =>
   ...item,
   status: "ready",
 }));
+
+export const countryVideoDestinations = Array.from(
+  new Set(countryVideoCases.map((item) => item.country)),
+).map((country) => {
+  const cases = countryVideoCases.filter((item) => item.country === country);
+  return {
+    country,
+    countryCn: cases[0].countryCn,
+    region: cases[0].region,
+    path: countryVideoPath(country),
+    cases,
+  };
+});
 
 export const industryImageCases: IndustryImageCase[] = [
   {

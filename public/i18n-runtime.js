@@ -4295,6 +4295,23 @@
     return LOCALES.find(function (locale) { return locale.code === normalized; }) || LOCALES[0];
   }
 
+  Object.assign(CASE_EXACT["en-US"], {
+    "按国家查看": "Browse by country",
+    "查看全部视频": "View all videos",
+    "国家与地区入口": "Browse countries and regions",
+    "个国家与地区": "countries and regions",
+    "个视频": "videos",
+    "点击国家名称，进入该国家的视频专页。": "Select a country to open its dedicated video page.",
+    "查看全部国家入口": "Show all country pages",
+    "收起国家入口": "Show fewer country pages",
+    "暂无匹配的国家或地区。": "No matching countries or regions.",
+    "查看该国家全部视频 →": "View this country's videos →",
+    "GPS 视频案例": "GPS Video Cases",
+    "浏览其他国家": "Browse other countries",
+    "观看该国家或地区的英文 GPS 平台与手机端操作演示。": "Watch English GPS platform and mobile app demonstrations for this country or region.",
+    "选择国家入口，进入对应的视频专页；也可以使用中文或英文搜索国家、地区和跨境路线。": "Open a dedicated country video page, or search countries, regions and cross-border routes in Chinese or English.",
+  });
+
   // COUNTRY_VIDEO_LIBRARY_START
   Object.assign(CASE_EXACT["en-US"], {
     "搜索国家、地区或路线": "Search countries, regions or routes",
