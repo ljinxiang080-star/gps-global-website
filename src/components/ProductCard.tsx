@@ -391,14 +391,15 @@ export function ProductCard({
       href={href}
       className="group flex min-h-[360px] flex-col items-center justify-between rounded-lg border border-slate-200 bg-white px-5 py-7 text-center shadow-sm transition hover:-translate-y-1 hover:border-blue-300 hover:shadow-xl hover:shadow-blue-950/10"
     >
-      <div className="flex h-36 w-full items-center justify-center overflow-hidden rounded-md border border-blue-100 bg-slate-50">
+      <div className="flex h-36 w-full items-center justify-center overflow-hidden rounded-md border border-blue-100 bg-white">
         {imageSrc ? (
           <Image
             src={imageSrc}
             alt={imageAlt ?? name}
             width={420}
-            height={260}
-            className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+            height={420}
+            sizes="(min-width: 1280px) 170px, (min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"
+            className="h-full w-full object-contain p-2 transition duration-300 group-hover:scale-105"
           />
         ) : (
           <ProductLineIcon icon={icon} />

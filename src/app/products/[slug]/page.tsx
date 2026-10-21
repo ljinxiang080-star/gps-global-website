@@ -63,7 +63,7 @@ function ProductCategoryHero({ product }: { product: Product }) {
               height={675}
               priority
               sizes="(min-width: 1024px) 52vw, 100vw"
-              className="aspect-[4/3] w-full rounded-lg bg-slate-50 object-contain p-6"
+              className="aspect-[4/3] w-full rounded-lg bg-white object-contain p-6"
             />
           </div>
         </div>

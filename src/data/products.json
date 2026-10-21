@@ -981,7 +981,7 @@
       "slug": "asset",
       "category": "asset",
       "name": "Asset Tracker",
-      "image": "/images/products/categories/asset-container-location.jpg",
+      "image": "/images/products/models/lihang-3-year-global-asset-tracker.png",
       "heroImage": "/images/products/models/lihang-3-year-global-asset-tracker.png",
       "icon": "asset",
       "shortDescription": "Portable tracking for containers, tools, and mobile assets.",
@@ -1546,7 +1546,7 @@
       "slug": "obd-cigarette-lighter",
       "category": "obd",
       "name": "OBD Cigarette Lighter Tracker",
-      "image": "/images/products/categories/solar-outdoor-tracker.jpg",
+      "image": "/images/products/models/c08a-obd-plug-and-play-tracker.png",
       "heroImage": "/images/products/models/c08a-obd-plug-and-play-tracker.png",
       "icon": "obd",
       "shortDescription": "Plug-in tracker powered by OBD or cigarette lighter ports.",
@@ -2048,7 +2048,7 @@
       "slug": "smart-grazing",
       "category": "grazing",
       "name": "Smart Grazing Tracker",
-      "image": "/images/products/categories/hardwired-logistics-gps.jpg",
+      "image": "/images/products/models/k5-cattle-sheep-collar-tracker.png",
       "heroImage": "/images/products/models/k5-cattle-sheep-collar-tracker.png",
       "icon": "grazing",
       "shortDescription": "Smart livestock positioning for ranches and grazing areas.",
@@ -2782,7 +2782,7 @@
       "slug": "fuel-monitoring",
       "category": "fuel",
       "name": "Fuel Monitoring Tracker",
-      "image": "/images/products/categories/asset-container-location.jpg",
+      "image": "/images/products/models/fuel-monitoring-hero.png",
       "heroImage": "/images/products/models/fuel-monitoring-hero.png",
       "icon": "fuel",
       "shortDescription": "Fuel level, mileage, and abnormal consumption monitoring.",
@@ -3662,7 +3662,7 @@
       "slug": "wireless",
       "category": "wireless",
       "name": "Wireless Tracker",
-      "image": "/images/products/categories/hardwired-logistics-gps.jpg",
+      "image": "/images/products/models/sos-magnetic-wireless-tracker.png",
       "heroImage": "/images/products/models/sos-magnetic-wireless-tracker.png",
       "icon": "wireless",
       "shortDescription": "Battery powered tracker for flexible installation.",
@@ -4091,7 +4091,7 @@
       "slug": "bluetooth-beacon",
       "category": "bluetooth",
       "name": "Bluetooth Beacon Tracker",
-      "image": "/images/products/categories/asset-container-location.jpg",
+      "image": "/images/products/models/bluetooth-anti-loss-tag.png",
       "icon": "bluetooth",
       "shortDescription": "Bluetooth beacon for short-range asset identification.",
       "features": [
@@ -4264,7 +4264,7 @@
       "slug": "solar",
       "category": "solar",
       "name": "Solar Tracker",
-      "image": "/images/products/categories/solar-outdoor-tracker.jpg",
+      "image": "/images/products/models/ak-1w-solar-tracker.png",
       "icon": "solar",
       "shortDescription": "Solar powered tracker for long outdoor deployment.",
       "features": [
@@ -4490,7 +4490,7 @@
       "slug": "pet",
       "category": "pet",
       "name": "Pet Tracker",
-      "image": "/images/products/categories/hardwired-logistics-gps.jpg",
+      "image": "/images/products/models/hunting-dog-tracker.png",
       "icon": "pet",
       "shortDescription": "Compact positioning tracker for pets and companion animals.",
       "features": [
@@ -4810,7 +4810,7 @@
       "slug": "personal",
       "category": "personal",
       "name": "Personal Tracker",
-      "image": "/images/products/categories/asset-container-location.jpg",
+      "image": "/images/products/models/patrol-attendance-tracking-terminal.png",
       "icon": "personal",
       "shortDescription": "Portable tracker for personnel and safety management.",
       "features": [
@@ -5139,7 +5139,7 @@
       "slug": "sim-card",
       "category": "sim",
       "name": "SIM Card",
-      "image": "/images/products/categories/solar-outdoor-tracker.jpg",
+      "image": "/images/products/models/iot-sim-card-white.jpg",
       "icon": "sim",
       "shortDescription": "IoT SIM card for GPS tracker connectivity.",
       "features": [
@@ -5175,7 +5175,7 @@
         {
           "slug": "iot-sim-card",
           "name": "物联网 SIM 卡",
-          "image": "/images/products/models/iot-sim-card.svg",
+          "image": "/images/products/models/iot-sim-card-white.jpg",
           "summary": "为 GPS 追踪器和物联网终端提供联网能力，适合批量设备接入和流量管理。",
           "tags": [
             "物联网连接",
@@ -5197,7 +5197,8 @@
             }
           ]
         }
-      ]
+      ],
+      "heroImage": "/images/products/models/iot-sim-card-white.jpg"
     }
   ]
 }
