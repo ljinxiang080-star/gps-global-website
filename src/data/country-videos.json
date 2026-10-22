@@ -21,6 +21,48 @@
     "status": "ready"
   },
   {
+    "slug": "bahrain-046",
+    "country": "Bahrain",
+    "countryCn": "巴林",
+    "region": "中东",
+    "title": "巴林 GPS 定位演示",
+    "summary": "观看巴林的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/oS0ybvK-zQ0/hqdefault.jpg",
+    "tags": [
+      "巴林",
+      "Bahrain",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "oS0ybvK-zQ0",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 58.733,
+    "status": "ready"
+  },
+  {
+    "slug": "bangladesh-040",
+    "country": "Bangladesh",
+    "countryCn": "孟加拉国",
+    "region": "南亚",
+    "title": "孟加拉国 GPS 定位演示",
+    "summary": "观看孟加拉国的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/xZjWRvS2LfE/hqdefault.jpg",
+    "tags": [
+      "孟加拉国",
+      "Bangladesh",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "xZjWRvS2LfE",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 58.688,
+    "status": "ready"
+  },
+  {
     "slug": "bulgaria-009",
     "country": "Bulgaria",
     "countryCn": "保加利亚",
@@ -207,6 +249,174 @@
     "youtubeId": "exXd1nEBLUo",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 70.251,
+    "status": "ready"
+  },
+  {
+    "slug": "kazakhstan-025",
+    "country": "Kazakhstan",
+    "countryCn": "哈萨克斯坦",
+    "region": "中亚",
+    "title": "哈萨克斯坦 GPS 定位演示",
+    "summary": "观看哈萨克斯坦的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/X6Z9wJ1Hvb0/hqdefault.jpg",
+    "tags": [
+      "哈萨克斯坦",
+      "Kazakhstan",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "X6Z9wJ1Hvb0",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 30.233,
+    "status": "ready"
+  },
+  {
+    "slug": "nigeria-042",
+    "country": "Nigeria",
+    "countryCn": "尼日利亚",
+    "region": "非洲",
+    "title": "尼日利亚 GPS 定位演示",
+    "summary": "观看尼日利亚的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/nDwwVgPiZHE/hqdefault.jpg",
+    "tags": [
+      "尼日利亚",
+      "Nigeria",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "nDwwVgPiZHE",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 56.167,
+    "status": "ready"
+  },
+  {
+    "slug": "pakistan-043",
+    "country": "Pakistan",
+    "countryCn": "巴基斯坦",
+    "region": "南亚",
+    "title": "巴基斯坦 GPS 定位演示",
+    "summary": "观看巴基斯坦的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/7Biopq6qzpU/hqdefault.jpg",
+    "tags": [
+      "巴基斯坦",
+      "Pakistan",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "7Biopq6qzpU",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 57.167,
+    "status": "ready"
+  },
+  {
+    "slug": "panama-045",
+    "country": "Panama",
+    "countryCn": "巴拿马",
+    "region": "北美洲",
+    "title": "巴拿马 GPS 定位演示",
+    "summary": "观看巴拿马的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/3D7p0bzUaKc/hqdefault.jpg",
+    "tags": [
+      "巴拿马",
+      "Panama",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "3D7p0bzUaKc",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 58.8,
+    "status": "ready"
+  },
+  {
+    "slug": "republic-of-the-congo-013",
+    "country": "Republic of the Congo",
+    "countryCn": "刚果共和国",
+    "region": "非洲",
+    "title": "刚果共和国 GPS 定位演示",
+    "summary": "观看刚果共和国的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/BND-CKabs0Y/hqdefault.jpg",
+    "tags": [
+      "刚果共和国",
+      "Republic of the Congo",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "BND-CKabs0Y",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 55,
+    "status": "ready"
+  },
+  {
+    "slug": "rwanda-019",
+    "country": "Rwanda",
+    "countryCn": "卢旺达",
+    "region": "非洲",
+    "title": "卢旺达 GPS 定位演示",
+    "summary": "观看卢旺达的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/ehPOur654yY/hqdefault.jpg",
+    "tags": [
+      "卢旺达",
+      "Rwanda",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "ehPOur654yY",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 29.6,
+    "status": "ready"
+  },
+  {
+    "slug": "senegal-034",
+    "country": "Senegal",
+    "countryCn": "塞内加尔",
+    "region": "非洲",
+    "title": "塞内加尔 GPS 定位演示",
+    "summary": "观看塞内加尔的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/llv5bGcpZ44/hqdefault.jpg",
+    "tags": [
+      "塞内加尔",
+      "Senegal",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "llv5bGcpZ44",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 54.633,
+    "status": "ready"
+  },
+  {
+    "slug": "timor-leste-001",
+    "country": "Timor-Leste",
+    "countryCn": "东帝汶",
+    "region": "东南亚",
+    "title": "东帝汶 GPS 定位演示",
+    "summary": "观看东帝汶的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/BFvV7ledopE/hqdefault.jpg",
+    "tags": [
+      "东帝汶",
+      "Timor-Leste",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "BFvV7ledopE",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 53.767,
     "status": "ready"
   },
   {
