@@ -63,6 +63,27 @@
     "status": "ready"
   },
   {
+    "slug": "brunei-055",
+    "country": "Brunei",
+    "countryCn": "文莱",
+    "region": "东南亚",
+    "title": "文莱 GPS 定位演示",
+    "summary": "观看文莱的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/HtY0zuTt0Z8/hqdefault.jpg",
+    "tags": [
+      "文莱",
+      "Brunei",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "HtY0zuTt0Z8",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 29.967,
+    "status": "ready"
+  },
+  {
     "slug": "bulgaria-009",
     "country": "Bulgaria",
     "countryCn": "保加利亚",
@@ -81,6 +102,27 @@
     "youtubeId": "rIGz9ZVFw6s",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 59.4,
+    "status": "ready"
+  },
+  {
+    "slug": "burkina-faso-048",
+    "country": "Burkina Faso",
+    "countryCn": "布基纳法索",
+    "region": "非洲",
+    "title": "布基纳法索 GPS 定位演示",
+    "summary": "观看布基纳法索的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/snn1U9O0MnM/hqdefault.jpg",
+    "tags": [
+      "布基纳法索",
+      "Burkina Faso",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "snn1U9O0MnM",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 54.784,
     "status": "ready"
   },
   {
@@ -189,6 +231,48 @@
     "status": "ready"
   },
   {
+    "slug": "georgia-063",
+    "country": "Georgia",
+    "countryCn": "格鲁吉亚",
+    "region": "西亚",
+    "title": "格鲁吉亚 GPS 定位演示",
+    "summary": "观看格鲁吉亚的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/_giMQZjbZ8k/hqdefault.jpg",
+    "tags": [
+      "格鲁吉亚",
+      "Georgia",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "_giMQZjbZ8k",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 58.733,
+    "status": "ready"
+  },
+  {
+    "slug": "germany-051",
+    "country": "Germany",
+    "countryCn": "德国",
+    "region": "欧洲",
+    "title": "德国 GPS 定位演示",
+    "summary": "观看德国的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/GwJfnPvK8g8/hqdefault.jpg",
+    "tags": [
+      "德国",
+      "Germany",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "GwJfnPvK8g8",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 59.133,
+    "status": "ready"
+  },
+  {
     "slug": "iceland-011",
     "country": "Iceland",
     "countryCn": "冰岛",
@@ -252,6 +336,48 @@
     "status": "ready"
   },
   {
+    "slug": "italy-052",
+    "country": "Italy",
+    "countryCn": "意大利",
+    "region": "欧洲",
+    "title": "意大利 GPS 定位演示",
+    "summary": "观看意大利的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/YVlTo_xMeyc/hqdefault.jpg",
+    "tags": [
+      "意大利",
+      "Italy",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "YVlTo_xMeyc",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 38.1,
+    "status": "ready"
+  },
+  {
+    "slug": "japan-060",
+    "country": "Japan",
+    "countryCn": "日本",
+    "region": "东亚",
+    "title": "日本 GPS 定位演示",
+    "summary": "观看日本的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/dNxiNz5zVSo/hqdefault.jpg",
+    "tags": [
+      "日本",
+      "Japan",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "dNxiNz5zVSo",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 30.1,
+    "status": "ready"
+  },
+  {
     "slug": "kazakhstan-025",
     "country": "Kazakhstan",
     "countryCn": "哈萨克斯坦",
@@ -270,6 +396,27 @@
     "youtubeId": "X6Z9wJ1Hvb0",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 30.233,
+    "status": "ready"
+  },
+  {
+    "slug": "mauritius-065",
+    "country": "Mauritius",
+    "countryCn": "毛里求斯",
+    "region": "非洲",
+    "title": "毛里求斯 GPS 定位演示",
+    "summary": "观看毛里求斯的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/QjpmBWuiK2Y/hqdefault.jpg",
+    "tags": [
+      "毛里求斯",
+      "Mauritius",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "QjpmBWuiK2Y",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 51.533,
     "status": "ready"
   },
   {
@@ -399,6 +546,48 @@
     "status": "ready"
   },
   {
+    "slug": "serbia-035",
+    "country": "Serbia",
+    "countryCn": "塞尔维亚",
+    "region": "欧洲",
+    "title": "塞尔维亚 GPS 定位演示",
+    "summary": "观看塞尔维亚的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/YCjKN7V1zT4/hqdefault.jpg",
+    "tags": [
+      "塞尔维亚",
+      "Serbia",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "YCjKN7V1zT4",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 59.9,
+    "status": "ready"
+  },
+  {
+    "slug": "singapore-058",
+    "country": "Singapore",
+    "countryCn": "新加坡",
+    "region": "东南亚",
+    "title": "新加坡 GPS 定位演示",
+    "summary": "观看新加坡的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/VLHhRQBlu0A/hqdefault.jpg",
+    "tags": [
+      "新加坡",
+      "Singapore",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "VLHhRQBlu0A",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 22.967,
+    "status": "ready"
+  },
+  {
     "slug": "timor-leste-001",
     "country": "Timor-Leste",
     "countryCn": "东帝汶",
@@ -417,6 +606,27 @@
     "youtubeId": "BFvV7ledopE",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 53.767,
+    "status": "ready"
+  },
+  {
+    "slug": "turkmenistan-028",
+    "country": "Turkmenistan",
+    "countryCn": "土库曼斯坦",
+    "region": "中亚",
+    "title": "土库曼斯坦 GPS 定位演示",
+    "summary": "观看土库曼斯坦的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/2hsFb1LrZ_g/hqdefault.jpg",
+    "tags": [
+      "土库曼斯坦",
+      "Turkmenistan",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "2hsFb1LrZ_g",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 70.867,
     "status": "ready"
   },
   {
