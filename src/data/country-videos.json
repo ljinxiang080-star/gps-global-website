@@ -63,6 +63,27 @@
     "status": "ready"
   },
   {
+    "slug": "bolivia-073",
+    "country": "Bolivia",
+    "countryCn": "玻利维亚",
+    "region": "南美洲",
+    "title": "玻利维亚 GPS 定位演示",
+    "summary": "观看玻利维亚的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/rgXdpvAFClM/hqdefault.jpg",
+    "tags": [
+      "玻利维亚",
+      "Bolivia",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "rgXdpvAFClM",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 56.433,
+    "status": "ready"
+  },
+  {
     "slug": "brunei-055",
     "country": "Brunei",
     "countryCn": "文莱",
@@ -357,6 +378,27 @@
     "status": "ready"
   },
   {
+    "slug": "jamaica-072",
+    "country": "Jamaica",
+    "countryCn": "牙买加",
+    "region": "北美洲",
+    "title": "牙买加 GPS 定位演示",
+    "summary": "观看牙买加的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/tVa4kgjdHCM/hqdefault.jpg",
+    "tags": [
+      "牙买加",
+      "Jamaica",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "tVa4kgjdHCM",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 55.867,
+    "status": "ready"
+  },
+  {
     "slug": "japan-060",
     "country": "Japan",
     "countryCn": "日本",
@@ -396,6 +438,27 @@
     "youtubeId": "X6Z9wJ1Hvb0",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 30.233,
+    "status": "ready"
+  },
+  {
+    "slug": "laos-082",
+    "country": "Laos",
+    "countryCn": "老挝",
+    "region": "东南亚",
+    "title": "老挝 GPS 定位演示",
+    "summary": "观看老挝的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/n-CIVYeE_3c/hqdefault.jpg",
+    "tags": [
+      "老挝",
+      "Laos",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "n-CIVYeE_3c",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 58.933,
     "status": "ready"
   },
   {
@@ -483,6 +546,27 @@
     "status": "ready"
   },
   {
+    "slug": "poland-067",
+    "country": "Poland",
+    "countryCn": "波兰",
+    "region": "欧洲",
+    "title": "波兰 GPS 定位演示",
+    "summary": "观看波兰的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/8aRc9djVuSM/hqdefault.jpg",
+    "tags": [
+      "波兰",
+      "Poland",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "8aRc9djVuSM",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 66.267,
+    "status": "ready"
+  },
+  {
     "slug": "republic-of-the-congo-013",
     "country": "Republic of the Congo",
     "countryCn": "刚果共和国",
@@ -504,6 +588,27 @@
     "status": "ready"
   },
   {
+    "slug": "romania-080",
+    "country": "Romania",
+    "countryCn": "罗马尼亚",
+    "region": "欧洲",
+    "title": "罗马尼亚 GPS 定位演示",
+    "summary": "观看罗马尼亚的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/TXY7nBlSE90/hqdefault.jpg",
+    "tags": [
+      "罗马尼亚",
+      "Romania",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "TXY7nBlSE90",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 29.967,
+    "status": "ready"
+  },
+  {
     "slug": "rwanda-019",
     "country": "Rwanda",
     "countryCn": "卢旺达",
@@ -522,6 +627,27 @@
     "youtubeId": "ehPOur654yY",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 29.6,
+    "status": "ready"
+  },
+  {
+    "slug": "saudi-arabia-066",
+    "country": "Saudi Arabia",
+    "countryCn": "沙特阿拉伯",
+    "region": "中东",
+    "title": "沙特阿拉伯 GPS 定位演示",
+    "summary": "观看沙特阿拉伯的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/otDQIXCTUZI/hqdefault.jpg",
+    "tags": [
+      "沙特阿拉伯",
+      "Saudi Arabia",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "otDQIXCTUZI",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 53.433,
     "status": "ready"
   },
   {
@@ -588,6 +714,69 @@
     "status": "ready"
   },
   {
+    "slug": "sri-lanka-057",
+    "country": "Sri Lanka",
+    "countryCn": "斯里兰卡",
+    "region": "南亚",
+    "title": "斯里兰卡 GPS 定位演示",
+    "summary": "观看斯里兰卡的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/PhWrW2IPjdo/hqdefault.jpg",
+    "tags": [
+      "斯里兰卡",
+      "Sri Lanka",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "PhWrW2IPjdo",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 59.648,
+    "status": "ready"
+  },
+  {
+    "slug": "sudan-084",
+    "country": "Sudan",
+    "countryCn": "苏丹",
+    "region": "非洲",
+    "title": "苏丹 GPS 定位演示",
+    "summary": "观看苏丹的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/Awiv2yvGfTo/hqdefault.jpg",
+    "tags": [
+      "苏丹",
+      "Sudan",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "Awiv2yvGfTo",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 58.167,
+    "status": "ready"
+  },
+  {
+    "slug": "switzerland-075",
+    "country": "Switzerland",
+    "countryCn": "瑞士",
+    "region": "欧洲",
+    "title": "瑞士 GPS 定位演示",
+    "summary": "观看瑞士的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/uKEb87vAXM4/hqdefault.jpg",
+    "tags": [
+      "瑞士",
+      "Switzerland",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "uKEb87vAXM4",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 56.167,
+    "status": "ready"
+  },
+  {
     "slug": "timor-leste-001",
     "country": "Timor-Leste",
     "countryCn": "东帝汶",
@@ -606,6 +795,27 @@
     "youtubeId": "BFvV7ledopE",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 53.767,
+    "status": "ready"
+  },
+  {
+    "slug": "turkey-029",
+    "country": "Turkey",
+    "countryCn": "土耳其",
+    "region": "西亚",
+    "title": "土耳其 GPS 定位演示",
+    "summary": "观看土耳其的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/5GzMx27lKnA/hqdefault.jpg",
+    "tags": [
+      "土耳其",
+      "Turkey",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "5GzMx27lKnA",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 56.333,
     "status": "ready"
   },
   {
