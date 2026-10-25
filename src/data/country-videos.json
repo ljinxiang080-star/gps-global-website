@@ -1,5 +1,26 @@
 [
   {
+    "slug": "afghanistan-102",
+    "country": "Afghanistan",
+    "countryCn": "阿富汗",
+    "region": "南亚",
+    "title": "阿富汗 GPS 定位演示",
+    "summary": "观看阿富汗的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/knUy2VnOkt8/hqdefault.jpg",
+    "tags": [
+      "阿富汗",
+      "Afghanistan",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "knUy2VnOkt8",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 42.3,
+    "status": "ready"
+  },
+  {
     "slug": "armenia-004",
     "country": "Armenia",
     "countryCn": "亚美尼亚",
@@ -60,6 +81,48 @@
     "youtubeId": "xZjWRvS2LfE",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 58.688,
+    "status": "ready"
+  },
+  {
+    "slug": "belgium-to-netherlands-to-germany-099",
+    "country": "Belgium to Netherlands to Germany",
+    "countryCn": "比利时-荷兰-德国",
+    "region": "跨境路线",
+    "title": "比利时-荷兰-德国 GPS 定位演示",
+    "summary": "观看比利时-荷兰-德国的英文 GPS 平台与手机端操作演示。",
+    "scenario": "跨境定位演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/-GVHTHTU_iQ/hqdefault.jpg",
+    "tags": [
+      "比利时-荷兰-德国",
+      "Belgium to Netherlands to Germany",
+      "跨境",
+      "英文"
+    ],
+    "youtubeId": "-GVHTHTU_iQ",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 28.533,
+    "status": "ready"
+  },
+  {
+    "slug": "benin-093",
+    "country": "Benin",
+    "countryCn": "贝宁",
+    "region": "非洲",
+    "title": "贝宁 GPS 定位演示",
+    "summary": "观看贝宁的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/xXMeTt8DCWA/hqdefault.jpg",
+    "tags": [
+      "贝宁",
+      "Benin",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "xXMeTt8DCWA",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 54.4,
     "status": "ready"
   },
   {
@@ -228,6 +291,27 @@
     "youtubeId": "1kq_UCJnwmM",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 59.533,
+    "status": "ready"
+  },
+  {
+    "slug": "equatorial-guinea-095",
+    "country": "Equatorial Guinea",
+    "countryCn": "赤道几内亚",
+    "region": "非洲",
+    "title": "赤道几内亚 GPS 定位演示",
+    "summary": "观看赤道几内亚的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/JZ_Esx3sg8c/hqdefault.jpg",
+    "tags": [
+      "赤道几内亚",
+      "Equatorial Guinea",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "JZ_Esx3sg8c",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 55.9,
     "status": "ready"
   },
   {
@@ -462,6 +546,48 @@
     "status": "ready"
   },
   {
+    "slug": "malaysia-to-singapore-100",
+    "country": "Malaysia to Singapore",
+    "countryCn": "马来西亚-新加坡",
+    "region": "跨境路线",
+    "title": "马来西亚-新加坡 GPS 定位演示",
+    "summary": "观看马来西亚-新加坡的英文 GPS 平台与手机端操作演示。",
+    "scenario": "跨境定位演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/_Srsy48ZxkA/hqdefault.jpg",
+    "tags": [
+      "马来西亚-新加坡",
+      "Malaysia to Singapore",
+      "跨境",
+      "英文"
+    ],
+    "youtubeId": "_Srsy48ZxkA",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 28.533,
+    "status": "ready"
+  },
+  {
+    "slug": "mali-111",
+    "country": "Mali",
+    "countryCn": "马里",
+    "region": "非洲",
+    "title": "马里 GPS 定位演示",
+    "summary": "观看马里的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/kAyclel5YtE/hqdefault.jpg",
+    "tags": [
+      "马里",
+      "Mali",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "kAyclel5YtE",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 47.967,
+    "status": "ready"
+  },
+  {
     "slug": "mauritius-065",
     "country": "Mauritius",
     "countryCn": "毛里求斯",
@@ -483,6 +609,27 @@
     "status": "ready"
   },
   {
+    "slug": "mozambique-088",
+    "country": "Mozambique",
+    "countryCn": "莫桑比克",
+    "region": "非洲",
+    "title": "莫桑比克 GPS 定位演示",
+    "summary": "观看莫桑比克的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/6PS-CDCA8tI/hqdefault.jpg",
+    "tags": [
+      "莫桑比克",
+      "Mozambique",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "6PS-CDCA8tI",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 61.835,
+    "status": "ready"
+  },
+  {
     "slug": "nigeria-042",
     "country": "Nigeria",
     "countryCn": "尼日利亚",
@@ -501,6 +648,27 @@
     "youtubeId": "nDwwVgPiZHE",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 56.167,
+    "status": "ready"
+  },
+  {
+    "slug": "oman-105",
+    "country": "Oman",
+    "countryCn": "阿曼",
+    "region": "中东",
+    "title": "阿曼 GPS 定位演示",
+    "summary": "观看阿曼的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/U-n0qs_n3YQ/hqdefault.jpg",
+    "tags": [
+      "阿曼",
+      "Oman",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "U-n0qs_n3YQ",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 57.216,
     "status": "ready"
   },
   {
@@ -564,6 +732,27 @@
     "youtubeId": "8aRc9djVuSM",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 66.267,
+    "status": "ready"
+  },
+  {
+    "slug": "portugal-090",
+    "country": "Portugal",
+    "countryCn": "葡萄牙",
+    "region": "欧洲",
+    "title": "葡萄牙 GPS 定位演示",
+    "summary": "观看葡萄牙的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/DuChnJ7INM4/hqdefault.jpg",
+    "tags": [
+      "葡萄牙",
+      "Portugal",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "DuChnJ7INM4",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 57.467,
     "status": "ready"
   },
   {
@@ -774,6 +963,27 @@
     "youtubeId": "uKEb87vAXM4",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 56.167,
+    "status": "ready"
+  },
+  {
+    "slug": "tanzania-030",
+    "country": "Tanzania",
+    "countryCn": "坦桑尼亚",
+    "region": "非洲",
+    "title": "坦桑尼亚 GPS 定位演示",
+    "summary": "观看坦桑尼亚的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/KqX9cu-Hfww/hqdefault.jpg",
+    "tags": [
+      "坦桑尼亚",
+      "Tanzania",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "KqX9cu-Hfww",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 28.833,
     "status": "ready"
   },
   {
