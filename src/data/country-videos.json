@@ -903,6 +903,27 @@
     "status": "ready"
   },
   {
+    "slug": "samoa-119",
+    "country": "Samoa",
+    "countryCn": "萨摩亚",
+    "region": "大洋洲",
+    "title": "萨摩亚 GPS 定位演示",
+    "summary": "观看萨摩亚的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/hxNExxloaew/hqdefault.jpg",
+    "tags": [
+      "萨摩亚",
+      "Samoa",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "hxNExxloaew",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 58.633,
+    "status": "ready"
+  },
+  {
     "slug": "saudi-arabia-066",
     "country": "Saudi Arabia",
     "countryCn": "沙特阿拉伯",
@@ -987,6 +1008,48 @@
     "status": "ready"
   },
   {
+    "slug": "seychelles-116",
+    "country": "Seychelles",
+    "countryCn": "塞舌尔",
+    "region": "非洲",
+    "title": "塞舌尔 GPS 定位演示",
+    "summary": "观看塞舌尔的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/mYTBY0k7JpI/hqdefault.jpg",
+    "tags": [
+      "塞舌尔",
+      "Seychelles",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "mYTBY0k7JpI",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 59.067,
+    "status": "ready"
+  },
+  {
+    "slug": "sierra-leone-115",
+    "country": "Sierra Leone",
+    "countryCn": "塞拉利昂",
+    "region": "非洲",
+    "title": "塞拉利昂 GPS 定位演示",
+    "summary": "观看塞拉利昂的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/YnM1d1Ibgy8/hqdefault.jpg",
+    "tags": [
+      "塞拉利昂",
+      "Sierra Leone",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "YnM1d1Ibgy8",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 60.133,
+    "status": "ready"
+  },
+  {
     "slug": "singapore-058",
     "country": "Singapore",
     "countryCn": "新加坡",
@@ -1005,6 +1068,27 @@
     "youtubeId": "VLHhRQBlu0A",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 22.967,
+    "status": "ready"
+  },
+  {
+    "slug": "south-africa-114",
+    "country": "South Africa",
+    "countryCn": "南非",
+    "region": "非洲",
+    "title": "南非 GPS 定位演示",
+    "summary": "观看南非的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/suyGXMp_p1Y/hqdefault.jpg",
+    "tags": [
+      "南非",
+      "South Africa",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "suyGXMp_p1Y",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 60.1,
     "status": "ready"
   },
   {
