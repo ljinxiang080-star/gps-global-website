@@ -42,6 +42,27 @@
     "status": "ready"
   },
   {
+    "slug": "austria-113",
+    "country": "Austria",
+    "countryCn": "奥地利",
+    "region": "欧洲",
+    "title": "奥地利 GPS 定位演示",
+    "summary": "观看奥地利的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/HvtOsyG-T8s/hqdefault.jpg",
+    "tags": [
+      "奥地利",
+      "Austria",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "HvtOsyG-T8s",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 53.733,
+    "status": "ready"
+  },
+  {
     "slug": "bahrain-046",
     "country": "Bahrain",
     "countryCn": "巴林",
@@ -228,6 +249,27 @@
     "youtubeId": "IgkNq33tsFg",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 59.1,
+    "status": "ready"
+  },
+  {
+    "slug": "chile-117",
+    "country": "Chile",
+    "countryCn": "智利",
+    "region": "南美洲",
+    "title": "智利 GPS 定位演示",
+    "summary": "观看智利的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/2PHHxsm8Fs0/hqdefault.jpg",
+    "tags": [
+      "智利",
+      "Chile",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "2PHHxsm8Fs0",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 56.333,
     "status": "ready"
   },
   {
@@ -546,6 +588,48 @@
     "status": "ready"
   },
   {
+    "slug": "lithuania-118",
+    "country": "Lithuania",
+    "countryCn": "立陶宛",
+    "region": "欧洲",
+    "title": "立陶宛 GPS 定位演示",
+    "summary": "观看立陶宛的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/xT_8O4NOCT8/hqdefault.jpg",
+    "tags": [
+      "立陶宛",
+      "Lithuania",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "xT_8O4NOCT8",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 41.2,
+    "status": "ready"
+  },
+  {
+    "slug": "madagascar-120",
+    "country": "Madagascar",
+    "countryCn": "马达加斯加",
+    "region": "非洲",
+    "title": "马达加斯加 GPS 定位演示",
+    "summary": "观看马达加斯加的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/PZE0XVbrqao/hqdefault.jpg",
+    "tags": [
+      "马达加斯加",
+      "Madagascar",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "PZE0XVbrqao",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 59.9,
+    "status": "ready"
+  },
+  {
     "slug": "malaysia-to-singapore-100",
     "country": "Malaysia to Singapore",
     "countryCn": "马来西亚-新加坡",
@@ -840,6 +924,27 @@
     "status": "ready"
   },
   {
+    "slug": "scotland-uk-085",
+    "country": "Scotland, UK",
+    "countryCn": "英国苏格兰",
+    "region": "欧洲",
+    "title": "英国苏格兰 GPS 定位演示",
+    "summary": "观看英国苏格兰的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/3QXYnjXBpkc/hqdefault.jpg",
+    "tags": [
+      "英国苏格兰",
+      "Scotland, UK",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "3QXYnjXBpkc",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 67.1,
+    "status": "ready"
+  },
+  {
     "slug": "senegal-034",
     "country": "Senegal",
     "countryCn": "塞内加尔",
@@ -900,6 +1005,27 @@
     "youtubeId": "VLHhRQBlu0A",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 22.967,
+    "status": "ready"
+  },
+  {
+    "slug": "south-korea-107",
+    "country": "South Korea",
+    "countryCn": "韩国",
+    "region": "东亚",
+    "title": "韩国 GPS 定位演示",
+    "summary": "观看韩国的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/qvN16qP12nw/hqdefault.jpg",
+    "tags": [
+      "韩国",
+      "South Korea",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "qvN16qP12nw",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 58.5,
     "status": "ready"
   },
   {
@@ -966,6 +1092,27 @@
     "status": "ready"
   },
   {
+    "slug": "tajikistan-033",
+    "country": "Tajikistan",
+    "countryCn": "塔吉克斯坦",
+    "region": "中亚",
+    "title": "塔吉克斯坦 GPS 定位演示",
+    "summary": "观看塔吉克斯坦的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/HhDTb-M9f3Y/hqdefault.jpg",
+    "tags": [
+      "塔吉克斯坦",
+      "Tajikistan",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "HhDTb-M9f3Y",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 56.1,
+    "status": "ready"
+  },
+  {
     "slug": "tanzania-030",
     "country": "Tanzania",
     "countryCn": "坦桑尼亚",
@@ -984,6 +1131,27 @@
     "youtubeId": "KqX9cu-Hfww",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 28.833,
+    "status": "ready"
+  },
+  {
+    "slug": "thailand-068",
+    "country": "Thailand",
+    "countryCn": "泰国",
+    "region": "东南亚",
+    "title": "泰国 GPS 定位演示",
+    "summary": "观看泰国的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/CvPFEmr06OA/hqdefault.jpg",
+    "tags": [
+      "泰国",
+      "Thailand",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "CvPFEmr06OA",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 29,
     "status": "ready"
   },
   {
@@ -1047,6 +1215,48 @@
     "youtubeId": "2hsFb1LrZ_g",
     "youtubeEmbedAllowed": true,
     "durationSeconds": 70.867,
+    "status": "ready"
+  },
+  {
+    "slug": "western-greece-050",
+    "country": "Western Greece",
+    "countryCn": "希腊西部",
+    "region": "欧洲",
+    "title": "希腊西部 GPS 定位演示",
+    "summary": "观看希腊西部的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/Oj-gWRhKf14/hqdefault.jpg",
+    "tags": [
+      "希腊西部",
+      "Western Greece",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "Oj-gWRhKf14",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 56.033,
+    "status": "ready"
+  },
+  {
+    "slug": "zimbabwe-069",
+    "country": "Zimbabwe",
+    "countryCn": "津巴布韦",
+    "region": "非洲",
+    "title": "津巴布韦 GPS 定位演示",
+    "summary": "观看津巴布韦的英文 GPS 平台与手机端操作演示。",
+    "scenario": "GPS 平台演示",
+    "industry": "位置管理",
+    "thumbnail": "https://i.ytimg.com/vi/pkPknEyDvlo/hqdefault.jpg",
+    "tags": [
+      "津巴布韦",
+      "Zimbabwe",
+      "GPS",
+      "英文"
+    ],
+    "youtubeId": "pkPknEyDvlo",
+    "youtubeEmbedAllowed": true,
+    "durationSeconds": 63.786,
     "status": "ready"
   },
   {
