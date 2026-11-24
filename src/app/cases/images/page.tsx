@@ -1,14 +1,16 @@
-import type { Metadata } from "next";
 import { IndustryImageCases } from "@/components/cases/IndustryImageCases";
 import { HeroBanner } from "@/components/HeroBanner";
 import { SectionHeader } from "@/components/SectionHeader";
 import { industryImageCases } from "@/lib/case-data";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "行业图片案例 | 全球 GPS 项目案例",
+export const metadata = pageMetadata({
+  path: "/cases/images",
+  title: "GPS 定位应用图片案例",
   description:
-    "按行业场景查看车辆、资产、工程机械、农牧场和油耗监测项目图片。",
-};
+    "通过图片查看 GPS 定位终端与平台在物流车队、租赁车辆、企业车辆和工程机械中的应用。",
+  image: "/images/cases/images/logistics-fleet.jpg",
+});
 
 export default function IndustryImageCasesPage() {
   return (
@@ -17,7 +19,7 @@ export default function IndustryImageCasesPage() {
         compact
         eyebrow="全球案例"
         title="行业图片案例"
-        description="按行业场景展示车辆、资产、工程机械、农牧场和油耗监测项目图片。当前先搭建分类和图库弹窗，后续可直接替换缩略图和图库路径。"
+        description="通过图片了解物流车队、租赁车辆、企业车辆和工程机械的 GPS 定位应用。"
         imageSrc="/images/hero/global-gps-network-bg.png"
         imageAlt="全球 GPS 图片案例背景"
         actions={[
@@ -30,8 +32,8 @@ export default function IndustryImageCasesPage() {
         <div className="mx-auto max-w-7xl px-6">
           <SectionHeader
             eyebrow="Image Cases"
-            title="按行业查看项目现场与应用图片"
-            description="支持行业筛选，点击案例卡片即可打开图片图库弹窗。后续补充真实图片后，页面结构无需调整。"
+            title="按行业查看 GPS 定位应用图片"
+            description="选择行业后，打开图库查看设备安装和平台应用场景。"
           />
         </div>
       </section>

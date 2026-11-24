@@ -1,7 +1,14 @@
 import { HeroBanner } from "@/components/HeroBanner";
 import { ProductCard } from "@/components/ProductCard";
 import { SectionHeader } from "@/components/SectionHeader";
+import { pageMetadata } from "@/lib/seo";
 import { products } from "@/lib/site-data";
+
+export const metadata = pageMetadata({
+  path: "/products",
+  title: "GPS 定位器产品中心",
+  description: "浏览塞弗亚 GPS 定位器与物联网 SIM 卡，按有线、无线、OBD、太阳能、油耗监测、资产和牲畜应用选型，查看产品规格和下载资料。",
+});
 
 export default function ProductsPage() {
   return (

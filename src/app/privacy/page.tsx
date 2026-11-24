@@ -1,11 +1,12 @@
 import Link from "next/link";
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "隐私政策 | 深圳市通安星科技",
+export const metadata = pageMetadata({
+  path: "/privacy",
+  title: "隐私政策",
   description:
     "深圳市通安星科技有限公司官网隐私政策，说明我们如何收集、使用、保护和处理客户信息。",
-};
+});
 
 const sections = [
   {

@@ -2,7 +2,14 @@ import Link from "next/link";
 import Image from "next/image";
 import { HeroBanner } from "@/components/HeroBanner";
 import { SectionHeader } from "@/components/SectionHeader";
+import { pageMetadata } from "@/lib/seo";
 import { solutions, type SolutionVisual } from "@/lib/site-data";
+
+export const metadata = pageMetadata({
+  path: "/solutions",
+  title: "行业 GPS 定位和远程监控解决方案",
+  description: "查看车队物流、资产集装箱、工程机械租赁、油耗监测、牲畜定位和 OEM/ODM 平台接入方案，了解定位终端与 18GPS 的组合方式。",
+});
 
 const solutionCovers: Record<SolutionVisual, { src: string; alt: string; position: string }> = {
   fleet: { src: "/images/solutions/fleet-logistics.webp", alt: "物流货车公路运输场景", position: "50% 66%" },

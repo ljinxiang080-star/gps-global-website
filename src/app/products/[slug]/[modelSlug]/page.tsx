@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { pageMetadata } from "@/lib/seo";
 import {
   products,
   type Product,
@@ -227,10 +228,12 @@ export async function generateMetadata({
 
   const detail = getDetail(context.product, context.model);
 
-  return {
-    title: `${context.model.name} | ${context.product.name} | GPS 定位解决方案`,
+  return pageMetadata({
+    path: `/products/${context.product.slug}/${context.model.slug}`,
+    title: context.model.name,
     description: context.model.summary || detail.heroDescription,
-  };
+    image: context.model.image ?? context.product.image,
+  });
 }
 
 function DetailIcon({ index }: { index: number }) {

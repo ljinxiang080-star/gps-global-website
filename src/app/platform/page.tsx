@@ -1,6 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { SectionHeader } from "@/components/SectionHeader";
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+  path: "/platform",
+  title: "18GPS 定位监控平台功能与演示",
+  description: "了解 18GPS 平台的实时监控、轨迹回放、电子围栏、统计报表、设备管理及 API 接入，查看界面演示并下载平台资料。",
+  image: "/images/platform/01-monitor-overview.png",
+});
 
 type PlatformModule = {
   title: string;

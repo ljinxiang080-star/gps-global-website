@@ -1,14 +1,15 @@
-import type { Metadata } from "next";
 import { CountryVideoCases } from "@/components/cases/CountryVideoCases";
 import { HeroBanner } from "@/components/HeroBanner";
 import { SectionHeader } from "@/components/SectionHeader";
 import { countryVideoCases } from "@/lib/case-data";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "各国视频案例 | 全球 GPS 项目案例",
+export const metadata = pageMetadata({
+  path: "/cases/videos",
+  title: "各国 GPS 定位视频案例",
   description:
     "按国家、地区和跨境路线观看 GPS 平台与手机端的英文操作演示。",
-};
+});
 
 export default function CountryVideoCasesPage() {
   return (

@@ -43,7 +43,7 @@ export const caseMenuItems = [
     label: "行业图片案例",
     href: "/cases/images",
     description:
-      "按行业场景查看车辆、资产、工程机械、农牧场和油耗监测项目图片。",
+      "查看物流车队、租赁车辆、企业车辆和工程机械的定位应用图片。",
   },
 ] as const;
 

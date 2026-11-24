@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CountryVideoCases } from "@/components/cases/CountryVideoCases";
 import { countryVideoDestinations } from "@/lib/case-data";
+import { pageMetadata } from "@/lib/seo";
 
 type PageProps = { params: Promise<{ country: string }> };
 
@@ -19,10 +20,12 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const destination = getDestination((await params).country);
   if (!destination) return {};
-  return {
+  return pageMetadata({
+    path: destination.path,
     title: `${destination.countryCn} GPS 视频案例 | ${destination.country}`,
     description: `观看${destination.countryCn}（${destination.country}）的英文 GPS 平台与手机端操作演示。`,
-  };
+    image: destination.cases[0]?.thumbnail,
+  });
 }
 
 export default async function CountryVideoPage({ params }: PageProps) {

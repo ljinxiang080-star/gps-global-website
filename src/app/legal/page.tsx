@@ -1,11 +1,12 @@
 import Link from "next/link";
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "法律声明 | 深圳市通安星科技",
+export const metadata = pageMetadata({
+  path: "/legal",
+  title: "法律声明",
   description:
     "深圳市通安星科技有限公司官网法律声明，说明网站内容、知识产权、责任限制和使用规范。",
-};
+});
 
 const legalSections = [
   {

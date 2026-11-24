@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SolutionScene } from "@/components/SolutionScene";
+import { pageMetadata } from "@/lib/seo";
 import { solutionDetails, type SolutionDetail } from "@/lib/site-data";
 
 type PageParams = Promise<{
@@ -119,10 +120,12 @@ export async function generateMetadata({
     return {};
   }
 
-  return {
-    title: `${solution.title} | GPS 定位解决方案`,
+  return pageMetadata({
+    path: solution.href,
+    title: `${solution.title} GPS 定位方案`,
     description: solution.summary,
-  };
+    image: solution.image,
+  });
 }
 
 function SolutionHero({ solution }: { solution: SolutionDetail }) {

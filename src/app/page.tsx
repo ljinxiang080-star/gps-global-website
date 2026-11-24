@@ -6,7 +6,36 @@ import { LanguageMarketStrip } from "@/components/LanguageMarketStrip";
 import { ProductCard } from "@/components/ProductCard";
 import { SectionHeader } from "@/components/SectionHeader";
 import { SolutionScene } from "@/components/SolutionScene";
+import { absoluteSiteUrl, pageMetadata, siteLogo, siteName } from "@/lib/seo";
 import { featureItems, products, solutions } from "@/lib/site-data";
+
+export const metadata = pageMetadata({
+  path: "/",
+  title: "GPS 定位器、车队管理与油耗监测解决方案",
+  description: "深圳市通安星科技提供 4G GPS 定位器、油位传感器与 18GPS 云平台，支持车队、工程机械、集装箱和农牧场的定位管理与 API 接入。",
+});
+
+const homepageStructuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": absoluteSiteUrl("/#website"),
+      url: absoluteSiteUrl("/"),
+      name: siteName,
+      alternateName: "SAIFUYA",
+      publisher: { "@id": absoluteSiteUrl("/#organization") },
+    },
+    {
+      "@type": "Organization",
+      "@id": absoluteSiteUrl("/#organization"),
+      url: absoluteSiteUrl("/"),
+      name: siteName,
+      legalName: "深圳市通安星科技有限公司",
+      logo: absoluteSiteUrl(siteLogo),
+    },
+  ],
+};
 
 const solutionStats = [
   { value: "6", label: "行业场景" },
@@ -151,6 +180,9 @@ function IndustryEntrySection() {
 export default function Home() {
   return (
     <>
+      <script type="application/ld+json">
+        {JSON.stringify(homepageStructuredData).replace(/</g, "\\u003c")}
+      </script>
       <HeroBanner
         eyebrow="B2B GPS Tracking Solution Provider"
         title="让每一辆车、每一台设备、每一份资产都实时可见"

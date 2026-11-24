@@ -1,6 +1,14 @@
 import Image from "next/image";
 import { HeroBanner } from "@/components/HeroBanner";
 import { SectionHeader } from "@/components/SectionHeader";
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+  path: "/about",
+  title: "关于深圳市通安星科技",
+  description: "了解塞弗亚 GPS 定位器品牌、深圳市通安星科技的研发与生产能力，以及硬件定制、平台集成和项目支持服务。",
+  image: "/images/about/company-profile.png",
+});
 
 const strengthStats = [
   {

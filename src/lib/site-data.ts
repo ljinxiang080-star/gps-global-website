@@ -505,7 +505,7 @@ export const solutionDetails: SolutionDetail[] = [
       {
         title: "智慧放牧追踪器",
         description: "适合牛羊项圈、太阳能牲畜追踪器和防水盒追踪器。",
-        href: "/products/grazing",
+        href: "/products/smart-grazing",
       },
       {
         title: "太阳能追踪器",

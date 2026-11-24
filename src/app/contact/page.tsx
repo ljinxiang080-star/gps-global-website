@@ -1,5 +1,13 @@
 import Image from "next/image";
 import { SectionHeader } from "@/components/SectionHeader";
+import { absoluteSiteUrl, pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+  path: "/contact",
+  title: "联系塞弗亚 GPS 定位器销售与技术支持",
+  description: "通过 WhatsApp、邮箱或电话联系深圳市通安星科技，咨询 GPS 定位器选型、批量采购报价、样品测试及 18GPS 平台演示。",
+  image: "/images/contact/company-profile-collage.png",
+});
 
 type ContactIconName =
   | "website"
@@ -20,8 +28,8 @@ const contactItems: ContactItem[] = [
   {
     icon: "website",
     label: "官网",
-    value: "http://www.taxkjgps.com/",
-    href: "http://www.taxkjgps.com/",
+    value: absoluteSiteUrl("/"),
+    href: "/",
   },
   {
     icon: "email",

@@ -1,6 +1,8 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { pageMetadata } from "@/lib/seo";
 import { products, type Product, type ProductModel } from "@/lib/site-data";
 
 function getProduct(slug: string) {
@@ -11,6 +13,23 @@ export function generateStaticParams() {
   return products.map((product) => ({
     slug: product.slug,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const product = getProduct(slug);
+  if (!product) return {};
+
+  return pageMetadata({
+    path: `/products/${product.slug}`,
+    title: product.name,
+    description: product.summary,
+    image: product.heroImage ?? product.image,
+  });
 }
 
 function ProductCategoryHero({ product }: { product: Product }) {

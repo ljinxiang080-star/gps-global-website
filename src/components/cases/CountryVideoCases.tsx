@@ -14,6 +14,10 @@ const durationLabel = (seconds: number) => `${Math.floor(Math.ceil(seconds) / 60
 const filterClass = "mt-2 h-12 w-full rounded-md border border-slate-200 bg-white px-4 text-sm font-normal outline-none focus:border-[#0b68ff] focus:ring-4 focus:ring-blue-100";
 const buttonClass = "inline-flex min-h-11 items-center justify-center rounded-md px-4 text-sm font-semibold transition";
 
+function YouTubePlayer({ id, title, loading }: { id: string; title: string; loading: "eager" | "lazy" }) {
+  return <iframe className="h-full w-full" src={`https://www.youtube-nocookie.com/embed/${id}?rel=0`} title={title} loading={loading} referrerPolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />;
+}
+
 export function CountryVideoCases({ cases, countryPage = false }: { cases: CountryVideoCase[]; countryPage?: boolean }) {
   const [query, setQuery] = useState("");
   const [region, setRegion] = useState("");
@@ -42,7 +46,6 @@ export function CountryVideoCases({ cases, countryPage = false }: { cases: Count
     return Array.from(groups.values());
   }, [filtered]);
   const limitCountryEntries = !allCountries && !query.trim() && !region && !country;
-  const visibleCountryEntries = limitCountryEntries ? countryEntries.slice(0, 10) : countryEntries;
 
   useEffect(() => {
     const dialog = dialogRef.current;
@@ -83,7 +86,7 @@ export function CountryVideoCases({ cases, countryPage = false }: { cases: Count
             </div>
             <p className="mt-2 text-sm leading-6 text-slate-500">点击国家名称，进入该国家的视频专页。</p>
             <div className="mt-4 grid gap-3 grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
-              {visibleCountryEntries.map(item => <Link key={item.country} href={countryVideoPath(item.country)} prefetch={false} className="group flex min-w-0 items-center justify-between gap-2 rounded-md border border-blue-100 bg-blue-50/40 p-3 transition hover:border-[#0b68ff] hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0b68ff]">
+              {countryEntries.map((item, index) => <Link key={item.country} href={countryVideoPath(item.country)} prefetch={false} className={`${limitCountryEntries && index >= 10 ? "hidden" : "flex"} group min-w-0 items-center justify-between gap-2 rounded-md border border-blue-100 bg-blue-50/40 p-3 transition hover:border-[#0b68ff] hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0b68ff]`}>
                 <span className="min-w-0"><span className="block text-sm font-semibold text-slate-950 group-hover:text-[#0b68ff]">{item.countryCn}</span><span className="mt-1 block break-words text-xs leading-5 text-slate-500">{item.country}</span><span className="mt-1 block text-xs text-slate-500">{item.count} <span>个视频</span></span></span>
                 <span aria-hidden="true" className="shrink-0 text-[#0b68ff]">→</span>
               </Link>)}
@@ -100,12 +103,17 @@ export function CountryVideoCases({ cases, countryPage = false }: { cases: Count
         </div>
         <div className={countryPage ? "mt-5 grid gap-6" : "mt-5 grid gap-6 sm:grid-cols-2 xl:grid-cols-4"}>
           {visibleCases.map(item => {
-            const canEmbed = Boolean(item.youtubeId && item.youtubeEmbedAllowed !== false);
+            const youtubeId = item.youtubeEmbedAllowed !== false ? item.youtubeId : undefined;
+            const inlinePlayer = countryPage && youtubeId;
             const url = watchUrl(item);
             return <article key={item.slug} className={`${countryPage ? "grid md:grid-cols-[1.1fr_1fr]" : "flex flex-col"} overflow-hidden rounded-md border border-blue-100 bg-white shadow-sm transition hover:border-blue-300 hover:shadow-lg`}>
               <div className="relative">
+                {inlinePlayer ? <div className="aspect-video bg-black">
+                  <YouTubePlayer id={inlinePlayer} title={item.title} loading="lazy" />
+                </div> : <>
                 <CaseMedia src={item.thumbnail} alt={item.title} label={`${item.country} GPS video`} className="aspect-video !rounded-none !border-0" />
                 {item.durationSeconds ? <span className="absolute bottom-2 right-2 rounded bg-slate-950/85 px-2 py-1 text-xs font-semibold text-white">{durationLabel(item.durationSeconds)}</span> : null}
+                </>}
               </div>
               <div className="flex flex-1 flex-col p-5">
                 <div className="flex flex-wrap items-center gap-2 text-xs font-semibold"><span className="rounded-full bg-blue-50 px-3 py-1 text-[#0b68ff]">{item.region}</span><span className="text-slate-500">英文讲解</span></div>
@@ -113,7 +121,7 @@ export function CountryVideoCases({ cases, countryPage = false }: { cases: Count
                 <p className="mt-2 text-xs leading-5 text-slate-500">{item.country}</p>
                 <p className="mt-3 flex-1 text-sm leading-7 text-slate-600">{item.summary}</p>
                 {!countryPage ? <Link href={countryVideoPath(item.country)} prefetch={false} className="mt-4 text-sm font-semibold text-[#0b68ff] hover:underline">查看该国家全部视频 →</Link> : null}
-                {canEmbed ? <button type="button" onClick={() => setActiveVideo(item)} className={`${buttonClass} mt-5 bg-[#0b68ff] text-white hover:bg-[#0056df]`}>播放视频</button>
+                {youtubeId && !countryPage ? <button type="button" onClick={() => setActiveVideo(item)} className={`${buttonClass} mt-5 bg-[#0b68ff] text-white hover:bg-[#0056df]`}>播放视频</button>
                   : url ? <a href={url} target="_blank" rel="noopener noreferrer" className={`${buttonClass} mt-5 border border-blue-200 text-[#0b68ff] hover:bg-blue-50`}>前往 YouTube 观看 ↗</a>
                   : <span className="mt-5 text-sm text-slate-500">视频整理中</span>}
               </div>
@@ -129,9 +137,9 @@ export function CountryVideoCases({ cases, countryPage = false }: { cases: Count
       </div>
     </section>
     <dialog ref={dialogRef} onClose={() => setActiveVideo(null)} onClick={event => { if (event.target === event.currentTarget) setActiveVideo(null); }} aria-label={activeVideo?.title || "视频案例"} className="fixed inset-0 m-auto max-h-[90dvh] w-[calc(100%_-_2rem)] max-w-4xl overflow-auto rounded-md border border-white/10 bg-slate-950 p-0 text-white shadow-2xl backdrop:bg-slate-950/80">
-      {activeVideo ? <>
+      {activeVideo?.youtubeId ? <>
         <div className="flex items-center justify-between gap-4 border-b border-white/10 px-5 py-4"><h2 className="text-base font-semibold">{activeVideo.title}</h2><button type="button" autoFocus onClick={() => setActiveVideo(null)} className={`${buttonClass} shrink-0 border border-white/20 hover:bg-white/10`}>关闭</button></div>
-        <div className="aspect-video bg-black"><iframe className="h-full w-full" src={`https://www.youtube-nocookie.com/embed/${activeVideo.youtubeId}?rel=0`} title={activeVideo.title} referrerPolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen /></div>
+        <div className="aspect-video bg-black"><YouTubePlayer id={activeVideo.youtubeId} title={activeVideo.title} loading="eager" /></div>
         <div className="flex flex-wrap items-center justify-between gap-3 px-5 py-4 text-sm text-slate-300"><p>也可以在 YouTube 打开视频观看。</p><a href={watchUrl(activeVideo)} target="_blank" rel="noopener noreferrer" className="font-semibold text-cyan-300 hover:underline">在 YouTube 观看 ↗</a></div>
       </> : null}
     </dialog>
