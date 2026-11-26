@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { SectionHeader } from "@/components/SectionHeader";
-import { absoluteSiteUrl, pageMetadata } from "@/lib/seo";
+import { absoluteSiteUrl, pageMetadata, siteUrl } from "@/lib/seo";
 
 export const metadata = pageMetadata({
   path: "/contact",
@@ -24,6 +24,32 @@ type ContactItem = {
   href?: string;
 };
 
+const phoneContacts: ContactItem[] =
+  new URL(siteUrl).hostname.replace(/^www\./, "") === "taxkjgps.com"
+    ? [
+        {
+          icon: "phone",
+          label: "联系电话 1 / Phone 1",
+          value: "+86 13728785346",
+          href: "tel:+8613728785346",
+        },
+        {
+          icon: "phone",
+          label: "联系电话 2 / Phone 2",
+          value: "+86 13414512015",
+          href: "tel:+8613414512015",
+        },
+      ]
+    : [
+        {
+          icon: "phone",
+          label: "电话 / 微信",
+          value: "+86 13413412015",
+          helper: "微信同号",
+          href: "tel:+8613413412015",
+        },
+      ];
+
 const contactItems: ContactItem[] = [
   {
     icon: "website",
@@ -37,13 +63,7 @@ const contactItems: ContactItem[] = [
     value: "1294571630@qq.com",
     href: "mailto:1294571630@qq.com",
   },
-  {
-    icon: "phone",
-    label: "电话 / 微信",
-    value: "+86 13413412015",
-    helper: "微信同号",
-    href: "tel:+8613413412015",
-  },
+  ...phoneContacts,
   {
     icon: "whatsapp",
     label: "WhatsApp",
