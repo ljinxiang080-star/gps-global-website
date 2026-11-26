@@ -43,10 +43,9 @@ const phoneContacts: ContactItem[] =
     : [
         {
           icon: "phone",
-          label: "电话 / 微信",
-          value: "+86 13413412015",
-          helper: "微信同号",
-          href: "tel:+8613413412015",
+          label: "联系电话",
+          value: "+86 13414512015",
+          href: "tel:+8613414512015",
         },
       ];
 
