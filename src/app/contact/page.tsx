@@ -149,7 +149,7 @@ function ContactIcon({ name }: { name: ContactIconName }) {
 function ContactValue({ item }: { item: ContactItem }) {
   const content = (
     <>
-      <span className="font-semibold text-slate-950">{item.value}</span>
+      <span className="break-words font-semibold text-slate-950">{item.value}</span>
       {item.helper ? (
         <span className="ml-2 rounded-full bg-blue-50 px-2 py-0.5 text-xs font-semibold text-[#0b68ff]">
           {item.helper}
@@ -235,7 +235,7 @@ export default function ContactPage() {
                 {contactItems.map((item) => (
                   <div
                     key={item.label}
-                    className="grid grid-cols-[2.75rem_1fr] gap-4 border-b border-slate-100 pb-5 last:border-b-0 last:pb-0"
+                    className="grid grid-cols-[2.75rem_minmax(0,1fr)] gap-4 border-b border-slate-100 pb-5 last:border-b-0 last:pb-0"
                   >
                     <div className="flex h-11 w-11 items-center justify-center rounded-full bg-blue-50 text-[#0b68ff]">
                       <ContactIcon name={item.icon} />
@@ -300,6 +300,15 @@ export default function ContactPage() {
                   </span>
                   <input
                     name={field.name}
+                    required={field.name === "name" || field.name === "contact"}
+                    autoComplete={
+                      field.name === "name"
+                        ? "organization"
+                        : field.name === "region"
+                          ? "country-name"
+                          : "off"
+                    }
+                    maxLength={200}
                     aria-label={field.label}
                     className="h-12 rounded-md border border-slate-200 bg-white px-4 text-sm text-slate-950 outline-none transition focus:border-[#0b68ff] focus:ring-4 focus:ring-blue-100"
                     type="text"
@@ -366,10 +375,10 @@ export default function ContactPage() {
                 type="submit"
                 className="h-12 rounded-md bg-[#0b68ff] px-7 text-sm font-semibold text-white transition hover:bg-[#0056df]"
               >
-                提交询盘
+                通过邮件发送需求
               </button>
               <p className="text-sm text-slate-500">
-                也可以直接通过 WhatsApp 或邮箱发送需求。
+                将打开邮件应用，请确认发送。也可以直接通过 WhatsApp 联系。
               </p>
             </div>
           </form>

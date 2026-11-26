@@ -38,6 +38,38 @@ select {
   color: #ffffff;
 }
 
+:where(section[id], main[id]) {
+  scroll-margin-top: 6rem;
+}
+
+:where(a, button, summary):focus-visible {
+  outline: 3px solid #0b68ff;
+  outline-offset: 4px;
+}
+
+.skip-link {
+  position: fixed;
+  inset: 0.75rem auto auto 0.75rem;
+  z-index: 100;
+  padding: 0.75rem 1rem;
+  border-radius: 0.375rem;
+  background: white;
+  color: #0f172a;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 .region-option[aria-pressed="true"] .region-radio {
   border-color: #ef4444;
   background: #ef4444;

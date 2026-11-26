@@ -51,3 +51,14 @@ npm run dev
 npm run lint
 npm run build
 ```
+
+## Deployment domains
+
+The same repository serves the complete product, solution, country video and download catalogue.
+Set `NEXT_PUBLIC_SITE_URL=https://www.taxkjgps.com` on the taxkjgps Vercel project
+(`gps-global-website`, production) before building. Other deployments default to
+`https://www.567gps.com`. This sets canonical URLs, social sharing, JSON-LD,
+contact website and sitemap/robots consistently without changing catalogue data.
+
+Legacy ASP product pages redirect to the product catalogue; they are not exact
+model matches. Existing about, solutions, contact and platform entry paths also redirect.

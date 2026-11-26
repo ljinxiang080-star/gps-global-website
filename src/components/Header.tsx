@@ -71,6 +71,7 @@ function RegionSwitcher({ onOpen }: { onOpen?: () => void }) {
       data-region-switcher=""
     >
       <summary
+        aria-label="Select language and region"
         className="inline-flex h-10 cursor-pointer list-none items-center justify-center gap-2 rounded-md border border-slate-200 bg-white px-3 text-sm font-semibold text-slate-700 transition hover:border-[#0b68ff] hover:text-[#0b68ff] [&::-webkit-details-marker]:hidden"
         onClick={(event) => {
           const switcher = event.currentTarget
@@ -82,10 +83,10 @@ function RegionSwitcher({ onOpen }: { onOpen?: () => void }) {
         }}
       >
         <GlobeIcon />
-        <span className="hidden sm:inline" data-region-current-label="">
+        <span className="hidden md:inline" data-region-current-label="">
           USA and Canada
         </span>
-        <span aria-hidden="true" className="sm:hidden" data-region-current-flag="">
+        <span aria-hidden="true" className="md:hidden" data-region-current-flag="">
           🇺🇸
         </span>
         <ChevronDown className="text-slate-400 transition group-open:rotate-180" />
@@ -210,8 +211,19 @@ export function Header({
       }
     }
 
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        closeNavigationMenus();
+        closeRegionSwitchers();
+      }
+    }
+
     document.addEventListener("pointerdown", handlePointerDown);
-    return () => document.removeEventListener("pointerdown", handlePointerDown);
+    document.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.removeEventListener("pointerdown", handlePointerDown);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
   }, []);
 
   return (
@@ -219,10 +231,10 @@ export function Header({
       ref={headerRef}
       className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur"
     >
-      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6">
         <Link
           href="/"
-          className="flex items-center gap-3"
+          className="flex min-w-0 items-center gap-2 sm:gap-3"
           aria-label="Saifuya Global Positioning Solutions GPS Website"
         >
           {logoImageSrc ? (
@@ -232,16 +244,17 @@ export function Header({
               width={40}
               height={40}
               priority
-              className="h-10 w-10 rounded-md object-cover shadow-sm"
+              className="h-10 w-10 shrink-0 rounded-md object-cover shadow-sm"
             />
           ) : (
             <span className="grid h-10 w-10 place-items-center rounded-md bg-[#0b68ff] text-sm font-bold text-white">
               {logoMark}
             </span>
           )}
-          <span>
-            <span className="block text-base font-semibold text-slate-950">
-              {logoText}
+          <span className="min-w-0">
+            <span className="block text-sm font-semibold leading-5 text-slate-950 sm:text-base">
+              <span className="sm:hidden" data-no-translate="">SAIFUYA</span>
+              <span className="hidden sm:inline">{logoText}</span>
             </span>
             <span className="block text-xs font-medium tracking-[0.16em] text-slate-500">
               {logoSubtext}
@@ -249,7 +262,7 @@ export function Header({
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-8 lg:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-6 xl:flex" aria-label="Primary">
           {navigation.map((item) =>
             item.children?.length ? (
               <details
@@ -323,7 +336,7 @@ export function Header({
           )}
         </nav>
 
-        <div className="hidden items-center gap-3 lg:flex">
+        <div className="hidden items-center gap-3 xl:flex">
           <RegionSwitcher onOpen={closeNavigationMenus} />
           <Link
             href={ctaHref}
@@ -334,11 +347,12 @@ export function Header({
           </Link>
         </div>
 
-        <div className="flex items-center gap-2 lg:hidden">
+        <div className="flex shrink-0 items-center gap-2 xl:hidden">
           <RegionSwitcher onOpen={closeNavigationMenus} />
           <details className="relative" open={mobileMenuOpen}>
             <summary
               className="flex h-10 w-10 cursor-pointer list-none items-center justify-center rounded-md border border-slate-200 text-slate-900 [&::-webkit-details-marker]:hidden"
+              aria-expanded={mobileMenuOpen}
               onClick={(event) => {
                 event.preventDefault();
                 closeRegionSwitchers();
@@ -347,7 +361,7 @@ export function Header({
                 setMobileMenuOpen((current) => !current);
               }}
             >
-              <span className="sr-only">Open navigation</span>
+              <span className="sr-only">{mobileMenuOpen ? "Close navigation" : "Open navigation"}</span>
               <span className="block h-0.5 w-5 bg-current before:block before:h-0.5 before:w-5 before:-translate-y-1.5 before:bg-current before:content-[''] after:block after:h-0.5 after:w-5 after:translate-y-1 after:bg-current after:content-['']" />
             </summary>
             <div className="absolute right-0 mt-3 max-h-[72vh] w-64 overflow-y-auto rounded-md border border-slate-200 bg-white p-3 shadow-xl">
